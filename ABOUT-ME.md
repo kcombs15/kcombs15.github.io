@@ -7,3 +7,7 @@ permalink: /about/
 ## About Me
 
 Hello!
+
+- title: about
+  url: /about/
+  button: success
