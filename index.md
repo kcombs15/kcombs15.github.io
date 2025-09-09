@@ -14,7 +14,7 @@ header:
 ---
 
 > I’m an engineer and researcher focusing on **analogical reasoning**, **knowledge graphs**, and **causal inference**.  
-> On this site you’ll find my publications, teaching materials, and notes.
+> On this site you’ll find my publications, teaching materials, and notes. Test Test
 
 ### Highlights
 - Ongoing PhD research in OR/AI
