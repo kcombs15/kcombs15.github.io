@@ -9,8 +9,8 @@ header:
   actions:
     - label: "About Me"
       url: "/about/"
-    - label: "CV"
-      url: "/cv/"
+    - label: "Publications"
+      url: "/publications/"
 ---
 
 > I’m an engineer and researcher focusing on **analogical reasoning**, **knowledge graphs**, and **causal inference**.  
