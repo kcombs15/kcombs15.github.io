@@ -7,7 +7,7 @@ baseurl: ""   # keep empty for user/organization site repos
 repository: "kcombs15/kcombs15.github.io"
 
 # ---- Theme ----
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Performance/cache for GitHub Pages
 plugins:
@@ -26,7 +26,7 @@ paginate_path: "/blog/page:num/"
 # Author block (shows on about page & post headers)
 author:
   name: "Kara Combs"
-  avatar: "/assets/img/headshot.jpg"   # add later if you like
+  avatar: "/assets/img/Combs_Digital_Portrait.png" # add later if you like
   bio: "Engineer and PhD researcher in OR/AI. Interests: analogical reasoning, knowledge graphs, causal inference."
   location: "Dayton, OH"
   links:
