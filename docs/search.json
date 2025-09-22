@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Kara Combs",
+    "title": "Home",
     "section": "",
-    "text": "project: type: website output-dir: docs\nwebsite: title: “Kara Combs” description: “Engineer & PhD candidate — operations research, explainable AI, knowledge graphs” site-url: “https://kcombs15.github.io” favicon: assets/favicon.png search: true navbar: left: - text: Home href: index.qmd - text: Publications href: publications.qmd - text: CV href: cv.qmd - text: Projects href: projects.qmd right: - icon: github href: https://github.com/kcombs15 # (fix from karacombs) - icon: linkedin href: https://www.linkedin.com/in/kara-combs # replace placeholder page-footer: left: “© {year} Kara Combs” right: | Built with Quarto.\nformat: html: theme: cosmo toc: true toc-depth: 3 number-sections: false css: styles.css code-copy: true smooth-scroll: true\nexecute: freeze: auto"
+    "text": "Welcome! I’m Kara Combs — Engineer & PhD candidate focused on OR, explainable AI, and knowledge graphs.\n\nSee my Publications\nView my Projects\nGrab my CV"
   },
   {
     "objectID": "cv.html",
