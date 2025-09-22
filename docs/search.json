@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Below is an auto-generated list of publications from references.bib.\n\n\n\n\n\n\nNote\n\n\n\nTip: Replace the example entries in references.bib with your own BibTeX.\nChange the years: filter or remove it to show everything.\n\n\n\n\n\n\n\n\n\n\n\ntype: bibliography contents: references.bib sort: date desc filter:\n\nfield: issued.year include: [2021, 2022, 2023, 2024, 2025]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kara Combs",
+    "section": "",
+    "text": "Engineer & PhD candidate (Industrial & Systems Engineering, OR). I work on explainable AI for hyperspectral anomaly detection, analogical reasoning, and knowledge graphs.\n\nEmail: your.email@example.com\n\nGitHub: https://github.com/karacombs\n\nLinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN\n\n\n\n\nSept 2025: Launched this website on GitHub Pages using Quarto.\nSummer 2025: Working on explainable AI for hyperspectral anomaly detection.\n\n\n\n\n\nContextual Analogical Inference — methods integrating textual triples, causal structure, and KG embeddings.\nRobust Entity Extractor — resilient IE for story-like text.\n\nSee the Projects page for more."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Kara Combs",
+    "section": "",
+    "text": "Sept 2025: Launched this website on GitHub Pages using Quarto.\nSummer 2025: Working on explainable AI for hyperspectral anomaly detection."
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Kara Combs",
+    "section": "",
+    "text": "Contextual Analogical Inference — methods integrating textual triples, causal structure, and KG embeddings.\nRobust Entity Extractor — resilient IE for story-like text.\n\nSee the Projects page for more."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "You can either maintain a Markdown CV here or link a PDF."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nPh.D., Industrial & Systems Engineering (Operations Research), University, 20XX–present\nB.S., Major, University, 20XX"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "CV",
+    "section": "Experience",
+    "text": "Experience\n\nResearch Engineer, AFRL — Sensor Exploitation Applications Branch (dates)"
+  },
+  {
+    "objectID": "cv.html#publications-selected",
+    "href": "cv.html#publications-selected",
+    "title": "CV",
+    "section": "Publications (selected)",
+    "text": "Publications (selected)\n\nSee the Publications page."
+  },
+  {
+    "objectID": "cv.html#awards",
+    "href": "cv.html#awards",
+    "title": "CV",
+    "section": "Awards",
+    "text": "Awards\n\nExample Award, 2024"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A sampling of ongoing and past work.\n\nContextual Analogical Inference (CAI)\n\nIntegrates textual triples, causal/temporal structure, and KG embeddings for long-text reasoning.\n\n\n\nRobust Entity Extractor\n\nEntity & relation extraction tailored to story-like narratives with noisy context."
+  }
+]

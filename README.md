@@ -1,19 +1,24 @@
-# Academic Website
+# Quarto Academic Website (GitHub Pages)
 
-Built with GitHub Pages + Jekyll (Minimal Mistakes theme).
+This is a minimal, professional starter for an academic website powered by **Quarto** and deployed via **GitHub Pages**.
 
-## Local Preview (Install)
-1. Install Ruby and Bundler.
-2. `bundle init` then add `gem "github-pages", group: :jekyll_plugins` and `gem "minimal-mistakes-jekyll"` to Gemfile, or use the remote_theme as configured.
-3. `bundle install`
-4. `bundle exec jekyll serve`
-   Visit http://localhost:4000
+## How to use
 
-## Local Preview (After Install)
-1. `cd` to repo
-2. `bundle exec jekyll serve`
-   Visit http://localhost:4000
+1. Install Quarto: https://quarto.org
+2. Preview locally:
+   ```bash
+   quarto preview
+   ```
+3. Render output into the `docs/` folder (so GitHub Pages can serve it):
+   ```bash
+   quarto render
+   ```
+4. Push to GitHub. In your repo:
+   - **Settings → Pages**: Branch = `main`, Folder = `/docs`
 
-## Deploy
-Push to `main`.  
-Enable **Settings → Pages → Build from: GitHub Actions** (or `Deploy from a branch`, source: `main`)
+## Customize
+- Update `_quarto.yml` (title, links).
+- Replace `references.bib` with your BibTeX.
+- Put your PDF CV at `files/cv.pdf` (a placeholder is included).
+- Edit `index.qmd`, `cv.qmd`, `projects.qmd`, `publications.qmd`.
+- Optional: add a custom domain via a `CNAME` file.

@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kara Combs"
+  description: "Engineer & PhD candidate — operations research, explainable AI, knowledge graphs"
+  site-url: ""
+  favicon: assets/favicon.png
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Projects
+        href: projects.qmd
+    right:
+      - icon: github
+        href: https://github.com/karacombs
+      - icon: linkedin
+        href: https://www.linkedin.com/in/YOUR-LINKEDIN
+  page-footer:
+    left: "© {year} Kara Combs"
+    right: |
+      Built with [Quarto](https://quarto.org).
+
+format:
+  html:
+    theme:
+      - cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    css: styles.css
+    code-copy: true
+    smooth-scroll: true
+execute:
+  freeze: auto

@@ -1,0 +1,21 @@
+---
+title: "CV"
+page-layout: article
+---
+
+You can either maintain a Markdown CV here **or** link a PDF.
+
+- **PDF version:** [Download CV](/files/cv.pdf)
+
+## Education
+- Ph.D., Industrial & Systems Engineering (Operations Research), _University_, 20XX–present
+- B.S., Major, _University_, 20XX
+
+## Experience
+- Research Engineer, AFRL — Sensor Exploitation Applications Branch (dates)
+
+## Publications (selected)
+- See the [Publications](/publications.qmd) page.
+
+## Awards
+- Example Award, 2024

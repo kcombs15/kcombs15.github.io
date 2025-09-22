@@ -1,0 +1,31 @@
+---
+title: "Publications"
+page-layout: article
+---
+
+Below is an auto-generated list of publications from `references.bib`.
+
+::: {.callout-note}
+**Tip:** Replace the example entries in `references.bib` with your own BibTeX.  
+Change the `years:` filter or remove it to show everything.
+:::
+
+```{=html}
+<!-- Quarto "listing" for bibliography -->
+```
+::: {#pubs}
+:::
+:::{.publist}
+:::
+```{r}
+#| echo: false
+# Quarto will render bibliography via the "listing" directive below.
+```
+::: {.listings}
+- type: bibliography
+  contents: references.bib
+  sort: date desc
+  filter:
+    - field: issued.year
+      include: [2021, 2022, 2023, 2024, 2025]
+:::

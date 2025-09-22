@@ -1,0 +1,9 @@
+# Quarto cache & local artifacts
+*_cache/
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
+.quarto/
+/.quarto/
+**/*.quarto_ipynb

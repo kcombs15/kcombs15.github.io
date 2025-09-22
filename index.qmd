@@ -1,0 +1,23 @@
+---
+title: "Kara Combs"
+image: assets/og-image.png
+page-layout: article
+---
+
+# Hi, I’m Kara 👋
+
+Engineer & PhD candidate (Industrial & Systems Engineering, OR). I work on **explainable AI for hyperspectral anomaly detection**, **analogical reasoning**, and **knowledge graphs**.
+
+- **Email:** <your.email@example.com>  
+- **GitHub:** <https://github.com/karacombs>  
+- **LinkedIn:** <https://www.linkedin.com/in/YOUR-LINKEDIN>  
+
+## News
+- _Sept 2025_: Launched this website on GitHub Pages using Quarto.
+- _Summer 2025_: Working on explainable AI for hyperspectral anomaly detection.
+
+## Selected Projects
+- **Contextual Analogical Inference** — methods integrating textual triples, causal structure, and KG embeddings.
+- **Robust Entity Extractor** — resilient IE for story-like text.
+
+See the **Projects** page for more.
