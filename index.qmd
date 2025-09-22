@@ -1,23 +1,42 @@
----
-title: "Kara Combs"
-image: assets/og-image.png
-page-layout: article
----
+project:
+  type: website
+  output-dir: docs
 
-# Hi, I’m Kara 👋
+website:
+  title: "Kara Combs"
+  description: "Engineer & PhD candidate — operations research, explainable AI, knowledge graphs"
+  site-url: "https://kcombs15.github.io"
+  favicon: assets/favicon.png
+  search: true
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Projects
+        href: projects.qmd
+    right:
+      - icon: github
+        href: https://github.com/kcombs15   # (fix from karacombs)
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kara-combs   # replace placeholder
+  page-footer:
+    left: "© {year} Kara Combs"
+    right: |
+      Built with [Quarto](https://quarto.org).
 
-Engineer & PhD candidate (Industrial & Systems Engineering, OR). I work on **explainable AI for hyperspectral anomaly detection**, **analogical reasoning**, and **knowledge graphs**.
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    css: styles.css
+    code-copy: true
+    smooth-scroll: true
 
-- **Email:** <your.email@example.com>  
-- **GitHub:** <https://github.com/karacombs>  
-- **LinkedIn:** <https://www.linkedin.com/in/YOUR-LINKEDIN>  
-
-## News
-- _Sept 2025_: Launched this website on GitHub Pages using Quarto.
-- _Summer 2025_: Working on explainable AI for hyperspectral anomaly detection.
-
-## Selected Projects
-- **Contextual Analogical Inference** — methods integrating textual triples, causal structure, and KG embeddings.
-- **Robust Entity Extractor** — resilient IE for story-like text.
-
-See the **Projects** page for more.
+execute:
+  freeze: auto

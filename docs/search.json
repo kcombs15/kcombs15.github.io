@@ -11,21 +11,7 @@
     "href": "index.html",
     "title": "Kara Combs",
     "section": "",
-    "text": "Engineer & PhD candidate (Industrial & Systems Engineering, OR). I work on explainable AI for hyperspectral anomaly detection, analogical reasoning, and knowledge graphs.\n\nEmail: your.email@example.com\n\nGitHub: https://github.com/karacombs\n\nLinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN\n\n\n\n\nSept 2025: Launched this website on GitHub Pages using Quarto.\nSummer 2025: Working on explainable AI for hyperspectral anomaly detection.\n\n\n\n\n\nContextual Analogical Inference — methods integrating textual triples, causal structure, and KG embeddings.\nRobust Entity Extractor — resilient IE for story-like text.\n\nSee the Projects page for more."
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Kara Combs",
-    "section": "",
-    "text": "Sept 2025: Launched this website on GitHub Pages using Quarto.\nSummer 2025: Working on explainable AI for hyperspectral anomaly detection."
-  },
-  {
-    "objectID": "index.html#selected-projects",
-    "href": "index.html#selected-projects",
-    "title": "Kara Combs",
-    "section": "",
-    "text": "Contextual Analogical Inference — methods integrating textual triples, causal structure, and KG embeddings.\nRobust Entity Extractor — resilient IE for story-like text.\n\nSee the Projects page for more."
+    "text": "project: type: website output-dir: docs\nwebsite: title: “Kara Combs” description: “Engineer & PhD candidate — operations research, explainable AI, knowledge graphs” site-url: “https://kcombs15.github.io” favicon: assets/favicon.png search: true navbar: left: - text: Home href: index.qmd - text: Publications href: publications.qmd - text: CV href: cv.qmd - text: Projects href: projects.qmd right: - icon: github href: https://github.com/kcombs15 # (fix from karacombs) - icon: linkedin href: https://www.linkedin.com/in/kara-combs # replace placeholder page-footer: left: “© {year} Kara Combs” right: | Built with Quarto.\nformat: html: theme: cosmo toc: true toc-depth: 3 number-sections: false css: styles.css code-copy: true smooth-scroll: true\nexecute: freeze: auto"
   },
   {
     "objectID": "cv.html",
