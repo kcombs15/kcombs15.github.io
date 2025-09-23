@@ -4,9 +4,3 @@ page-layout: article
 ---
 
 A sampling of ongoing and past work.
-
-<!-- ### Contextual Analogical Inference (CAI)
-- Integrates textual triples, causal/temporal structure, and KG embeddings for long-text reasoning.
-
-### Robust Entity Extractor
-- Entity & relation extraction tailored to story-like narratives with noisy context. -->
