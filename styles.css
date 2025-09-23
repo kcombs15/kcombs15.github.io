@@ -1,6 +1,6 @@
 /* Minimal accent tweaks for a professional academic vibe */
 :root {
-  --bs-primary: #0b5ed7;
+  --bs-primary: #600bd7;
 }
 .navbar-brand { font-weight: 700; }
 h1, h2, h3 { scroll-margin-top: 6rem; }
