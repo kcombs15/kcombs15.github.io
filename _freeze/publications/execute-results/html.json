@@ -1,9 +1,11 @@
 {
-  "hash": "cdb946f7b7e6246fcec88155bf1983ee",
+  "hash": "b3cac33b2543655ab46cad3645e3500a",
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: \"Publications\"\npage-layout: article\n---\n\nBelow is an auto-generated list of publications from `references.bib`.\n\n::: {.callout-note}\n**Tip:** Replace the example entries in `references.bib` with your own BibTeX.  \nChange the `years:` filter or remove it to show everything.\n:::\n\n```{=html}\n<!-- Quarto \"listing\" for bibliography -->\n```\n::: {#pubs}\n:::\n:::{.publist}\n:::\n\n::: {.cell}\n\n:::\n\n::: {.listings}\n- type: bibliography\n  contents: references.bib\n  sort: date desc\n  filter:\n    - field: issued.year\n      include: [2021, 2022, 2023, 2024, 2025]\n:::",
-    "supporting": [],
+    "supporting": [
+      "publications_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

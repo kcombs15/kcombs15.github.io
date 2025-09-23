@@ -1,31 +1,42 @@
 ---
 title: "Publications"
 page-layout: article
+bibliography: references.bib
+link-citations: true
+nocite: |
+  @*
 ---
 
 Below is an auto-generated list of publications from `references.bib`.
 
-::: {.callout-note}
-**Tip:** Replace the example entries in `references.bib` with your own BibTeX.  
-Change the `years:` filter or remove it to show everything.
+```{=html}
+<meta id="pub-years" data-years="2021,2022,2023,2024,2025">
+
+# references
+::: (#refs)
 :::
 
-```{=html}
-<!-- Quarto "listing" for bibliography -->
-```
-::: {#pubs}
-:::
-:::{.publist}
-:::
-```{r}
-#| echo: false
-# Quarto will render bibliography via the "listing" directive below.
-```
-::: {.listings}
-- type: bibliography
-  contents: references.bib
-  sort: date desc
-  filter:
-    - field: issued.year
-      include: [2021, 2022, 2023, 2024, 2025]
-:::
+{=html}
+<script>
+(function () {
+  const meta = document.getElementById('pub-years');
+  if (!meta) return;
+  const years = (meta.dataset.years || "")
+    .split(",").map(s => s.trim()).filter(Boolean);
+  if (years.length === 0) return;
+  document.querySelectorAll('#refs .csl-entry').forEach(entry => {
+    const txt = entry.textContent || "";
+    const keep = years.some(y => txt.includes(y));
+    if (!keep) entry.remove();
+  });
+})();
+</script>
+
+
+**Bottom line:**  
+- Want a **curated** list (choose specific papers)? → `bibentry` is perfect. :contentReference[oaicite:2]{index=2}  
+- Want an **auto list filtered by year**? → use the **Pandoc+JS** snippet above (no extension required).  
+(Quarto’s extension catalog confirms `bibentry` is for inline entries, not filtering/listing.) :contentReference[oaicite:3]{index=3}
+
+If you share a couple of actual citekeys from your `references.bib`, I’ll sketch your `publications.qmd` both ways so you can pick the look you prefer.
+::contentReference[oaicite:4]{index=4}
