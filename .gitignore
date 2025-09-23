@@ -1,9 +1,12 @@
-# Quarto cache & local artifacts
-*_cache/
-.Rproj.user/
-.Rhistory
-.RData
-.DS_Store
+# Quarto local build + cache
+_site/
 .quarto/
-/.quarto/
-**/*.quarto_ipynb
+_freeze/
+
+# Legacy output from old /docs publishing (safe to ignore now that you're on Actions)
+docs/
+
+# Jupyter & Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
