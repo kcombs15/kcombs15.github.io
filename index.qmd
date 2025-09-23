@@ -3,10 +3,8 @@ title: "Home"
 page-layout: article
 ---
 
-Welcome! I’m Kara Combs — Engineer & PhD candidate focused on OR, explainable AI, and knowledge graphs.
+Welcome! I’m Kara Combs — Engineer & PhD candidate focused on OR, explainable AI, and knowledge graphs. Testing the code.
 
 - See my **[Publications](publications.qmd)**
 - View my **[Projects](projects.qmd)**
 - Grab my **[CV](cv.qmd)**
-
-Testing
