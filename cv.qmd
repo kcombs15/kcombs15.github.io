@@ -8,9 +8,9 @@ You can either maintain a Markdown CV here **or** link a PDF.
 - **PDF version:** [Download CV](/files/cv.pdf)
 
 ## Education
-- Ph.D., Operations Research, Air Force Institute of Technology, 2023–present
-- M.S., Industrial and Human Factors Engineering, Wright State University, 2021
-- B.S., Industrial and Systems Engineering, Wright State University, 2021
+- Ph.D. Operations Research, *Air Force Institute of Technology*, 2023–present
+- M.S. Industrial and Human Factors Engineering, *Wright State University*, 2021
+- B.S. Industrial and Systems Engineering, *Wright State University*, 2021
 
 ## Experience
 - Computer Engineer, Air Force Research Laboratory (Sensors Directorate), 2025-present
