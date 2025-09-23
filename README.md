@@ -4,21 +4,11 @@ This is a minimal, professional starter for an academic website powered by **Qua
 
 ## How to use
 
-1. Install Quarto: https://quarto.org
-2. Preview locally:
-   ```bash
-   quarto preview
-   ```
-3. Render output into the `docs/` folder (so GitHub Pages can serve it):
-   ```bash
-   quarto render
-   ```
-4. Push to GitHub. In your repo:
-   - **Settings → Pages**: Branch = `main`, Folder = `/docs`
-
-## Customize
-- Update `_quarto.yml` (title, links).
-- Replace `references.bib` with your BibTeX.
-- Put your PDF CV at `files/cv.pdf` (a placeholder is included).
-- Edit `index.qmd`, `cv.qmd`, `projects.qmd`, `publications.qmd`.
-- Optional: add a custom domain via a `CNAME` file.
+1. Preview locally `quarto preview`
+2. Commit & push to GitHub 
+   `git status`
+   `git add -A`
+   `git commit -m "Your message"`
+   `git push`
+3. GitHub Actions will build and deploy to `gh-pages` branch automatically
+4. Your website will be live at `https://kcombs15.github.io/`

@@ -8,3 +8,5 @@ Welcome! I’m Kara Combs — Engineer & PhD candidate focused on OR, explainabl
 - See my **[Publications](publications.qmd)**
 - View my **[Projects](projects.qmd)**
 - Grab my **[CV](cv.qmd)**
+
+Testing
