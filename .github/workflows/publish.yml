@@ -14,7 +14,7 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      - uses: quarto-dev/quarto-aSSctions/setup@v2
+      - uses: quarto-dev/quarto-actions/setup@v2
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
