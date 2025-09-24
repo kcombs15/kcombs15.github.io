@@ -8,17 +8,19 @@ You can either maintain a Markdown CV here **or** link a PDF.
 - **PDF version:** [Download CV](/files/cv.pdf)
 
 ## Education
-- Ph.D. Operations Research, *Air Force Institute of Technology*, 2023–present
-- M.S. Industrial and Human Factors Engineering, *Wright State University*, 2021
-- B.S. Industrial and Systems Engineering, *Wright State University*, 2021
+- Ph.D. Operations Research, *Air Force Institute of Technology*, Jan. 2023 – present
+- M.S. Industrial and Human Factors Engineering, *Wright State University*, Aug. 2019 - Dec. 2021
+- B.S. Industrial and Systems Engineering, *Wright State University*, Aug. 2017 - May 2021
 
 ## Experience
-- Computer Engineer, Air Force Research Laboratory (Sensors Directorate), 2025-present
-- Associate Computer Engineer, Air Force Research Laboratory (Sensors Directorate), 2023-2025
-- Research Engineer, Applied Research Solutions, 2022-2023
+- Computer Engineer, Air Force Research Laboratory (Sensors Directorate), Jan. 2025 - present
+- Associate Computer Engineer, Air Force Research Laboratory (Sensors Directorate), Feb. 2023 - Jan. 2025
+- Research Engineer, Applied Research Solutions, Apr. 2022 - Feb. 2023
+- Graduate Research Assistant, Wright State University, May 2021 - Dec. 2021
+- Research Engineer Intern, Applied Research Solutions, May 2020 - Mar. 2022
 
 ## Publications (selected)
 - See the [Publications](/publications.qmd) page.
 
-## Awards
-- Example Award, 2024
+<!-- ## Awards
+- Example Award, 2024 -->

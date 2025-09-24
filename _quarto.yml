@@ -1,5 +1,8 @@
 project:
   type: website
+  pre-render:
+    - "quarto render fragments/journals.qmd"
+    - "quarto render fragments/conferences.qmd"
   # output-dir: docs
 
 website:
