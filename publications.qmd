@@ -1,7 +1,6 @@
 ---
 title: "Publications"
 page-layout: article
-bibliography: references.bib
 link-citations: true
 nocite: |
   @*
