@@ -3,9 +3,9 @@ title: "CV"
 page-layout: article
 ---
 
-You can either maintain a Markdown CV here **or** link a PDF.
+<!-- You can either maintain a Markdown CV here **or** link a PDF. -->
 
-- **PDF version:** [Download CV](/files/cv.pdf)
+<!-- - **PDF version:** [Download CV](/files/cv.pdf) -->
 
 ## Education
 - Ph.D. Operations Research, *Air Force Institute of Technology*, Jan. 2023 – present

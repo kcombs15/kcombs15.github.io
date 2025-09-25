@@ -3,9 +3,13 @@ title: "Publications"
 page-layout: article
 ---
 
+As of September 2024, I have been a first author or co-author on 8 journal articles and 14 peer-reviewed conference papers. 
+
+[Check me out on Google Scholar](https://scholar.google.com/citations?user=TOV6TicAAAAJ&hl=en){.btn .btn-primary target="_blank"}
+
 ## Journal Articles
 ::: {.journal-papers}
-1.  **Combs, K.**, \*Goble, I., Howlett, S.V., Adams, Y., & Bihl, T.J. (2025). Evaluating the trade-off between analogical reasoning ability and efficiency in large language models. *IEEE Transactions on Cognitive and Developmental Systems, accepted.* DOI: [10.1109/TCDS.2025.3559771](https://doi.org/10.1109/TCDS.2025.3559771).
+1.  **Combs, K.**, ^\*^Goble, I., Howlett, S.V., Adams, Y., & Bihl, T.J. (2025). Evaluating the trade-off between analogical reasoning ability and efficiency in large language models. *IEEE Transactions on Cognitive and Developmental Systems, accepted.* DOI: [10.1109/TCDS.2025.3559771](https://doi.org/10.1109/TCDS.2025.3559771).
 1.  **Combs, K.** & Bihl, T.J. (2024) Question optimisation: Building quiz bowl tournament question packet sets. *International Journal of Data Analysis Techniques and Strategies, 16*(4), 386-409. DOI: [10.1504/IJDATS.2024.10064492](https://doi.org/10.1504/IJDATS.2024.10064492). **[[Science Spot Feature](https://sciencespot.co.uk/stirring-the-quiz-bowl.html)]**
 1.  **Combs, K.**, Bihl, T.J., & Ganapathy, S. (2024). Utilization of generative AI for the characterization and identification of visual unknowns. *Natural Language Processing Journal, 7*, 100064. DOI: [10.1016/j.nlp.2024.100064](https://doi.org/10.1016/j.nlp.2024.100064).
 1.  **Combs, K.**, Moyer, A., & Bihl, T.J. (2024). Uncertainty in visual generative AI. *Algorithms, 17*(4), 136. DOI: [10.3390/a17040136](https://doi.org/10.3390/a17040136).
@@ -14,26 +18,26 @@ page-layout: article
 1.  Ballester, N., Parikh, P. J., **Combs, K.**, & Peck, J. (2022). Inpatient discharge-by-noon: Are fewer better than all? *Journal of Maine Medical Center, 4*(1), 1-6. DOI: [10.46804/2641-2225.1105](https://doi.org/10.46804/2641-2225.1105).
 1.  **Combs, K.**, Fendley, M., & Bihl, T. (2020). A preliminary look at heuristic analysis for assessing artificial intelligence eXplainability. *WSEAS Transactions on Computer Research, 8*(9), 61-72. DOI: [10.37394/232018.2020.8.9](https://doi.org/10.37394/232018.2020.8.9)
 :::
-*Student Author
+^\*^Student Author
 
 ::: {.conference-papers}
 ## Conference Papers
-1.  **Combs, K.**, Champagne, L., Lemming, G., & Bihl, T.J. (2026). Evaluation of information extraction algorithms for preserving analogical semantics within knowledge graphs. *59th Hawaii International Conference on System Sciences, accepted.*
-1.  \*Perry, R., Di Caterina, G., Bihl, T., & **Combs, K.** (2026). Addressing the lack of neuromorphic data in low SNR scenarios. *59th Hawaii International Conference on System Sciences, accepted.*
-1.  Lemming, G., **Combs, K.**, Howlett, S., & Bihl, T.J. (2026). Human-in-the-loop hybrid and automated pre-processing for zero-shot aerial part-matching via analogical reasoning. *59th Hawaii International Conference on System Sciences, accepted.*
-1.  \*Christopherson, I., **Combs, K.**, & Soriano, K. (2025). Fine-tuning deep convolutional neural networks on Caltech-101: An application of transfer learning. *IEEE National Aerospace and Electronics Conference (NAECON), accepted.*
-1.  **Combs, K.** & Bihl, T. J. (2025). The visual analogs of linguistic concepts and their implications on generative AI. *Proceedings of the 58th Hawaii International Conference on System *Sciences*, Big Island, USA, 718-727. Retrieved from [https://hdl.handle.net/10125/108923](https://hdl.handle.net/10125/108923).
-1.  **Combs, K.**, Bihl, T. J., Howlett, S., & Adams, Y. (2025). Zero-shot comparison of large language models (LLMs) reasoning abilities on long-text analogies. *Proceedings of the 58th Hawaii International Conference on System Sciences*, Big Island, USA, 1614-1623. Retrieved from [https://hdl.handle.net/10125/109034](https://hdl.handle.net/10125/109034). **[[Nominated for Best Paper](https://docs.google.com/spreadsheets/d/1qSG3u03cW5Zv9st4hVcI5YvafGnbUr0r1i8HTLxtUGA/edit?gid=0#gid=0)]**
-1.  **Combs, K.**, Bihl, T., \*Gadre, A., & \*Christopherson, I. (2024). A human-factors approach for evaluating AI-generated images. *Proceedings of the ACM SIGMIS Computers and People Research Conference 2024*, Murfreesboro, TN. DOI: [10.1145/3632634.3655849](https://doi.org/10.1145/3632634.3655849).
-1.  **Combs, K.**, Bihl, T. J., & Pennington, J. (2024). Interoperability for autonomy. *Proceedings of the 57th Hawaii International Conference on System Sciences*, Honolulu, USA, 903-912. Retrieved from [https://hdl.handle.net/10125/106486](https://hdl.handle.net/10125/106486).
-1.  **Combs, K.** & Bihl, T. J. (2024). A preliminary look at generative AI for the curation and evaluation of verbal-to-visual analogies. *Proceedings of the 57th Hawaii International Conference on System Sciences*, Honolulu, USA, 1180-1189. Retrieved from [https://hdl.handle.net/10125/106520](https://hdl.handle.net/10125/106520).
-1.  Bihl, T., Farr, P., Di Caterina, G., Kirkland, P., \*Sola, A.V., \*Manna, D., Liu, J., & **Combs, K.** (2024). Exploring spiking neural networks (SNN) for low size, weight, and power (SWaP) benefits. Proceedings of the 57th Hawaii International Conference on System Sciences, Honolulu, USA, 7561-7570. Retrieved from [https://hdl.handle.net/10125/107294](https://hdl.handle.net/10125/107294).
-1.  **Combs, K.**, Ganapathy, S., & Bihl, T. (2023). Human factors evaluation of automated semantic characterization of out-of-library images for the design for eXplainable AI systems. *Proceedings of the IISE Annual Conference 2023*, New Orleans, USA.
-1.  **Combs, K.** & Bihl, T. J. (2023). Clustering and topological data analysis: Comparison and application. *Proceedings of the 56th Hawaii International Conference on System Sciences*, Maui, USA, 815-824. Retrieved from <https://hdl.handle.net/10125/102731>.
-1.  **Combs, K.**, Bihl, T. J., & Ganapathy, S. (2023). Integration of computer vision and analogical reasoning for characterizing unknowns. *Proceedings of the 56th Hawaii International Conference on System Sciences*, Maui, USA, 960-969. Retrieved from <https://hdl.handle.net/10125/102748>.
-1.  **Combs, K.**, Bihl, T. J., Ganapathy, S., & Staples, D. (2022). Analogical reasoning: An algorithm comparison for natural language processing. *Proceedings of the 55th Hawaii International Conference on System Sciences*, Virtual, 1310-1319. DOI: [10.24251/HICSS.2022.161](https://doi.org/10.24251/HICSS.2022.161).
+1.  **Combs, K.**, Champagne, L., ^†^Lemming, G., & Bihl, T.J. (2026). Evaluation of information extraction algorithms for preserving analogical semantics within knowledge graphs. *59th Hawaii International Conference on System Sciences, accepted.*
+1.  ^\*†^Perry, R., Di Caterina, G., Bihl, T., & **Combs, K.** (2026). Addressing the lack of neuromorphic data in low SNR scenarios. *59th Hawaii International Conference on System Sciences, accepted.*
+1.  ^†^Lemming, G., **Combs, K.**, Howlett, S., & Bihl, T.J. (2026). Human-in-the-loop hybrid and automated pre-processing for zero-shot aerial part-matching via analogical reasoning. *59th Hawaii International Conference on System Sciences, accepted.*
+1.  ^\*^Christopherson, I., ^†^**Combs, K.**, & Soriano, K. (2025). Fine-tuning deep convolutional neural networks on Caltech-101: An application of transfer learning. *IEEE National Aerospace and Electronics Conference (NAECON), accepted.*
+1.  ^†^**Combs, K.** & Bihl, T. J. (2025). The visual analogs of linguistic concepts and their implications on generative AI. *Proceedings of the 58th Hawaii International Conference on System *Sciences*, Big Island, USA, 718-727. Retrieved from [https://hdl.handle.net/10125/108923](https://hdl.handle.net/10125/108923).
+1.  ^†^**Combs, K.**, Bihl, T. J., Howlett, S., & Adams, Y. (2025). Zero-shot comparison of large language models (LLMs) reasoning abilities on long-text analogies. *Proceedings of the 58th Hawaii International Conference on System Sciences*, Big Island, USA, 1614-1623. Retrieved from [https://hdl.handle.net/10125/109034](https://hdl.handle.net/10125/109034). **[[Nominated for Best Paper](https://docs.google.com/spreadsheets/d/1qSG3u03cW5Zv9st4hVcI5YvafGnbUr0r1i8HTLxtUGA/edit?gid=0#gid=0)]**
+1.  ^†^**Combs, K.**, Bihl, T., ^\*^Gadre, A., & ^\*^Christopherson, I. (2024). A human-factors approach for evaluating AI-generated images. *Proceedings of the ACM SIGMIS Computers and People Research Conference 2024*, Murfreesboro, TN. DOI: [10.1145/3632634.3655849](https://doi.org/10.1145/3632634.3655849).
+1.  ^†^**Combs, K.**, Bihl, T. J., & Pennington, J. (2024). Interoperability for autonomy. *Proceedings of the 57th Hawaii International Conference on System Sciences*, Honolulu, USA, 903-912. Retrieved from [https://hdl.handle.net/10125/106486](https://hdl.handle.net/10125/106486).
+1.  ^†^**Combs, K.** & Bihl, T. J. (2024). A preliminary look at generative AI for the curation and evaluation of verbal-to-visual analogies. *Proceedings of the 57th Hawaii International Conference on System Sciences*, Honolulu, USA, 1180-1189. Retrieved from [https://hdl.handle.net/10125/106520](https://hdl.handle.net/10125/106520).
+1.  ^†^Bihl, T., Farr, P., Di Caterina, G., Kirkland, P., ^\*^Sola, A.V., ^\*^Manna, D., Liu, J., & **Combs, K.** (2024). Exploring spiking neural networks (SNN) for low size, weight, and power (SWaP) benefits. Proceedings of the 57th Hawaii International Conference on System Sciences, Honolulu, USA, 7561-7570. Retrieved from [https://hdl.handle.net/10125/107294](https://hdl.handle.net/10125/107294).
+1.  ^†^**Combs, K.**, Ganapathy, S., & Bihl, T. (2023). Human factors evaluation of automated semantic characterization of out-of-library images for the design for eXplainable AI systems. *Proceedings of the IISE Annual Conference 2023*, New Orleans, USA.
+1.  ^†^**Combs, K.** & Bihl, T. J. (2023). Clustering and topological data analysis: Comparison and application. *Proceedings of the 56th Hawaii International Conference on System Sciences*, Maui, USA, 815-824. Retrieved from <https://hdl.handle.net/10125/102731>.
+1.  ^†^**Combs, K.**, Bihl, T. J., & Ganapathy, S. (2023). Integration of computer vision and analogical reasoning for characterizing unknowns. *Proceedings of the 56th Hawaii International Conference on System Sciences*, Maui, USA, 960-969. Retrieved from <https://hdl.handle.net/10125/102748>.
+1.  ^†^**Combs, K.**, Bihl, T. J., Ganapathy, S., & Staples, D. (2022). Analogical reasoning: An algorithm comparison for natural language processing. *Proceedings of the 55th Hawaii International Conference on System Sciences*, Virtual, 1310-1319. DOI: [10.24251/HICSS.2022.161](https://doi.org/10.24251/HICSS.2022.161).
 :::
-*Student Author
+^\*^Student Author; ^†^Presenting Author(s)
 
 ::: {.magazine-columns}
 ## Magazine Columns
@@ -54,31 +58,37 @@ page-layout: article
 
 ::: {.presentations}
 ## Presentations
-1. **†Combs, K.**, Champagne, L., Lemming, G., & Bihl, T. Analogy2KG: An automatic pipeline for transformation long-text analogies into knowledge graphs. *AFRL AI/ML Technical Exchange Meeting (TEM), accepted*.
-1. **†Combs, K.**, Champagne, L., Lemming, G., & Bihl, T. From text to tactical insight: Advancing UAV swarm autonomy with analogical AI. *AFRL Discover, accepted.*
-1. \*†Goble, I. & **Combs, K.* (2025). Evaluation and comparison of large language models’ analogical reasoning abilities. *Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH.*
-1. *Combs, K.*, †Lemming, G., Howlett, S., & Bihl, T.J. (2024). Structure-mapping via analogical reasoning: A novel approach to handle out-of-library (OOL) targets. *87th Automated Target Recognition Working Group (ATRWG) Meeting*, Huntsville, AL.
-1. \*Christopherson, I. & **Combs, K.** (2024). Optimizing algorithm pre-processing steps and analyzing convolutional neural network performance. *Wright Scholar Presentation Session*, Wright-Patterson AFB, OH.
-1. \*Goble, I. & Combs, K. (2024). Evaluation and comparison of large language models’ analogical reasoning ability. *DAF LEGACY Program Presentation Session*, Wright-Patterson AFB, OH.
-1. Combs, K. (2024). Analogical learning: An overview of applications. *INFORMS Cincinnati-Dayton Research Symposium*, Dayton, OH.
-1. \*Christopherson, I., Combs, K., & Camberos, J. (2024). Leveraging generative AI and human factors techniques for building image datasets. *Dayton-Cincinnati Aerospace Sciences Symposium*, Dayton, OH.
-1. ‡Combs, K. (2023). Adding your own value. *Tau Beta Pi Ohio Mu Chapter (Wright State University) Initiation Ceremony*, Dayton, OH.
-1. †Combs, K. & †Jacoby-Morris, K. (2023). AFRL STEM outreach and workforce development. *AFRL Junior Force Council Leadership Symposium*, Washington D.C.
-1. †Combs, K., Bihl, T. J., & Ganapathy, S. (2022). Integration of computer vision and analogical reasoning for characterizing unknowns. *INFORMS Annual Meeting*, Indianapolis, IN.
-1. ‡Combs, K. (2022). Analogical reasoning. *Engineers Club of Dayton Barn Gang*, Dayton, OH.
-1. Ellison, K., †Combs, K., & Sebastian, S. (2021). Putting a smile on redesigning: A dental facility layout problem. *IISE Annual Conference & Expo*, Virtual. **[2nd Place in Global Undergraduate Technical Paper Competition]**
-1. †Combs, K., Bihl, T., Ganapathy, S., & Staples, D. (2021). Analogical reasoning: A comparison of algorithms. *INFORMS Annual Meeting*, Anaheim, CA.
-1. †Ellison, K., Combs, K., & Sebastian, S. (2021). Putting a smile on redesigning: A dental facility layout problem. IISE Great Lakes Regional Conference, Virtual. **[1st Place in Regional Undergraduate Technical Paper Competition]**
-1. Combs, K. & Sebastian, S. (2021). What you can be as an ISE. *Northwest Ohio Center’s Women in STEM Day*, Virtual.
-1. Combs, K., Camp, A. & Ganapathy, S. (2020). Industrial & systems engineering: It’s fun and it changes the world. *Chaminade Julienne Catholic High School’s STEMM Idol Speaker Series*, Virtual.
-1. Combs, K. (2020). Cramming questions: Quiz bowl set optimization. *IISE Annual Conference & Expo 2020*, Virtual. **[2nd Place in the Global Undergraduate Technical Paper Competition]**
-1. Combs, K. (2020). Cramming questions: Quiz bowl set optimization. *IISE Great Lakes Regional Conference*, Kalamazoo, MI. **[1st Place in the Regional Undergraduate Technical Paper Competition]**
-1. Combs, K. L. & Bihl, T. J. (2020). Cramming questions: Quiz bowl set optimization. *INFORMS Cincinnati-Dayton Research Symposium*, Dayton, OH.
+1. ^†^**Combs, K.**, Champagne, L., Lemming, G., & Bihl, T. Analogy2KG: An automatic pipeline for transformation long-text analogies into knowledge graphs. *AFRL AI/ML Technical Exchange Meeting (TEM) 2025, accepted*.
+1. ^†^**Combs, K.**, Champagne, L., Lemming, G., & Bihl, T. From text to tactical insight: Advancing UAV swarm autonomy with analogical AI. *AFRL Discover 2025, accepted.*
+1. ^\*†^Goble, I. & **Combs, K.** (2025). Evaluation and comparison of large language models’ analogical reasoning abilities. *Dayton-Cincinnati Aerospace Sciences Symposium*, Dayton, OH.
+1. *Combs, K.*, ^†^Lemming, G., Howlett, S., & Bihl, T.J. (2024). Structure-mapping via analogical reasoning: A novel approach to handle out-of-library (OOL) targets. *87th Automated Target Recognition Working Group (ATRWG) Meeting*, Huntsville, AL.
+1. ^\*†^Christopherson, I. & **Combs, K.** (2024). Optimizing algorithm pre-processing steps and analyzing convolutional neural network performance. *Wright Scholar Presentation Session*, Wright-Patterson AFB, OH.
+1. ^\*†^Goble, I. & **Combs, K.** (2024). Evaluation and comparison of large language models’ analogical reasoning ability. *DAF LEGACY Program Presentation Session*, Wright-Patterson AFB, OH.
+1. **Combs, K.** (2024). Analogical learning: An overview of applications. *INFORMS Cincinnati-Dayton Research Symposium*, Dayton, OH.
+1. ^\*†^Christopherson, I., **Combs, K.**, & Camberos, J. (2024). Leveraging generative AI and human factors techniques for building image datasets. *Dayton-Cincinnati Aerospace Sciences Symposium*, Dayton, OH.
+1. ^‡^**Combs, K.** (2023). Adding your own value. *Tau Beta Pi Ohio Mu Chapter (Wright State University) Initiation Ceremony*, Dayton, OH.
+1. ^†^**Combs, K.** & ^†^Jacoby-Morris, K. (2023). AFRL STEM outreach and workforce development. *AFRL Junior Force Council Leadership Symposium*, Washington D.C.
+1. ^†^**Combs, K.**, Bihl, T. J., & Ganapathy, S. (2022). Integration of computer vision and analogical reasoning for characterizing unknowns. *INFORMS Annual Meeting*, Indianapolis, IN.
+1. ^‡^**Combs, K.** (2022). Analogical reasoning. *Engineers Club of Dayton Barn Gang*, Dayton, OH.
+1. Ellison, K., ^†^**Combs, K.**, & Sebastian, S. (2021). Putting a smile on redesigning: A dental facility layout problem. *IISE Annual Conference & Expo*, Virtual. **[2nd Place in Global Undergraduate Technical Paper Competition]**
+1. ^†^**Combs, K.**, Bihl, T., Ganapathy, S., & Staples, D. (2021). Analogical reasoning: A comparison of algorithms. *INFORMS Annual Meeting*, Anaheim, CA.
+1. ^†^Ellison, K., **Combs, K.**, & Sebastian, S. (2021). Putting a smile on redesigning: A dental facility layout problem. IISE Great Lakes Regional Conference, Virtual. **[1st Place in Regional Undergraduate Technical Paper Competition]**
+1. ^†^**Combs, K.** & ^†^Sebastian, S. (2021). What you can be as an ISE. *Northwest Ohio Center’s Women in STEM Day*, Virtual.
+1. ^†^**Combs, K.**, ^†^Camp, A. & ^†^Ganapathy, S. (2020). Industrial & systems engineering: It’s fun and it changes the world. *Chaminade Julienne Catholic High School’s STEMM Idol Speaker Series*, Virtual.
+1. **Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *IISE Annual Conference & Expo 2020*, Virtual. **[2nd Place in the Global Undergraduate Technical Paper Competition]**
+1. **Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *IISE Great Lakes Regional Conference*, Kalamazoo, MI. **[1st Place in the Regional Undergraduate Technical Paper Competition]**
+1. ^†^**Combs, K. L.** & Bihl, T. J. (2020). Cramming questions: Quiz bowl set optimization. *INFORMS Cincinnati-Dayton Research Symposium*, Dayton, OH.
 :::
-*Student Author; †Presenting Author(s); ‡Invited Talk
+^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
 
 ::: {.posters}
 ## Posters
-1. \*Liu, J. & Combs., K. Efficient hyperspectral data processing on the edge: Band selection with Mamba models. *AFRL Discover, accepted.*
+1. ^\*^Liu, J. & †**Combs., K.** Efficient hyperspectral data processing on the edge: Band selection with Mamba models. *AFRL Discover 2025, accepted.*
+1. ^\*†^Liu, J. & **Combs, K.** (2025). Exploring the Explainability of Mamba Model for Hyperspectral Imagery. *Sensors Directorate Internship Program (SDIP) Final Review*, Dayton, OH.
+1. ^†^Jenkins, T., Bihl, T.J., **Combs, K.**, Maholtra, R., Morrison, B., Robinson, B., Soriano, K., Kimbrell, J., & Souvlati, P. (2024). Onboard Tactical Autonomous Sensor Orchestration (OTASO). *AFRL Discover 2024*, Wright-Patterson AFB, OH.
+1. **Combs, K.**, ^†^Lemming, G., Howlett, S., & Bihl, T.J. (2024). Analogical reasoning for aerial sensing autonomy. *AFRL Discover 2024*, Wright-Patterson AFB, OH.
+1. ^\*†^Gadre, A., ^\*†^Christopherson, I., **Combs, K.**, & Camberos, J. (2023). Leveraging generative AI and human factors techniques for building image datasets. *Wright Scholars Presentation and Poster Session*, Wright-Patterson AFB, OH.
+1. ^†^**Combs, K.**, Sebastian, S., & Cao, C. (2021). Developing the cost and value justification of a new endovascular technology through mathematical modeling and forecasting approaches. *IISE Global Capstone Showcase Webinar*, Virtual. 
+1. ^†^**Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *OR/MS Tomorrow Mini-poster Competition*, Virtual. **[2nd Place in Undergraduate Category]**
 :::
-*Student Author; †Presenting Author(s)
+^\*^Student Author; ^†^Presenting Author(s)
