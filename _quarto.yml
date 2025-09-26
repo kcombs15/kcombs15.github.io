@@ -17,6 +17,8 @@ website:
         href: cv.qmd
       - text: Projects
         href: projects.qmd
+      - text: Service
+        href: service.qmd
     right:
       - icon: github
         href: https://github.com/kcombs15
