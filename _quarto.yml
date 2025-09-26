@@ -4,15 +4,15 @@ project:
 
 website:
   title: "Kara Combs"
-  description: "Engineer & PhD candidate — operations research, explainable AI, knowledge graphs"
+  description: "Personal website of Kara Combs"
   site-url: ""
-  favicon: assets/favicon.png
+  favicon: assets/Combs_Digital_Portrait_Square.png
   navbar:
     left:
       - text: Home
         href: index.qmd
       - text: Publications
-        href: publications-main.qmd
+        href: publications.qmd
       - text: CV
         href: cv.qmd
       - text: Projects

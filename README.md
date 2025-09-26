@@ -16,4 +16,3 @@ This is a minimal, professional starter for an academic website powered by **Qua
 ## Theme
 - Theme: Pulse
 - Theme preview website: https://bootswatch.com/pulse/
-- For custom badge colors, using Shades of Purple Color Pallette (darkest to lightest): #47034E, #5D0565, #7E3285, #9F5EA5, #E0B6E4
