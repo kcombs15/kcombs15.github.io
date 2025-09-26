@@ -3,10 +3,16 @@ title: "Publications"
 page-layout: article
 ---
 
-::: {.text-center}
-As of September 2025, I have been a first author or co-author on 8 journal articles and 14 peer-reviewed conference papers. 
+<style>
+body {
+  font-size: 0.8rem;
+}
+</style>
 
-[Check me out on Google Scholar](https://scholar.google.com/citations?user=TOV6TicAAAAJ&hl=en){.btn .btn-primary target="_blank"}
+::: {.text-center style="font-size:1rem;"}
+As of September 2025, I have authored or co-authored 20+ peer-review publications and has prsented my work at 30+ conference venues.
+
+[Check me out on Google Scholar!](https://scholar.google.com/citations?user=TOV6TicAAAAJ&hl=en){.btn .btn-primary target="_blank"}
 
 <!-- #420049ff, #80008cff, #a900b9ff, #6a346fff, #b558bdff
 
@@ -23,6 +29,8 @@ As of September 2025, I have been a first author or co-author on 8 journal artic
 1.  <span class="badge rounded-pill" style="background-color:#6a346fff; color:white;">Conference</span> **Combs, K.**, Champagne, L., ^†^Lemming, G., & Bihl, T.J. (2026). Evaluation of information extraction algorithms for preserving analogical semantics within knowledge graphs. *59th Hawaii International Conference on System Sciences, accepted.* 
 1.  <span class="badge rounded-pill" style="background-color:#6a346fff; color:white;">Conference</span> ^\*†^Perry, R., Di Caterina, G., Bihl, T., & **Combs, K.** (2026). Addressing the lack of neuromorphic data in low SNR scenarios. *59th Hawaii International Conference on System Sciences, accepted.*
 1.  <span class="badge rounded-pill" style="background-color:#6a346fff; color:white;">Conference</span> ^†^Lemming, G., **Combs, K.**, Howlett, S., & Bihl, T.J. (2026). Human-in-the-loop hybrid and automated pre-processing for zero-shot aerial part-matching via analogical reasoning. *59th Hawaii International Conference on System Sciences, accepted.* 
+
+^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
 :::
 
 ## 2025
@@ -30,14 +38,14 @@ As of September 2025, I have been a first author or co-author on 8 journal artic
 1. <span class="badge rounded-pill" style="background-color:#420049ff; color:white;">Journal</span> **Combs, K.**, ^\*^Goble, I., Howlett, S.V., Adams, Y., & Bihl, T.J. (2025). Evaluating the trade-off between analogical reasoning ability and efficiency in large language models. *IEEE Transactions on Cognitive and Developmental Systems, accepted.* DOI: [10.1109/TCDS.2025.3559771](https://doi.org/10.1109/TCDS.2025.3559771). 
 1. <span class="badge rounded-pill" style="background-color:#6a346fff; color:white;">Conference</span> ^\*^Christopherson, I., ^†^**Combs, K.**, & Soriano, K. (2025). Fine-tuning deep convolutional neural networks on Caltech-101: An application of transfer learning. *IEEE National Aerospace and Electronics Conference (NAECON), accepted.* 
 1. <span class="badge rounded-pill" style="background-color:#6a346fff; color:white;">Conference</span>  ^†^**Combs, K.** & Bihl, T. J. (2025). The visual analogs of linguistic concepts and their implications on generative AI. *Proceedings of the 58th Hawaii International Conference on System *Sciences*, Big Island, USA, 718-727. Retrieved from [https://hdl.handle.net/10125/108923](https://hdl.handle.net/10125/108923).
-1. <span class="badge rounded-pill" style="background-color:#6a346fff; color:white;">Conference</span>  ^†^**Combs, K.**, Bihl, T. J., Howlett, S., & Adams, Y. (2025). Zero-shot comparison of large language models (LLMs) reasoning abilities on long-text analogies. *Proceedings of the 58th Hawaii International Conference on System Sciences*, Big Island, USA, 1614-1623. Retrieved from [https://hdl.handle.net/10125/109034](https://hdl.handle.net/10125/109034). <a class="badge bg-dark" href="https://docs.google.com/spreadsheets/d/1qSG3u03cW5Zv9st4hVcI5YvafGnbUr0r1i8HTLxtUGA/edit?gid=0#gid=0">
-Nominated for Best Paper
-</a>
+1. <span class="badge rounded-pill" style="background-color:#6a346fff; color:white;">Conference</span>  ^†^**Combs, K.**, Bihl, T. J., Howlett, S., & Adams, Y. (2025). Zero-shot comparison of large language models (LLMs) reasoning abilities on long-text analogies. *Proceedings of the 58th Hawaii International Conference on System Sciences*, Big Island, USA, 1614-1623. Retrieved from [https://hdl.handle.net/10125/109034](https://hdl.handle.net/10125/109034). <a class="badge bg-dark" href="https://docs.google.com/spreadsheets/d/1qSG3u03cW5Zv9st4hVcI5YvafGnbUr0r1i8HTLxtUGA/edit?gid=0#gid=0">Nominated for Best Paper</a>
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^†^**Combs, K.**, Champagne, L., Lemming, G., & Bihl, T. Analogy2KG: An automatic pipeline for transformation long-text analogies into knowledge graphs. *AFRL AI/ML Technical Exchange Meeting (TEM) 2025, accepted*.
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^†^**Combs, K.**, Champagne, L., Lemming, G., & Bihl, T. From text to tactical insight: Advancing UAV swarm autonomy with analogical AI. *AFRL Discover 2025, accepted.*
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span>^\*†^Goble, I. & **Combs, K.** (2025). Evaluation and comparison of large language models’ analogical reasoning abilities. *Dayton-Cincinnati Aerospace Sciences Symposium*, Dayton, OH. 
 1. <span class="badge rounded-pill" style="background-color:#b558bdff; color:white;">Poster</span> ^\*^Liu, J. & †**Combs., K.** Efficient hyperspectral data processing on the edge: Band selection with Mamba models. *AFRL Discover 2025, accepted.*
 1. <span class="badge rounded-pill" style="background-color:#b558bdff; color:white;">Poster</span> ^\*†^Liu, J. & **Combs, K.** (2025). Exploring the Explainability of Mamba Model for Hyperspectral Imagery. *Sensors Directorate Internship Program (SDIP) Final Review*, Dayton, OH.
+
+^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
 :::
 
 ## 2024
@@ -59,6 +67,8 @@ Nominated for Best Paper
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^\*†^Christopherson, I., **Combs, K.**, & Camberos, J. (2024). Leveraging generative AI and human factors techniques for building image datasets. *Dayton-Cincinnati Aerospace Sciences Symposium*, Dayton, OH. 
 1. <span class="badge rounded-pill" style="background-color:#b558bdff; color:white;">Poster</span> ^†^Jenkins, T., Bihl, T.J., **Combs, K.**, Maholtra, R., Morrison, B., Robinson, B., Soriano, K., Kimbrell, J., & Souvlati, P. (2024). Onboard Tactical Autonomous Sensor Orchestration (OTASO). *AFRL Discover 2024*, Wright-Patterson AFB, OH.
 1. <span class="badge rounded-pill" style="background-color:#b558bdff; color:white;">Poster</span> **Combs, K.**, ^†^Lemming, G., Howlett, S., & Bihl, T.J. (2024). Analogical reasoning for aerial sensing autonomy. *AFRL Discover 2024*, Wright-Patterson AFB, OH.
+
+^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
 :::
 
 ## 2023
@@ -74,6 +84,8 @@ Nominated for Best Paper
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^‡^**Combs, K.** (2023). Adding your own value. *Tau Beta Pi Ohio Mu Chapter (Wright State University) Initiation Ceremony*, Dayton, OH. 
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^†^**Combs, K.** & ^†^Jacoby-Morris, K. (2023). AFRL STEM outreach and workforce development. *AFRL Junior Force Council Leadership Symposium*, Washington D.C.
 1.  <span class="badge rounded-pill" style="background-color:#b558bdff; color:white;">Poster</span> ^\*†^Gadre, A., ^\*†^Christopherson, I., **Combs, K.**, & Camberos, J. (2023). Leveraging generative AI and human factors techniques for building image datasets. *Wright Scholars Presentation and Poster Session*, Wright-Patterson AFB, OH.
+
+^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
 :::
 
 ## 2022
@@ -87,6 +99,8 @@ Nominated for Best Paper
 1. <span class="badge rounded-pill" style="background-color:#80008cff; color:white;">Magazine</span> **Combs, K.** (2022). Introducing ISE: Fostering awareness one student at a time. *OR/MS Today, 49*(1), 50-51. DOI: [10.1287/orms.2022.01.09](https://doi.org/10.1287/orms.2022.01.09).
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^†^**Combs, K.**, Bihl, T. J., & Ganapathy, S. (2022). Integration of computer vision and analogical reasoning for characterizing unknowns. *INFORMS Annual Meeting*, Indianapolis, IN.
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^‡^**Combs, K.** (2022). Analogical reasoning. *Engineers Club of Dayton Barn Gang*, Dayton, OH.
+
+^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
 :::
 
 ## 2021
@@ -103,6 +117,8 @@ Highlight of *ISE Magazine* 2021</span>
 </span>
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^†^**Combs, K.** & ^†^Sebastian, S. (2021). What you can be as an ISE. *Northwest Ohio Center’s Women in STEM Day*, Virtual.
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^†^**Combs, K.**, Sebastian, S., & Cao, C. (2021). Developing the cost and value justification of a new endovascular technology through mathematical modeling and forecasting approaches. *IISE Global Capstone Showcase Webinar*, Virtual.
+
+^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
 :::
 
 ## 2020
@@ -116,9 +132,7 @@ Highlight of *ISE Magazine* 2021</span>
 1st Place in Global Undergraduate Technical Paper Competition
 </span>
 1. <span class="badge rounded-pill" style="background-color:#a900b9ff; color:white;">Presentation</span> ^†^**Combs, K. L.** & Bihl, T. J. (2020). Cramming questions: Quiz bowl set optimization. *INFORMS Cincinnati-Dayton Research Symposium*, Dayton, OH.
-1. <span class="badge rounded-pill" style="background-color:#b558bdff; color:white;">Poster</span> ^†^**Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *OR/MS Tomorrow Mini-poster Competition*, Virtual. <a class="badge bg-dark" href="https://www.informs.org/Publications/OR-MS-Tomorrow/OR-MS-Tomorrow-Mini-Poster-Competition-2020-Winners">
-2nd Place in Undergraduate Catgory
-</a>
-:::
+1. <span class="badge rounded-pill" style="background-color:#b558bdff; color:white;">Poster</span> ^†^**Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *OR/MS Tomorrow Mini-poster Competition*, Virtual. <a class="badge bg-dark" href="https://www.informs.org/Publications/OR-MS-Tomorrow/OR-MS-Tomorrow-Mini-Poster-Competition-2020-Winners">2nd Place in Undergraduate Catgory</a>
 
 ^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
+:::
