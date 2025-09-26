@@ -1,12 +1,18 @@
 ---
-title: "Publications (By Year)"
+title: "Publications"
 page-layout: article
 ---
-
-As of September 2024, I have been a first author or co-author on 8 journal articles and 14 peer-reviewed conference papers. 
+::: {.text-center}
+As of September 2025, I have been a first author or co-author on 8 journal articles and 14 peer-reviewed conference papers. 
 
 [Check me out on Google Scholar](https://scholar.google.com/citations?user=TOV6TicAAAAJ&hl=en){.btn .btn-primary target="_blank"}
+:::
 
+::: {.grid}
+::: {.g-col-6 .text-center}
 [Publications (By Type)](publications-main.qmd){.btn .btn-primary}
-
+:::
+::: {.g-col-6 .text-center}
 [Publications (By Year)](publications-alt.qmd){.btn .btn-primary}
+:::
+:::
