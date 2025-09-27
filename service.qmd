@@ -1,480 +1,116 @@
 ---
 title: "Service"
-page-layout: article
+format: html
 ---
 
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
+As of September 2025, I am a member of the Institute for Operations Research and the Management Sciences (INFORMS), Tau Beta Pi (engineering honor society), Society of Women Engineers (SWE), and Women in Defense (WID). The remainder of this page is dedicated to current and previous leadership positions.
+
+## Institute for Operations Research and the Management Sciences (INFORMS)
+::: {.panel-tabset}
+## Cincinnati-Dayton Chapter
+
+<div class="text-center">
+  <p>
+    The Cincinnati-Dayton chapter serves operations research and management sciences
+    professionals in the Cincinnati, Dayton, and Northern Kentucky regions.
+  </p>
+  <a href="https://connect.informs.org/cincinnatidaytonchapter/home" 
+     class="btn btn-secondary">
+    Website
+  </a>
 </div>
 
-Bootswatch
-
-Pulse
-A trace of purple
-
-Navbars
-Navbar
-
-Navbar
-
-Navbar
-
-Navbar
-
-Buttons
-        
-
-        
-
-       
-
- 
- 
- 
-  
-
-
-
-
-
-
-Typography
-Heading 1
-Heading 2
-Heading 3
-Heading 4
-Heading 5
-Heading 6
-Heading with faded secondary text
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-Example body text
-Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-
-This line of text is meant to be treated as fine print.
-
-The following is rendered as bold text.
-
-The following is rendered as italicized text.
-
-An abbreviation of the word attribute is attr.
-
-Emphasis classes
-.text-primary
-
-.text-primary-emphasis
-
-.text-secondary
-
-.text-secondary-emphasis
-
-.text-success
-
-.text-success-emphasis
-
-.text-danger
-
-.text-danger-emphasis
-
-.text-warning
-
-.text-warning-emphasis
-
-.text-info
-
-.text-info-emphasis
-
-.text-light
-
-.text-light-emphasis
-
-.text-dark
-
-.text-dark-emphasis
-
-.text-body
-
-.text-body-emphasis
-
-.text-body-secondary
-
-.text-body-tertiary
-
-Blockquotes
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-
- Someone famous in Source Title
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-
- Someone famous in Source Title
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-
- Someone famous in Source Title
-Tables
-Type	Column heading	Column heading	Column heading
-Active	Column content	Column content	Column content
-Default	Column content	Column content	Column content
-Primary	Column content	Column content	Column content
-Secondary	Column content	Column content	Column content
-Success	Column content	Column content	Column content
-Danger	Column content	Column content	Column content
-Warning	Column content	Column content	Column content
-Info	Column content	Column content	Column content
-Light	Column content	Column content	Column content
-Dark	Column content	Column content	Column content
-Forms
-Legend
-Email
-email@example.com
-Email address
-Enter email
-We'll never share your email with anyone else.
-Password
-Password
-Example select
-1
-Example disabled select
-1
-Example multiple select12345
-Example textarea
-Default file input exampleNo file chosen
-Radio buttons
-Option one is this and that—be sure to include why it's great
-Option two can be something else and selecting it will deselect option one
-Option three is disabled
-Checkboxes
-Default checkbox
-Checked checkbox
-Switches
-Default switch checkbox input
-Checked switch checkbox input
-RangesExample range 
- Disabled range 
- Example range 
-Disabled input
-Disabled input here...
-Readonly input
-Readonly input here...
-Valid input
-correct value
-Success! You've done it.
-Invalid input
-wrong value
-Sorry, that username's taken. Try another?
-Large input
-.form-control-lg
-Default input
-Default input
-Small input
-.form-control-sm
-Input addons
-$
-.00
-Recipient's username
-Floating labels
-name@example.com
-Email address
-Password
-Password
-Navs
-Tabs
-Home
-Profile
-Disabled
-Dropdown
-Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
-
-Pills
-Active
-Dropdown
-Link
-Disabled
-
-Active
-Dropdown
-Link
-Disabled
-Breadcrumbs
-Home
-Home
-Library
-Home
-Library
-Data
-Pagination
-«
-1
-2
-3
-4
-5
-»
-«
-1
-2
-3
-4
-5
-»
-«
-1
-2
-3
-4
-5
-»
-Underline
-Active
-Link
-Link
-Disabled
-Indicators
-Alerts
-
-Warning!
-Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-Oh snap! Change a few things up and try submitting again.
-Well done! You successfully read this important alert message.
-Heads up! This alert needs your attention, but it's not super important.
-Oh snap! Change a few things up and try submitting again.
-Well done! You successfully read this important alert message.
-Heads up! This alert needs your attention, but it's not super important.
-Badges
-Primary Secondary Success Danger Warning Info Light Dark
-Primary Secondary Success Danger Warning Info Light Dark
-Progress
-Basic
-Contextual alternatives
-Multiple bars
-Striped
-Animated
-Containers
-List groups
-Cras justo odio
-14
-Dapibus ac facilisis in
-2
-Morbi leo risus
-1
-Cras justo odio
-14
-Dapibus ac facilisis in
-2
-Morbi leo risus
-1
-Cras justo odio
-5
-Dapibus ac facilisis in
-4
-Morbi leo risus
-9
-Morbi leo risus
-8
-Morbi leo risus
-0
-Cras justo odio
-Dapibus ac facilisis in
-Morbi leo risus
-List group item heading
-3 days ago
-Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-
-Donec id elit non mi porta.
-List group item heading
-3 days ago
-Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-
-Donec id elit non mi porta.
-Cards
-Header
-Primary card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Secondary card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Success card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Danger card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Warning card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Info card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Light card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Dark card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Primary card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Secondary card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Success card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Danger card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Warning card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Info card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Light card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Header
-Dark card title
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Card header
-Special title treatment
-Support card subtitle
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Cras justo odio
-Dapibus ac facilisis in
-Vestibulum at eros
-Card link Another link
-2 days ago
-Card title
-Card subtitle
-Some quick example text to build on the card title and make up the bulk of the card's content.
-
-Card link Another link
-Accordions
-Accordion Item #1
-This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
-Accordion Item #2
-Accordion Item #3
-Dialogs
-Modals
-Modal title
-
-Modal body text goes here.
-
-Offcanvas
- 
-Popovers
-   
-Tooltips
-   
-Toasts
-Bootstrap
-11 mins ago
-
-Hello, world! This is a toast message.
-Source Code
-<ul class="nav nav-tabs" role="tablist">
-  <li class="nav-item" role="presentation">
-    <a class="nav-link active" data-bs-toggle="tab" href="#home" aria-selected="true" role="tab">Home</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" data-bs-toggle="tab" href="#profile" aria-selected="false" role="tab" tabindex="-1">Profile</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link disabled" href="#" aria-selected="false" tabindex="-1" role="tab">Disabled</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-    <div class="dropdown-menu" style="">
-      <h6 class="dropdown-header">Dropdown header</h6>
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
-    </div>
-  </li>
-</ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade active show" id="home" role="tabpanel">
-    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-  </div>
-  <div class="tab-pane fade" id="profile" role="tabpanel">
-    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
-  </div>
-  <div class="tab-pane fade" id="dropdown1">
-    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
-  </div>
-  <div class="tab-pane fade" id="dropdown2">
-    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
-  </div>
+| Term           | Position  |
+|:--------------:|:---------:|
+| 2025 - Present | President |
+| 2024 - 2025    | Treasurer |
+
+## *OR/MS Tomorrow* Magazine
+
+<div class="text-center">
+  <p>
+    *OR/MS Tomorrow* is the online student membership magazine by students for students publishing bi-anually.
+  </p>
+  <a href="https://www.informs.org/Publications/OR-MS-Tomorrow" 
+     class="btn btn-secondary">
+    Website
+  </a>
 </div>
 
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">Position</th>
-      <th scope="col">Organization</th>
-      <th scope="col">Term</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="table-primary">
-      <th scope="row">Active</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-  </tbody>
-</table>
+| Term           | Position                 |
+|:--------------:|:------------------------:|
+| 2025 - Present | Editorial Board Member   |
+| 2023 - 2025    | Lead/Co-Lead Editor      |
+| 2021 - 2023    | Social Media Coordinator |
+
+## Miscellaneous
+| Term           | Position                         | Description                                                                   |
+|:--------------:|:--------------------------------:|:-----------------------------------------------------------------------------:|
+| 2023 - Present | INFORMS Annual Meeting NavigatOR | Volunteer ambassadors ready to assist attendees at the INFORMS Annual Meeting |
+| Ad hoc         | *OR/MS Today* Column Contributor | Quarterly member magazine for INFORMS                                         |
+:::
+
+## Tau Beta Pi
+::: {.panel-tabset}
+## Dayton Alumni Chapter
+
+| Term           | Position   |
+|:--------------:|:----------:|
+| 2024 - Present | President  |
+
+## Ohio Eta Chapter (AFIT)
+
+| Term           | Position                     |
+|:--------------:|:----------------------------:|
+| 2025 - Present | Treasurer                    |
+| 2025           | Best Thesis Committee Chair  |
+| 2024 - 2025    | Secretary-Treasurer          |
+| 2024           | Best Thesis Committee Member |
+| 2023 - 2024    | Secretary                    |
+
+## Ohio Mu Chapter (WSU)
+
+| Term           | Position                |
+|:--------------:|:-----------------------:|
+| 2021 - Present | Advisor                 |
+| 2020 - 2021    | Vice President          |
+| 2019 - 2020    | Corresponding Secretary |
+
+## Student Advisory Board
+
+| Term        | Position                 |
+|:-----------:|:------------------------:|
+| 2024 - 2025 | Advisor                  |
+| 2023 - 2024 | Member                   |
+| 2022 - 2023 | Vice Chair               |
+| 2021 - 2022 | Outreach Committee Chair |
+:::
+
+## TechFest Dayton & TechFest Dayton Foundation
+
+| Term           | Position                   | Organization                       | 
+|:--------------:|:--------------------------:|:----------------------------------:|
+| 2025 - Present | Director of Communications | TechFest Dayton Foundation         |
+| 2023 - Present | Exhibitors Coordinator     | TechFest Dayton Steering Committee |
+
+## Society of Women Engineers (SWE)
+
+| Term        | Position              | Organization       |
+|:-----------:|:---------------------:|:------------------:|
+| 2024 - 2025 | Secretary             | South Ohio Section | 
+| 2022 - 2023 | Nomination Committee  | South Ohio Section |
+
+## Institute of Industrial and Systems Engineers (IISE)
+
+| Term        | Position                        | Organization                           |
+|:-----------:|:-------------------------------:|:--------------------------------------:|
+| 2023 - 2024 | Board Member                    | Dayton-Cincinnati Professional Chapter | 
+| 2022        | All-Ohio Activities Coordinator | Dayton-Cincinnati Professional Chapter | 
+| 2021 - 2022 | Member                          | Student Leadership Board               |
+
+## Miscellaneous
+
+| Term           | Position                   | Organization                       | 
+|:--------------:|:--------------------------:|:----------------------------------:|
+| 2023 - Present | Member                     | Wright State University’s Biomedical, Industrial and Human Factors Engineering Department External Advisory Board |
+| 2023 - Present | Member                     | Milton-Union MVCTC STEM Advisory Committee |
