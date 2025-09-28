@@ -48,13 +48,101 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
 
 ::: {.slideshow-placeholder}
 ```{=html}
-<div class="slideshow-container" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 300px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px; text-align: center; border: 2px dashed rgba(255,255,255,0.3);">
-  <div>
-    <i class="fas fa-images" style="font-size: 48px; margin-bottom: 16px; display: block;"></i>
-    Slideshow Placeholder<br>
-    <small style="opacity: 0.8;">Featured research highlights will appear here</small>
+<div class="slideshow-container" style="position: relative; max-width: 800px; margin: auto; border-radius: 8px; overflow: hidden;">
+
+  <!-- Slides -->
+  <div class="mySlides fade">
+    <img src="assets/slideshow/BarnGang.jpeg" style="width:100%; height:300px; object-fit: cover;">
+    <div class="caption">Barn Gang 2022</div>
   </div>
+
+  <div class="mySlides fade">
+    <img src="assets/slideshow/GreatLakesRegional20.jpg" style="width:100%; height:300px; object-fit: cover;">
+    <div class="caption">IISE Great Lakes Regional Conference 2020</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="assets/slide3.jpg" style="width:100%; height:300px; object-fit: cover;">
+    <div class="caption">Featured Research Highlight 3</div>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
 </div>
+
+<!-- Dots -->
+<div style="text-align:center; margin-top: 10px;">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<style>
+.mySlides {display: none;}
+img {vertical-align: middle;}
+.caption {
+  color: white;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 4px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.3s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {right: 0;border-radius: 3px 0 0 3px;}
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.6);}
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+.active, .dot:hover {background-color: #717171;}
+.fade {animation: fade 1s;}
+@keyframes fade {from {opacity: .4} to {opacity: 1}}
+</style>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {showSlides(slideIndex += n);}
+function currentSlide(n) {showSlides(slideIndex = n);}
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {slides[i].style.display = "none";}
+  for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" active", "");}
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+// Auto-play
+setInterval(() => {plusSlides(1);}, 5000);
+</script>
+
 ```
 :::
 :::

@@ -6,13 +6,7 @@ execute:
   echo: false
 ---
 
-<style>
-body {
-  font-size: 0.8rem;
-}
-</style>
-
-::: {.text-center style="font-size:1rem;"}
+::: {.text-center}
 As of September 2025, I have authored or co-authored 20+ peer-review publications and have presented my work at 30+ conference venues.
 
 [Check me out on Google Scholar!](https://scholar.google.com/citations?user=TOV6TicAAAAJ&hl=en){.btn .btn-primary target="_blank"}
@@ -159,7 +153,7 @@ fig.show()
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #80008cff; color:#80008cff;"> Magazine </span> Leung, J. & **Combs, K.** (2021). Practicing visualization in OR/MS: An art and a science. *OR/MS Today, 48*(5), 60-61. DOI: [10.1287/orms.2021.05.10](https://doi.org/10.1287/orms.2021.05.10).
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> <a class="badge bg-primary" href="https://www.iise.org/Details.aspx?id=53273">2nd Place in IISE Global Undergraduate Technical Paper Competition </a> Ellison, K., ^†^**Combs, K.**, & Sebastian, S. (2021). Putting a smile on redesigning: A dental facility layout problem. *IISE Annual Conference & Expo*, Virtual. 
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> ^†^**Combs, K.**, Bihl, T., Ganapathy, S., & Staples, D. (2021). Analogical reasoning: A comparison of algorithms. *INFORMS Annual Meeting*, Anaheim, CA.
-1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> <span class="badge bg-primary">1st Place in IISE Regional Undergraduate Technical Paper Competition</span> ^†^Ellison, K., **Combs, K.**, & Sebastian, S. (2021). Putting a smile on redesigning: A dental facility layout problem. IISE Great Lakes Regional Conference, Virtual. 
+1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> <span class="badge bg-primary">1st Place in IISE Great Lakes Regional Undergraduate Technical Paper Competition</span> ^†^Ellison, K., **Combs, K.**, & Sebastian, S. (2021). Putting a smile on redesigning: A dental facility layout problem. IISE Great Lakes Regional Conference, Virtual. 
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> ^†^**Combs, K.** & ^†^Sebastian, S. (2021). What you can be as an ISE. *Northwest Ohio Center’s Women in STEM Day*, Virtual.
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> ^†^**Combs, K.**, Sebastian, S., & Cao, C. (2021). Developing the cost and value justification of a new endovascular technology through mathematical modeling and forecasting approaches. *IISE Global Capstone Showcase Webinar*, Virtual.
 
@@ -170,8 +164,8 @@ fig.show()
 ::: {.2020}
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #220025ff; color:#220025ff;"> Journal </span> **Combs, K.**, Fendley, M., & Bihl, T. (2020). A preliminary look at heuristic analysis for assessing artificial intelligence eXplainability. *WSEAS Transactions on Computer Research, 8*(9), 61-72. DOI: [10.37394/232018.2020.8.9](https://doi.org/10.37394/232018.2020.8.9).
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> ^†^**Combs, K.**, ^†^Camp, A. & ^†^Ganapathy, S. (2020). Industrial & systems engineering: It’s fun and it changes the world. *Chaminade Julienne Catholic High School’s STEMM Idol Speaker Series*, Virtual.
-1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> <a class="badge bg-primary" href="https://www.iise.org/Details.aspx?id=52440"> 2nd Place in Regional Undergraduate Technical Paper Competition </a> **Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *IISE Annual Conference & Expo 2020*, Virtual. 
-1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> <span class="badge bg-primary"> 1st Place in IISE Global Undergraduate Technical Paper Competition </span> **Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *IISE Great Lakes Regional Conference*, Kalamazoo, MI. 
+1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> <a class="badge bg-primary" href="https://www.iise.org/Details.aspx?id=52440"> 2nd Place in IISE Global Undergraduate Technical Paper Competition </a> **Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *IISE Annual Conference & Expo 2020*, Virtual. 
+1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> <span class="badge bg-primary"> 1st Place in IISE Great Lakes Regional Undergraduate Technical Paper Competition </span> **Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *IISE Great Lakes Regional Conference*, Kalamazoo, MI. 
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> ^†^**Combs, K. L.** & Bihl, T. J. (2020). Cramming questions: Quiz bowl set optimization. *INFORMS Cincinnati-Dayton Research Symposium*, Dayton, OH.
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #b558bdff; color:#b558bdff;"> Poster </span> <a class="badge bg-primary" href="https://www.informs.org/Publications/OR-MS-Tomorrow/OR-MS-Tomorrow-Mini-Poster-Competition-2020-Winners">2nd Place in Undergraduate Catgory</a> ^†^**Combs, K.** (2020). Cramming questions: Quiz bowl set optimization. *OR/MS Tomorrow Mini-poster Competition*, Virtual. 
 

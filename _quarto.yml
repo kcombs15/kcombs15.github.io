@@ -41,3 +41,7 @@ format:
     smooth-scroll: true
 execute:
   freeze: auto
+
+jupyter: python3
+python:
+  executable: .venv/Scripts/python.exe
