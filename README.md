@@ -23,3 +23,6 @@ This is a minimal, professional starter for an academic website powered by **Qua
 ## Theme
 - Theme: Pulse
 - Theme preview website: https://bootswatch.com/pulse/
+
+## Venv
+- env\Scripts\Activate.ps1
