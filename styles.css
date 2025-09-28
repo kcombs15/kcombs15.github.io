@@ -6,3 +6,71 @@
 h1, h2, h3 { scroll-margin-top: 6rem; }
 .listing-bibliography .csl-entry { margin-bottom: 0.65rem; }
 footer { font-size: 0.9rem; }
+
+/* Grid Layout Enhancements */
+.grid {
+  margin: 2rem 0;
+}
+
+.grid .g-col-4 img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.grid .g-col-4 img:hover {
+  transform: scale(1.02);
+}
+
+/* Timeline Styling */
+.timeline {
+  padding: 1rem;
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+  border-radius: 8px;
+  border-left: 4px solid var(--bs-primary);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.timeline p {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.timeline p:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.timeline strong {
+  color: var(--bs-primary);
+  font-weight: 600;
+}
+
+/* Slideshow Container */
+.slideshow-placeholder {
+  height: 100%;
+}
+
+.slideshow-container {
+  min-height: 300px;
+  transition: all 0.3s ease;
+}
+
+.slideshow-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .grid .g-col-4,
+  .grid .g-col-6,
+  .grid .g-col-8 {
+    margin-bottom: 2rem;
+  }
+  
+  .timeline {
+    margin-bottom: 2rem;
+  }
+}

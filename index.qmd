@@ -1,11 +1,62 @@
 ---
-title: "Home"
-page-layout: article
+title: "Welcome!"
+page-layout: full
 ---
 
-Welcome! I’m Kara Combs! 
+::: {.grid}
 
+::: {.g-col-4}
+![](assets/Combs_Headshot_White.jpg){fig-alt="Kara Combs" width="75%"}
+:::
+
+::: {.g-col-8}
+## Hi! I'm Kara Combs!
+
+I am a computer engineer at the Air Force Research Laboratory and a operations research Ph.D. candidate at the Air Force Institute of Technology. My research focuses on improving defense applications of artificial intelligence and machine learning (AI/ML) systems through biologically-inspired advancements based on analogical reasoning, neuroscience, and more! I have 20+ peer-reviewed publications and have presented my work at 30+ conferences. I am active in several professional societies and K-12 STEM outreach events.
+
+### Quick Links
 - See my **[Publications](publications.qmd)**
 - See my **[Service](service.qmd)**
-<!-- - View my **[Projects](projects.qmd)**
-- Grab my **[CV](cv.qmd)** -->
+<!-- - View my **[Projects](projects.qmd)** -->
+<!-- - Grab my **[CV](cv.qmd)** -->
+:::
+
+:::
+
+---
+
+::: {.grid}
+
+::: {.g-col-6}
+## Recent News
+
+::: {.timeline}
+**August 2025**  
+
+- Three papers accepted at the 59th Hawaii International Conference on System Sciences (HICSS)
+- Passed Ph.D. prospectus defense and entered into candidacy
+
+**July 2025**  
+
+- Passed Ph.D. specialty exam
+
+:::
+:::
+
+::: {.g-col-6}
+## Featured Work
+
+::: {.slideshow-placeholder}
+```{=html}
+<div class="slideshow-container" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 300px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px; text-align: center; border: 2px dashed rgba(255,255,255,0.3);">
+  <div>
+    <i class="fas fa-images" style="font-size: 48px; margin-bottom: 16px; display: block;"></i>
+    Slideshow Placeholder<br>
+    <small style="opacity: 0.8;">Featured research highlights will appear here</small>
+  </div>
+</div>
+```
+:::
+:::
+
+:::
