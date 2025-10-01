@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2025-08-01",
+    "title": "August 2025",
+    "items": [
+      {
+        "html": "Three papers accepted at the <a href=\"https://hicss.hawaii.edu/\" target=\"_blank\" rel=\"noopener\">59th Hawaii International Conference on System Sciences (HICSS)</a>"
+      },
+      {
+        "text": "Passed prospectus defense and entered into Ph.D. candidacy"
+      }
+    ]
+  },
+  {
+    "date": "2025-07-01",
+    "title": "July 2025",
+    "items": [
+      {
+        "text": "Passed Ph.D. specialty exam"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-15",
+    "title": "May 2025",
+    "items": [
+      {
+        "text": "Presented invited seminar on biologically-inspired AI/ML for defense applications"
+      },
+      {
+        "html": "Served as panelist for the <a href=\"https://www.informs.org/\" target=\"_blank\" rel=\"noopener\">INFORMS Women in OR/MS</a> webinar series"
+      }
+    ]
+  },
+  {
+    "date": "2025-04-10",
+    "title": "April 2025",
+    "items": [
+      {
+        "text": "Organized AFRL AI/ML community of interest workshop"
+      }
+    ]
+  }
+]

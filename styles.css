@@ -37,14 +37,33 @@ body.page-index .grid {
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.timeline p {
-  margin-bottom: 1rem;
+.timeline .timeline-month + .timeline-month {
+  margin-top: 1rem;
+}
+
+.timeline .timeline-month p,
+.timeline > p {
+  margin-bottom: 0.5rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid #e9ecef;
 }
 
-.timeline p:last-child {
+.timeline .timeline-month:last-child p,
+.timeline > p:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+}
+
+.timeline ul {
+  margin: 0 0 0.75rem 1.25rem;
+  padding-left: 0.5rem;
+}
+
+.timeline ul li {
+  margin-bottom: 0.35rem;
+}
+
+.timeline ul li:last-child {
   margin-bottom: 0;
 }
 

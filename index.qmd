@@ -29,17 +29,25 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
 ## Recent News
 
 ::: {.timeline}
-
-**August 2025**  
-
-- Three papers accepted at the [59th Hawaii International Conference on System Sciences (HICSS)](https://hicss.hawaii.edu/)
-- Passed prospectus defense and entered into Ph.D. candidacy
-
-**July 2025**  
-
-- Passed Ph.D. specialty exam
-
+<div id="recent-news"></div>
 :::
+
+<!-- Recent news items are sourced from assets/data/news.json -->
+
+```{=html}
+<script src="assets/js/news.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof renderNews === "function") {
+      renderNews({
+        containerId: "recent-news",
+        limit: 3,
+        emptyMessage: "Recent news updates coming soon!",
+      });
+    }
+  });
+</script>
+```
 
 <div style="text-align: center; margin: 20px 0;">
   <a href="news.qmd" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">

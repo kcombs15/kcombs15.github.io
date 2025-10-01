@@ -3,4 +3,24 @@ title: "News"
 page-layout: article
 ---
 
-Under construction!
+Stay up-to-date with recent milestones, publications, and highlights.
+
+::: {.timeline}
+<div id="news-list"></div>
+:::
+
+<!-- News items are managed in assets/data/news.json -->
+
+```{=html}
+<script src="assets/js/news.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof renderNews === "function") {
+      renderNews({
+        containerId: "news-list",
+        emptyMessage: "News updates coming soon!",
+      });
+    }
+  });
+</script>
+```
