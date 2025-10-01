@@ -1,6 +1,7 @@
 ---
-title: "Welcome!"
+title: "Home"
 page-layout: full
+toc: false
 ---
 
 ::: {.grid}
@@ -25,12 +26,10 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
 
 ---
 
-::: {.grid}
-
-::: {.g-col-6}
 ## Recent News
 
 ::: {.timeline}
+
 **August 2025**  
 
 - Three papers accepted at the [59th Hawaii International Conference on System Sciences (HICSS)](https://hicss.hawaii.edu/)
@@ -41,12 +40,16 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
 - Passed Ph.D. specialty exam
 
 :::
-:::
 
-::: {.g-col-6}
-## Featured Work
+<div style="text-align: center; margin: 20px 0;">
+  <a href="news.qmd" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    See more news here!
+  </a>
+</div>
 
-::: {.slideshow-placeholder}
+## Pictures
+
+::: {.slideshow}
 ```{=html}
 <div class="slideshow-container" style="position: relative; max-width: 800px; margin: auto; border-radius: 8px; overflow: hidden;">
 
@@ -61,10 +64,15 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
     <div class="caption">IISE Great Lakes Regional Conference 2020</div>
   </div>
 
-  <!-- <div class="mySlides fade">
-    <img src="assets/slide3.jpg" style="width:100%; height:300px; object-fit: cover;">
-    <div class="caption">Featured Research Highlight 3</div>
-  </div> -->
+  <div class="mySlides fade">
+    <img src="assets/slideshow/IMG_6452.JPG" style="width:100%; height:300px; object-fit: cover;">
+    <div class="caption">Tau Beta Pi District 7 Conference 2024</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="assets/slideshow/TechnologyFirst.jpg" style="width:100%; height:300px; object-fit:contain; background:#fff;">
+    <div class="caption">Technology First Awards 2021</div>
+  </div>
 
   <!-- Next/prev buttons -->
   <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -72,15 +80,25 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
 
 </div>
 
-<!-- Dots -->
-<div style="text-align:center; margin-top: 10px;">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+<!-- Dots (automated) -->
+<div id="slideshow-dots" style="text-align:center; margin-top: 10px;"></div>
+<script>
+const numSlides = document.getElementsByClassName("mySlides").length;
+const dotsContainer = document.getElementById("slideshow-dots");
+dotsContainer.innerHTML = Array.from({length: numSlides}, (_, i) =>
+  `<span class="dot" onclick="currentSlide(${i+1})"></span>`
+).join(' ');
+</script>
 
 <style>
-.mySlides {display: none;}
+/* .mySlides no longer uses display: none; only opacity for fade effect */
+.mySlides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 img {vertical-align: middle;}
 .caption {
   color: white;
@@ -115,11 +133,18 @@ img {vertical-align: middle;}
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.3s;
+  transition: background-color 0.1s;
 }
 .active, .dot:hover {background-color: #717171;}
-.fade {animation: fade 1s;}
-@keyframes fade {from {opacity: .4} to {opacity: 1}}
+/* Smoother, faster fade for slideshow */
+/* Smoother, true fade for slideshow */
+.fade {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.fade.active {
+  opacity: 1;
+}
 </style>
 
 <script>
@@ -134,17 +159,18 @@ function showSlides(n) {
   let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {slides[i].style.display = "none";}
-  for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" active", "");}
-  slides[slideIndex-1].style.display = "block";  
+  for (i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].classList.add("active");
   dots[slideIndex-1].className += " active";
 }
 // Auto-play
-setInterval(() => {plusSlides(1);}, 10000);
+setInterval(() => {plusSlides(1);}, 6000);
 </script>
 
 ```
-:::
-:::
-
 :::

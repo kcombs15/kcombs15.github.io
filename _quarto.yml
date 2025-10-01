@@ -10,7 +10,7 @@ website:
   navbar:
     left:
       - text: Home
-        href: index.qmd
+        href: /
       - text: Publications
         href: publications.qmd
       - text: CV

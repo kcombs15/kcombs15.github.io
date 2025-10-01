@@ -8,8 +8,14 @@ h1, h2, h3 { scroll-margin-top: 6rem; }
 footer { font-size: 0.9rem; }
 
 /* Grid Layout Enhancements */
+/* Default grid margin for all pages except index */
 .grid {
   margin: 2rem 0;
+}
+
+/* Remove grid margin only for index.qmd (homepage) */
+body.page-index .grid {
+  margin: 0 !important;
 }
 
 .grid .g-col-4 img {
