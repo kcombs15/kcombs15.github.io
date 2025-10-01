@@ -3,4 +3,28 @@ title: "News"
 page-layout: article
 ---
 
-Under construction!
+The news timeline below is generated from the `_data/news.json` file. Add new items there (using the ISO `date` field so entries stay in chronological order) and both this page and the homepage will update automatically.
+
+```{python}
+#| results: asis
+import json
+from pathlib import Path
+
+data_path = Path("_data/news.json")
+
+if data_path.exists():
+    with data_path.open("r", encoding="utf-8") as f:
+        news_entries = json.load(f)
+
+    news_entries.sort(key=lambda entry: entry.get("date", ""), reverse=True)
+
+    print("::: {.timeline}")
+    for entry in news_entries:
+        print(f"**{entry['month']}**\n")
+        for item in entry.get("items", []):
+            print(f"- {item}")
+        print("")
+    print(":::")
+else:
+    print("::: {.timeline}\n_No news entries available yet._\n:::")
+```

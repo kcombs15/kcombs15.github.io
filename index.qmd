@@ -28,18 +28,32 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
 
 ## Recent News
 
-::: {.timeline}
+```{python}
+#| results: asis
+import json
+from pathlib import Path
 
-**August 2025**  
+data_path = Path("_data/news.json")
 
-- Three papers accepted at the [59th Hawaii International Conference on System Sciences (HICSS)](https://hicss.hawaii.edu/)
-- Passed prospectus defense and entered into Ph.D. candidacy
+if data_path.exists():
+    with data_path.open("r", encoding="utf-8") as f:
+        news_entries = json.load(f)
 
-**July 2025**  
+    # Sort by the ISO date field so new entries float to the top regardless of file order.
+    news_entries.sort(key=lambda entry: entry.get("date", ""), reverse=True)
 
-- Passed Ph.D. specialty exam
+    recent_entries = news_entries[:3]
 
-:::
+    print("::: {.timeline}")
+    for entry in recent_entries:
+        print(f"**{entry['month']}**\n")
+        for item in entry.get("items", []):
+            print(f"- {item}")
+        print("")
+    print(":::")
+else:
+    print("::: {.timeline}\n_No news entries available yet._\n:::")
+```
 
 <div style="text-align: center; margin: 20px 0;">
   <a href="news.qmd" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
