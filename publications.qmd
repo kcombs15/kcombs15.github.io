@@ -9,7 +9,11 @@ execute:
 ::: {.text-center}
 As of September 2025, I have authored or co-authored 20+ peer-review publications and have presented my work at 30+ conference venues.
 
-[Check me out on Google Scholar!](https://scholar.google.com/citations?user=TOV6TicAAAAJ&hl=en){.btn .btn-primary target="_blank"}
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://scholar.google.com/citations?user=TOV6TicAAAAJ&hl=en" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Check me out on Google Scholar!
+  </a>
+</div>
 
 <!-- 
 Colors:
