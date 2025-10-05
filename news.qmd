@@ -73,13 +73,11 @@ page-layout: full
 :::
 ::: {.accordion-collapse .collapse .show #collapse2026 data-bs-parent="#newsAccordion"}
 ::: {.accordion-body}
-::: {.timeline}
 
 **Coming Soon**  
 
 - Updates will be posted here as they become available
 
-:::
 :::
 :::
 ::: -->
@@ -94,7 +92,6 @@ page-layout: full
 :::
 ::: {.accordion-collapse .collapse #collapse2025 data-bs-parent="#newsAccordion"}
 ::: {.accordion-body}
-::: {.timeline}
 
 **September 2025**  
 
@@ -129,7 +126,6 @@ page-layout: full
 :::
 :::
 :::
-:::
 
 ::: {.accordion-item}
 ::: {.accordion-header #heading2024}
@@ -141,13 +137,15 @@ page-layout: full
 :::
 ::: {.accordion-collapse .collapse #collapse2024 data-bs-parent="#newsAccordion"}
 ::: {.accordion-body}
-::: {.timeline}
 
-**Add 2024 news items here**
+**March 2024**
 
-- Items will be listed chronologically
+- Paper accepted at the [ACM SIGMIS Computers and People Research Conference](https://sigmis.org/cpr/)
 
-:::
+**January 2024**
+
+- Three paper presented at the [57th Hawaii International Conference on System Sciences (HICSS)](https://hdl.handle.net/10125/107396)
+
 :::
 :::
 :::
@@ -160,15 +158,17 @@ page-layout: full
 </button>
 ```
 :::
-::: {.accordion-collapse .collapse #collapse2024 data-bs-parent="#newsAccordion"}
+::: {.accordion-collapse .collapse #collapse2023 data-bs-parent="#newsAccordion"}
 ::: {.accordion-body}
-::: {.timeline}
 
-**Add 2023 news items here**
+**May 2023**
 
-- Items will be listed chronologically
+- Paper presented at the IISE Annual Conference 2023
 
-:::
+**January 2023**
+
+- Two papers presented at the [57th Hawaii International Conference on System Sciences (HICSS)](https://aisel.aisnet.org/hicss-56/)
+
 :::
 :::
 :::
