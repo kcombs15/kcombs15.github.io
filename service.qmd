@@ -6,6 +6,7 @@ format: html
 As of September 2025, I am a member of the Institute for Operations Research and the Management Sciences (INFORMS), Tau Beta Pi (engineering honor society), Society of Women Engineers (SWE), and Women in Defense (WID). The remainder of this page is dedicated to current and previous leadership positions.
 
 ## Institute for Operations Research and the Management Sciences (INFORMS)
+
 ::: {.panel-tabset}
 ## Cincinnati-Dayton Chapter
 
@@ -50,15 +51,37 @@ As of September 2025, I am a member of the Institute for Operations Research and
 | Ad hoc         | *OR/MS Today* Column Contributor | Quarterly member magazine for INFORMS                                         |
 :::
 
-## Tau Beta Pi
+## Tau Beta Pi (engineering honor society)
+
 ::: {.panel-tabset}
+
 ## Dayton Alumni Chapter
+
+<div class="text-center">
+  <p>
+    Tau Beta Pi alumni chapter for members who live in the Dayton (OH) metropolitan area.
+  </p>
+  <a href="https://sites.google.com/view/tbpdayac" 
+     class="btn btn-secondary">
+    Website
+  </a>
+</div>
 
 | Term           | Position   |
 |:--------------:|:----------:|
 | 2024 - Present | President  |
 
 ## Ohio Eta Chapter (AFIT)
+
+<div class="text-center">
+  <p>
+    Tau Beta Pi collegiate chapter at the Air Force Institute of Technology (AFIT).
+  </p>
+  <a href="https://www.afit.edu/STUDENTOPERATIONS/page.cfm?page=654" 
+     class="btn btn-secondary">
+    Website
+  </a>
+</div>
 
 | Term           | Position                     |
 |:--------------:|:----------------------------:|
@@ -70,6 +93,16 @@ As of September 2025, I am a member of the Institute for Operations Research and
 
 ## Ohio Mu Chapter (WSU)
 
+<div class="text-center">
+  <p>
+    Tau Beta Pi collegiate chapter at Wright State University (WSU).
+  </p>
+  <a href="https://wright.campuslabs.com/engage/organization/tau-beta-pi" 
+     class="btn btn-secondary">
+    Website
+  </a>
+</div>
+
 | Term           | Position                |
 |:--------------:|:-----------------------:|
 | 2021 - Present | Advisor                 |
@@ -77,6 +110,16 @@ As of September 2025, I am a member of the Institute for Operations Research and
 | 2019 - 2020    | Corresponding Secretary |
 
 ## Student Advisory Board
+
+<div class="text-center">
+  <p>
+    Tau Beta Pi's Student Advisory Board (SAB) serves as a liasion between students and Tau Beta Pi HQ.
+  </p>
+  <a href="https://www.tbp.org/student-advisory-board.cfm" 
+     class="btn btn-secondary">
+    Website
+  </a>
+</div>
 
 | Term        | Position                 |
 |:-----------:|:------------------------:|
@@ -87,6 +130,15 @@ As of September 2025, I am a member of the Institute for Operations Research and
 :::
 
 ## TechFest Dayton & TechFest Dayton Foundation
+
+<div class="text-center">
+  <p>
+    TechFest Dayton is a free K-12 science, technology, engineering, and mathematics (STEM) outreach expo held annually in February by the TechFest Dayton Foundation, a component fund of the 501(c)(3) nonprofit, Greene Giving.
+  </p>
+  <a href="https://www.techfestdayton.org/" class="btn btn-secondary">
+    Website
+  </a>
+</div>
 
 | Term           | Position                   | Organization                       | 
 |:--------------:|:--------------------------:|:----------------------------------:|

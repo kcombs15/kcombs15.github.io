@@ -30,14 +30,14 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
 
 ::: {.timeline}
 
+**September 2025**  
+
+- Oral presentation and poster accepted at [AFRL Discover](https://airforcetechconnect.org/events/afrl-discover-symposium)
+
 **August 2025**  
 
 - Three papers accepted at the [59th Hawaii International Conference on System Sciences (HICSS)](https://hicss.hawaii.edu/)
 - Passed prospectus defense and entered into Ph.D. candidacy
-
-**July 2025**  
-
-- Passed Ph.D. specialty exam
 
 :::
 
