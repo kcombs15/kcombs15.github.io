@@ -138,9 +138,27 @@ page-layout: full
 ::: {.accordion-collapse .collapse #collapse2024 data-bs-parent="#newsAccordion"}
 ::: {.accordion-body}
 
+**November 2024**
+
+- Selected by second-level supervisor as the division nominee for the Brian M. Hendrickson Memorial Award (Analogical Learning Team)
+
+**October 2024**
+
+- Named as one of the receipents of [INFORMS's Judith Liebman Award](https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Judith-Liebman-Award) at the 2024 INFORMS Annual Meeting
+- Selected for the [Women of Color in STEM Conference's Student Leadership (Graduate Level) Award](https://cdn.ymaws.com/intouch.ccgmag.com/resource/resmgr/woc_conference_site/documents/2024/sept18/WOC2024_PRAwards_Final_09132.pdf#page=1.00)
+
+**June 2024**
+
+- Selected by second-level supervisor as the division's STEM Advocate for Quarter 1 of 2024 award
+
 **March 2024**
 
 - Paper accepted at the [ACM SIGMIS Computers and People Research Conference](https://sigmis.org/cpr/)
+
+**February 2024**
+
+- Selected by second-level supervisor as the division's Chief's Pick for Quarter 4 of 2023
+- [TechFest Dayton 2024](https://www.techfestdayton.org/) had 2,000+ attendees
 
 **January 2024**
 
@@ -160,6 +178,14 @@ page-layout: full
 :::
 ::: {.accordion-collapse .collapse #collapse2023 data-bs-parent="#newsAccordion"}
 ::: {.accordion-body}
+
+**November 2023**
+
+- Selected by second-level supervisor as the division nominee for the 2023 Category II Air Force Civillian of the Year Award (equivalent of a GS-9 through GS-11 employee)
+
+**October 2023**
+
+- Recognized as one of five "Inno(vators) under 25" by the [Dayton Business Journal](https://www.bizjournals.com/dayton/inno/stories/awards/2023/10/26/inno-under-25-award-winners.html?csrc=6398&utm_campaign=trueAnthemTrendingContent&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwAR3vmw5ygqcaKExqzmcBwyW2xwFUZRGauStbmQllndwPR0KbtzkSh53rj3k)
 
 **May 2023**
 

@@ -7,13 +7,27 @@ toc: false
 ::: {.grid}
 
 ::: {.g-col-4}
-![](assets/Combs_Headshot_White.jpg){fig-alt="Kara Combs" width="75%"}
+![](assets/Combs_Headshot_White.jpg){fig-alt="Kara Combs" width="100%"}
 :::
 
 ::: {.g-col-8}
 ## Hi! I'm Kara Combs!
 
 I am a computer engineer at the Air Force Research Laboratory and a operations research Ph.D. candidate at the Air Force Institute of Technology. My research focuses on improving defense applications of artificial intelligence and machine learning (AI/ML) systems through biologically-inspired advancements based on analogical reasoning, neuroscience, and more! I have 20+ peer-reviewed publications and have presented my work at 30+ conferences. I am active in several professional societies and K-12 STEM outreach events.
+
+<a
+id="cy-effective-orcid-url"
+class="underline"
+  href="https://orcid.org/0000-0002-6313-8563"
+  target="orcid.widget"
+  rel="me noopener noreferrer"
+  style="vertical-align: top">
+  <img
+    src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+    style="width: 1em; margin-inline-start: 0.5em"
+    alt="ORCID iD icon"/>
+  https://orcid.org/0000-0002-6313-8563
+</a>
 
 ### Quick Links
 - See my **[Publications](publications.qmd)**
