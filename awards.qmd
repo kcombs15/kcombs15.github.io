@@ -1,0 +1,78 @@
+---
+title: "Awards"
+page-layout: article
+---
+
+## 2025
+<details>
+  <summary><strong>Best Track Paper Nomination</strong>, <em>58th Hawaii International Conference on System Sciences (HICSS)</em></summary>
+  <p>
+  Nominated for the HICSS Decision Analytics and Service Science Track's best paper for "Zero-shot comparison of large language models (LLMs) reasoning abilities on long-text analogies" (19 papers nominated out of 132 accepted papers across 34 mini-tracks)
+  </p>
+  ::: {.text-center}
+  [HICSS58 Best Paper Nominations](https://docs.google.com/spreadsheets/d/1qSG3u03cW5Zv9st4hVcI5YvafGnbUr0r1i8HTLxtUGA/edit?gid=0#gid=0){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px; margin: 10px;"} [Read the paper](https://hdl.handle.net/10125/109034){.btn .btn-secondary target="_blank" style="border-radius: 24px; padding: 10px 24px; margin: 10px;"}
+  :::
+</details>
+
+## 2024
+<details>
+  <summary><strong>Division Nominee for the Brian M. Hendrickson Memorial Award (Team)</strong>, <em>AFRL Sensors Directorate</em></summary>
+  <p>
+  Award recognizes exceptional team research accomplishment in exploratory or advanced development and contribution of technology to the Air Force; Nominated by second-level supervisor (Division Chief) for contributions to the "Analogical Learning" team
+  </p>
+</details>
+<details>
+  <summary><strong>INFORMS Judith Liebman Award</strong>, <em>INFORMS</em></summary>
+  <p>
+  Award for student volunteers who have been "moving spirits" in their university, local chapter(s), and the Institute
+  </p>
+  ::: {.text-center}
+  [Read more about the award](https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Judith-Liebman-Award){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px; margin: 10px;"}
+  :::
+</details>
+<details>
+  <summary><strong>Student Leadership (Graduate Level) Award</strong>, <em>Women of Color in STEM Conference</em></summary>
+  <p>
+  Award given to a graduate student with a creative verve, accomplished academic record, & proven desire to help others succeed
+  </p>
+</details>
+<details>
+  <summary><strong>STEM Advocate of the Quarter for Quarter 1 of 2024</strong>, <em>AFRL Multi-domain Sensing Autonomy Division</em></summary>
+  <p>
+  Selected by second-level supervisor for involvement with TechFest Dayton, a K-12 STEM oureach expo
+  </p>
+</details>
+<details>
+  <summary><strong>Chief's Pick for Quarter 4 of 2023</strong>, <em>AFRL Multi-domain Sensing Autonomy Division</em></summary>
+  <p>
+  Selected by second-level supervisor for work contributions
+  </p>
+</details>
+
+## 2023
+<details>
+  <summary><strong>Divison Nominee for the Air Force Civillian of the Year (Category II) Award</strong>, <em>AFRL Sensors Directorate</em></summary>
+  <p>
+  Nominated by second-level supervisor for work contributions throughout 2023; Category II corresponds to employees with equivalent rank between GS-9 and GS-11
+  </p>
+</details>
+<details>
+  <summary><strong>Inno Under 25</strong>, <em>Dayton Business Journal</em></summary>
+  <p>
+  Recognition of the top founders, entrepreneurs, innovators, and leaders under 25 in the Dayton ecosystem
+  </p>
+  ::: {.text-center}
+  [Read the article](https://www.bizjournals.com/dayton/inno/stories/awards/2023/10/26/inno-under-25-award-winners.html?csrc=6398&utm_campaign=trueAnthemTrendingContent&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwAR3vmw5ygqcaKExqzmcBwyW2xwFUZRGauStbmQllndwPR0KbtzkSh53rj3k){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px; margin: 10px;"}
+  :::
+</details>
+
+## 2021
+<details>
+  <summary><strong>Notable Fall 2021 Graduate</strong>, <em>Wright State University</em></summary>
+  <p>
+  Featured as one of three notable students participating in Wright State University's Fall 2021 commencement ceremony
+  </p>
+  ::: {.text-center}
+  [Read the article](https://webapp2.wright.edu/web1/newsroom/2021/12/06/nearly-1200-students-to-graduate-at-wright-states-fall-commencement/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px; margin: 10px;"}
+  :::
+</details>
