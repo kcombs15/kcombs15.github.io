@@ -13,10 +13,10 @@ website:
     left:
       - text: Home
         href: /
+      - text: Education & Experience
+        href: education_experience.qmd
       - text: Publications
         href: publications.qmd
-      - text: CV
-        href: cv.qmd
       - text: Projects
         href: projects.qmd
       - text: Service

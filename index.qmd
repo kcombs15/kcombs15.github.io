@@ -33,7 +33,7 @@ class="underline"
 - See my **[Publications](publications.qmd)**
 - See my **[Service](service.qmd)**
 <!-- - View my **[Projects](projects.qmd)** -->
-<!-- - Grab my **[CV](cv.qmd)** -->
+<!-- - Grab my **[CV](education_experience.qmd)** -->
 :::
 
 :::
