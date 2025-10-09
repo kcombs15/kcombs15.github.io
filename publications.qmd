@@ -58,15 +58,15 @@ grid_html = f"""
 <div class="grid" style="margin: 0.5rem 0;">
   <div class="g-col-3" style="text-align: center;">
     <h1 style="font-size: 3rem; font-weight: bold; color: var(--bs-primary); margin-bottom: 0; line-height: 1;">{journal_count}</h1>
-    <p style="font-size: 1rem; margin: 0;">Journal Papers</p>
+    <p style="font-size: 1rem; margin: 0;">Journal Articles</p>
   </div>
   <div class="g-col-3" style="text-align: center;">
     <h1 style="font-size: 3rem; font-weight: bold; color: var(--bs-primary); margin-bottom: 0; line-height: 1;">{conference_count}</h1>
-    <p style="font-size: 1rem; margin: 0;">Conference Proceedings</p>
+    <p style="font-size: 1rem; margin: 0;">Conference Papers</p>
   </div>
   <div class="g-col-3" style="text-align: center;">
     <h1 style="font-size: 3rem; font-weight: bold; color: var(--bs-primary); margin-bottom: 0; line-height: 1;">{magazine_count}</h1>
-    <p style="font-size: 1rem; margin: 0;">Magazine Articles</p>
+    <p style="font-size: 1rem; margin: 0;">Magazine Columns</p>
   </div>
   <div class="g-col-3" style="text-align: center;">
     <h1 style="font-size: 3rem; font-weight: bold; color: var(--bs-primary); margin-bottom: 0; line-height: 1;">{presentations_total}</h1>

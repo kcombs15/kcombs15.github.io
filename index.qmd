@@ -6,16 +6,10 @@ toc: false
 
 ::: {.grid}
 
-::: {.g-col-4}
-![](assets/Combs_Headshot_White.jpg){fig-alt="Kara Combs" width="100%"}
-:::
+::: {.g-col-12 .g-col-md-4}
+![](assets/Combs_Headshot_White.jpg){fig-alt="Kara Combs" width="75%"}
 
-::: {.g-col-8}
-## Hi! I'm Kara Combs!
-
-I am a computer engineer at the Air Force Research Laboratory and a operations research Ph.D. candidate at the Air Force Institute of Technology. My research focuses on improving defense applications of artificial intelligence and machine learning (AI/ML) systems through biologically-inspired advancements based on analogical reasoning, neuroscience, and more! I have 20+ peer-reviewed publications and have presented my work at 30+ conferences. I am active in several professional societies and K-12 STEM outreach events.
-
-<!-- <a
+<a
 id="cy-effective-orcid-url"
 class="underline"
   href="https://orcid.org/0000-0002-6313-8563"
@@ -27,10 +21,16 @@ class="underline"
     style="width: 1em; margin-inline-start: 0.5em"
     alt="ORCID iD icon"/>
   https://orcid.org/0000-0002-6313-8563
-</a> -->
+</a>
+:::
 
-### Current collaboration opportunities
-- [SOCHE Defense Area Graduate Student Innovators (DAGSI) Fellowship](https://www.soche.org/programs-and-services/employers/dagsi/): Provides funding to one graduate student and facilty stipend at DAGSI-elgible Ohio institutions of higher education (Applications due in early February 2026)
+::: {.g-col-12 .g-col-md-8}
+## Hi! I'm Kara Combs!
+
+I am a computer engineer at the Air Force Research Laboratory and a operations research Ph.D. candidate at the Air Force Institute of Technology. My research focuses on improving defense applications of artificial intelligence and machine learning (AI/ML) systems through biologically-inspired advancements based on analogical reasoning, neuroscience, and more! I have 20+ peer-reviewed publications and have presented my work at 30+ conferences. I am active in several professional societies and K-12 STEM outreach events.
+
+#### Current collaboration opportunities
+- [SOCHE Defense Associated Graduate Student Innovators (DAGSI) Fellowship](https://www.soche.org/programs-and-services/employers/dagsi/): Provides funding to one graduate student and facilty stipend at DAGSI-elgible Ohio institutions of higher education (applications due in early February 2026)
   - [Uncrewed aerial vehicles (UAV) detection using neuromorphic solutions](https://www.soche.org/wp-content/uploads/2025/10/RY26-1-Combs.pdf)
   - [Reinforcement learning guided by analogical graph neural networks (GNNs)](https://www.soche.org/wp-content/uploads/2025/10/RY26-2-Combs.pdf)
   - [Situationally Aware, Intent-based Sensor Fusion and Generative AI](https://www.soche.org/wp-content/uploads/2025/10/RY26-3-Combs.pdf)
