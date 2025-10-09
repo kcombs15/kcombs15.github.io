@@ -49,3 +49,9 @@ execute:
 jupyter: python3
 python:
   executable: .venv/Scripts/python.exe
+  packages:
+    - pandas
+    - plotly
+    - jupyter
+    - pyyaml
+    - ipykernel
