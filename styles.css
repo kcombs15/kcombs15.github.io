@@ -81,3 +81,13 @@ body.page-index .grid {
     margin-bottom: 2rem;
   }
 }
+
+/* Awards page summary styling */
+details summary {
+  color: var(--bs-primary);
+  cursor: pointer;
+}
+
+details summary:hover {
+  color: #4a2d7a;
+}
