@@ -71,6 +71,12 @@ fig.show()
 ```
 :::
 
+## In review
+::: {.in-review}
+1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #220025ff; color:#220025ff;"> Journal </span> **Combs, K.,** Champagne, L., Cox, B., Schubert Kabban, C., Bihl, T., & Lemming, G. Analogy2KG: An automatic pipeline for deriving knowledge graphs from long-text analogies. *Knowledge-based Systems, in review.*
+
+^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
+:::
 
 ## 2026
 ::: {.2026}

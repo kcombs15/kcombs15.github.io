@@ -91,3 +91,39 @@ details summary {
 details summary:hover {
   color: #4a2d7a;
 }
+
+/* Floating toggle button for awards */
+.awards-toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  background-color: var(--bs-secondary);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.awards-toggle:hover {
+  background-color: #4a2d7a;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.awards-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Hide toggle on small screens */
+@media (max-width: 768px) {
+  .awards-toggle {
+    display: none;
+  }
+}

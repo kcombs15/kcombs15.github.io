@@ -3,6 +3,48 @@ title: "Awards"
 page-layout: article
 ---
 
+<!-- Floating toggle button -->
+<button class="awards-toggle" id="toggleAll" onclick="toggleAllDetails()">
+  Expand All
+</button>
+
+<script>
+function toggleAllDetails() {
+  const details = document.querySelectorAll('details');
+  const button = document.getElementById('toggleAll');
+  const isExpanding = button.textContent === 'Expand All';
+  
+  details.forEach(detail => {
+    detail.open = isExpanding;
+  });
+  
+  button.textContent = isExpanding ? 'Collapse All' : 'Expand All';
+}
+
+// Update button text based on current state
+function updateToggleButton() {
+  const details = document.querySelectorAll('details');
+  const button = document.getElementById('toggleAll');
+  const openCount = Array.from(details).filter(detail => detail.open).length;
+  
+  if (openCount === 0) {
+    button.textContent = 'Expand All';
+  } else if (openCount === details.length) {
+    button.textContent = 'Collapse All';
+  } else {
+    button.textContent = 'Expand All';
+  }
+}
+
+// Listen for individual details changes
+document.addEventListener('DOMContentLoaded', function() {
+  const details = document.querySelectorAll('details');
+  details.forEach(detail => {
+    detail.addEventListener('toggle', updateToggleButton);
+  });
+});
+</script>
+
 ## 2025
 <details>
   <summary><strong>Best Track Paper Nomination</strong>, <em>58th Hawaii International Conference on System Sciences (HICSS)</em></summary>
