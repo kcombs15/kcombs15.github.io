@@ -15,7 +15,7 @@ toc: false
 
 I am a computer engineer at the Air Force Research Laboratory and a operations research Ph.D. candidate at the Air Force Institute of Technology. My research focuses on improving defense applications of artificial intelligence and machine learning (AI/ML) systems through biologically-inspired advancements based on analogical reasoning, neuroscience, and more! I have 20+ peer-reviewed publications and have presented my work at 30+ conferences. I am active in several professional societies and K-12 STEM outreach events.
 
-<a
+<!-- <a
 id="cy-effective-orcid-url"
 class="underline"
   href="https://orcid.org/0000-0002-6313-8563"
@@ -27,7 +27,7 @@ class="underline"
     style="width: 1em; margin-inline-start: 0.5em"
     alt="ORCID iD icon"/>
   https://orcid.org/0000-0002-6313-8563
-</a>
+</a> -->
 
 ### Current collaboration opportunities
 - [SOCHE Defense Area Graduate Student Innovators (DAGSI) Fellowship](https://www.soche.org/programs-and-services/employers/dagsi/): Provides funding to one graduate student and facilty stipend at DAGSI-elgible Ohio institutions of higher education (Applications due in early February 2026)
