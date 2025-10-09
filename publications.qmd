@@ -6,32 +6,25 @@ execute:
   echo: false
 ---
 
-::: {.text-center}
-As of September 2025, I have authored or co-authored 20+ peer-review publications and have presented my work at 30+ conference venues.
+Check out my publications and profiles below! The majority of my research concerns advancing artifical intelligence and machine learning (AI/ML) through analogical reasoning.
 
-<div style="text-align: center; margin: 20px 0;">
+<div style="text-align: center; margin: 0px 0 5px 0;">
   <a href="https://scholar.google.com/citations?user=TOV6TicAAAAJ&hl=en" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
-    Check me out on Google Scholar!
+    Google Scholar
+  </a>
+  <a href="https://orcid.org/0000-0002-6313-8563" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    ORCiD
+  </a>
+  <a href="https://www.webofscience.com/wos/author/record/AED-9815-2022" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Web of Science
+  </a>
+  <!-- <a href="https://ieeexplore.ieee.org/author/959146478792938" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    IEEE Explore
+  </a> -->
+  <a href="https://dblp.org/pid/319/9191.html" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    DBLP
   </a>
 </div>
-
-<!-- 
-Colors:
-#220025ff, #80008cff, #a900b9ff, #6a346fff, #b558bdff
-
-Type Badges:
-<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #220025ff; color:#6220025ff;"> Journal </span>
-<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #6a346fff; color:#6a346fff;"> Conference </span>
-<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #80008cff; color:#80008cff;"> Magazine </span>
-<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span>
-<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #b558bdff; color:#b558bdff;"> Poster </span> 
-
-Special Badges:
-Link: <a class="badge bg-primary" href="LINK">TEXT</a> 
-Non-Link: <span class="badge bg-primary">TEXT</span>
--->
-
-
 ```{python echo=false}
 import pandas as pd
 import plotly.express as px
@@ -52,6 +45,38 @@ df["Publication Type"] = df["Publication Type"].astype(pub_type_cat)
 # Count by year and type
 counts = df.groupby(["Year","Publication Type"], observed=False).size().reset_index(name="Count")
 
+# Calculate counts for the grid
+journal_count = len(df[df["Publication Type"] == "Journal"])
+conference_count = len(df[df["Publication Type"] == "Conference"])
+magazine_count = len(df[df["Publication Type"] == "Magazine"])
+presentations_total = len(df[df["Publication Type"].isin(["Conference", "Poster", "Presentation"])])
+
+# Display the counts grid
+from IPython.display import HTML, display
+
+grid_html = f"""
+<div class="grid" style="margin: 0.5rem 0;">
+  <div class="g-col-3" style="text-align: center;">
+    <h1 style="font-size: 3rem; font-weight: bold; color: var(--bs-primary); margin-bottom: 0; line-height: 1;">{journal_count}</h1>
+    <p style="font-size: 1rem; margin: 0;">Journal Papers</p>
+  </div>
+  <div class="g-col-3" style="text-align: center;">
+    <h1 style="font-size: 3rem; font-weight: bold; color: var(--bs-primary); margin-bottom: 0; line-height: 1;">{conference_count}</h1>
+    <p style="font-size: 1rem; margin: 0;">Conference Proceedings</p>
+  </div>
+  <div class="g-col-3" style="text-align: center;">
+    <h1 style="font-size: 3rem; font-weight: bold; color: var(--bs-primary); margin-bottom: 0; line-height: 1;">{magazine_count}</h1>
+    <p style="font-size: 1rem; margin: 0;">Magazine Articles</p>
+  </div>
+  <div class="g-col-3" style="text-align: center;">
+    <h1 style="font-size: 3rem; font-weight: bold; color: var(--bs-primary); margin-bottom: 0; line-height: 1;">{presentations_total}</h1>
+    <p style="font-size: 1rem; margin: 0;">Presentations</p>
+  </div>
+</div>
+"""
+
+display(HTML(grid_html))
+
 # Set custom colors for each publication type
 custom_colors = ["#220025", "#80008c", "#a900b9", "#6a346f", "#b558bd"]
 
@@ -66,10 +91,40 @@ fig = px.bar(
   barmode="group",
   title="Publications by Year and Type"
 )
+
+# Move legend inside the plot
+fig.update_layout(
+  legend=dict(
+    x=0.98,  # Position from left (0-1)
+    y=0.98,  # Position from bottom (0-1)
+    xanchor='right',
+    yanchor='top',
+    bgcolor='rgba(255,255,255,0.8)',  # Semi-transparent white background
+    bordercolor='rgba(0,0,0,0.2)',
+    borderwidth=1
+  )
+)
+
 # fig.update_layout(width=750, height=400)
 fig.show()
 ```
-:::
+---
+
+<!-- 
+Colors:
+#220025ff, #80008cff, #a900b9ff, #6a346fff, #b558bdff
+
+Type Badges:
+<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #220025ff; color:#6220025ff;"> Journal </span>
+<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #6a346fff; color:#6a346fff;"> Conference </span>
+<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #80008cff; color:#80008cff;"> Magazine </span>
+<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span>
+<span class="badge rounded-pill" style="background-color:transparent; border:1px solid #b558bdff; color:#b558bdff;"> Poster </span> 
+
+Special Badges:
+Link: <a class="badge bg-primary" href="LINK">TEXT</a> 
+Non-Link: <span class="badge bg-primary">TEXT</span>
+-->
 
 ## In review
 ::: {.in-review}

@@ -29,9 +29,15 @@ class="underline"
   https://orcid.org/0000-0002-6313-8563
 </a>
 
-### Quick Links
-- See my **[Publications](publications.qmd)**
-- See my **[Service](service.qmd)**
+### Current collaboration opportunities
+- [SOCHE Defense Area Graduate Student Innovators (DAGSI) Fellowship](https://www.soche.org/programs-and-services/employers/dagsi/): Provides funding to one graduate student and facilty stipend at DAGSI-elgible Ohio institutions of higher education (Applications due in early February 2026)
+  - [Uncrewed aerial vehicles (UAV) detection using neuromorphic solutions](https://www.soche.org/wp-content/uploads/2025/10/RY26-1-Combs.pdf)
+  - [Reinforcement learning guided by analogical graph neural networks (GNNs)](https://www.soche.org/wp-content/uploads/2025/10/RY26-2-Combs.pdf)
+  - [Situationally Aware, Intent-based Sensor Fusion and Generative AI](https://www.soche.org/wp-content/uploads/2025/10/RY26-3-Combs.pdf)
+
+<!-- ### Quick Links -->
+<!-- - See my **[Publications](publications.qmd)**
+- See my **[Service](service.qmd)** -->
 <!-- - View my **[Projects](projects.qmd)** -->
 <!-- - Grab my **[CV](education_experience.qmd)** -->
 :::
