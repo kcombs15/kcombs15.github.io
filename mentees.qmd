@@ -45,14 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-I enjoy working with students of all ages and make an effort to mentor the next generation each year. I have served as a mentor for 7 students across 8 projects. Learn more about the programs I mentor through below:
-
-- [Defense Associated Graduate Student Innovators (DAGSI) Fellows](https://www.soche.org/programs-and-services/employers/dagsi/): Open to graduate students at DAGSI-elgible Ohio institutions of higher education
-- [Leadership Experience Growing Apprenticeships Committed to Youth (LEGACY) Program](https://wpafbstem.com/LEGACY/legacy_overview.html): Open to students who have previously attended LEGACY Craftsman camp between 5th and 10th grade
-- [Science, Mathematics and Research for Transformation (SMART) Scholars](https://www.smartscholarship.org/smart/en): Scholarship-for-service program open to college students
-- [Wright Scholar Research Assistant Program](https://wpafbstem.com/Wright_Scholar/Wright_scholar.html): Open to high school juniors and seniors who will be 16+ years old prior to June 1
-
----
+I enjoy working with students of all ages and make an effort to mentor the next generation each year. I have served as a mentor for 7 students across 8 projects across 4 programs ([DAGSI](https://www.soche.org/programs-and-services/employers/dagsi/), [LEGACY](https://wpafbstem.com/LEGACY/legacy_overview.html), [SMART](https://www.smartscholarship.org/smart/en), [Wright Scholar](https://wpafbstem.com/Wright_Scholar/Wright_scholar.html))
 
 ## Mentee Highlights
 
@@ -81,7 +74,7 @@ I enjoy working with students of all ages and make an effort to mentor the next 
       </div>
       <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
         <h4 style="color: #553590; margin-bottom: 15px;">Jacqueline Liu</h4>
-        <h6 margin-bottom: 15px;">SMART Scholar 2025</h6>
+        <h6 margin-bottom: 15px;"><em>SMART Scholar 2025</em></h6>
         <p>Project incorporated into 2025 SDIP Final Review and AFRL Discover posters</p>
       </div>
     </div>

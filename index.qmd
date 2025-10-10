@@ -7,7 +7,7 @@ toc: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](assets/Combs_Headshot_White.jpg){fig-alt="Kara Combs" width="75%"}
+![](assets/Combs_Headshot_White.jpg){fig-alt="Kara Combs" width="75%" style="border-radius: 16px;"}
 
 <a
 id="cy-effective-orcid-url"
@@ -20,7 +20,7 @@ class="underline"
     src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
     style="width: 1em; margin-inline-start: 0.5em"
     alt="ORCID iD icon"/>
-  https://orcid.org/0000-0002-6313-8563
+  0000-0002-6313-8563
 </a>
 :::
 
