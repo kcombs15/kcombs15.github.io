@@ -3,15 +3,6 @@ title: "Mentees"
 page-layout: article
 ---
 
-I enjoy working with students of all ages and make an effort to mentor the next generation each year. I have served as a mentor for 7 students across 8 projects. Learn more about the programs I mentor through below:
-
-- [Defense Associated Graduate Student Innovators (DAGSI) Fellows](https://www.soche.org/programs-and-services/employers/dagsi/): Open to graduate students at DAGSI-elgible Ohio institutions of higher education
-- [Leadership Experience Growing Apprenticeships Committed to Youth (LEGACY) Program](https://wpafbstem.com/LEGACY/legacy_overview.html): Open to students who have previously attended LEGACY Craftsman camp between 5th and 10th grade
-- [Science, Mathematics and Research for Transformation (SMART) Scholars](https://www.smartscholarship.org/smart/en): Scholarship-for-service program open to college students
-- [Wright Scholar Research Assistant Program](https://wpafbstem.com/Wright_Scholar/Wright_scholar.html): Open to high school juniors and seniors who will be 16+ years old prior to June 1
-
----
-
 <!-- Floating toggle button -->
 <button class="awards-toggle" id="toggleAll" onclick="toggleAllDetails()">
   Expand All
@@ -53,6 +44,169 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
+I enjoy working with students of all ages and make an effort to mentor the next generation each year. I have served as a mentor for 7 students across 8 projects. Learn more about the programs I mentor through below:
+
+- [Defense Associated Graduate Student Innovators (DAGSI) Fellows](https://www.soche.org/programs-and-services/employers/dagsi/): Open to graduate students at DAGSI-elgible Ohio institutions of higher education
+- [Leadership Experience Growing Apprenticeships Committed to Youth (LEGACY) Program](https://wpafbstem.com/LEGACY/legacy_overview.html): Open to students who have previously attended LEGACY Craftsman camp between 5th and 10th grade
+- [Science, Mathematics and Research for Transformation (SMART) Scholars](https://www.smartscholarship.org/smart/en): Scholarship-for-service program open to college students
+- [Wright Scholar Research Assistant Program](https://wpafbstem.com/Wright_Scholar/Wright_scholar.html): Open to high school juniors and seniors who will be 16+ years old prior to June 1
+
+---
+
+## Mentee Highlights
+
+::: {.slideshow}
+```{=html}
+<div class="mentoring-slideshow-container" style="position: relative; max-width: 100%; height: 320px; margin: auto; border-radius: 8px; overflow: hidden; background: #f8f9fa; border: 1px solid #dee2e6;">
+
+  <!-- Slides -->
+  <div class="mentoring-slide fade active">
+    <div class="slide-content" style="display: flex; align-items: center; justify-content: center; padding: 20px 50px; min-height: 300px;">
+      <div class="slide-image" style="flex: 0 0 40%; margin-right: 30px;">
+        <img src="assets/mentees/IsaiahChristopherson.jpeg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+      </div>
+      <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
+        <h4 style="color: #553590; margin-bottom: 15px;">Isaiah Christopherson</h4>
+        <h6 margin-bottom: 15px;"><em>Wright Scholar Research Assistant 2023 & 2024</em></h6>
+        <p>Projects incorporated into AIAA DCASS presentation, a 2024 ACM SIGMIS CPR paper, and a 2025 IEEE NAECON paper</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mentoring-slide fade">
+    <div class="slide-content" style="display: flex; align-items: center; justify-content: center; padding: 20px 50px; min-height: 300px;">
+      <div class="slide-image" style="flex: 0 0 40%; margin-right: 30px;">
+        <img src="assets/mentees/JacquelineLiu.jpg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+      </div>
+      <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
+        <h4 style="color: #553590; margin-bottom: 15px;">Jacqueline Liu</h4>
+        <h6 margin-bottom: 15px;">SMART Scholar 2025</h6>
+        <p>Project incorporated into 2025 SDIP Final Review and AFRL Discover posters</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="mentoring-slide fade">
+    <div class="slide-content" style="display: flex; align-items: center; justify-content: center; padding: 20px 50px; min-height: 300px;">
+      <div class="slide-image" style="flex: 0 0 40%; margin-right: 30px;">
+        <img src="assets/Combs_Headshot_White.jpg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+      </div>
+      <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
+        <h4 style="color: #553590; margin-bottom: 15px;">Professional Development</h4>
+        <p>Supporting students in developing professional skills, research methodologies, and academic writing through hands-on project collaboration.</p>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Next/prev buttons -->
+  <a class="mentoring-prev" onclick="plusMentoringSlides(-1)" style="cursor: pointer; position: absolute; top: 50%; left: 5px; padding: 8px 12px; margin-top: -22px; color: #553590; font-weight: bold; font-size: 20px; transition: 0.3s; border-radius: 3px; user-select: none; background: rgba(255,255,255,0.9); z-index: 10;">❮</a>
+  <a class="mentoring-next" onclick="plusMentoringSlides(1)" style="cursor: pointer; position: absolute; top: 50%; right: 5px; padding: 8px 12px; margin-top: -22px; color: #553590; font-weight: bold; font-size: 20px; transition: 0.3s; border-radius: 3px; user-select: none; background: rgba(255,255,255,0.9); z-index: 10;">❯</a>
+
+</div>
+
+<!-- Dots -->
+<div id="mentoring-slideshow-dots" style="text-align:center; margin-top: 15px;"></div>
+
+<script>
+// Create dots for mentoring slideshow
+const numMentoringSlides = document.getElementsByClassName("mentoring-slide").length;
+const mentoringDotsContainer = document.getElementById("mentoring-slideshow-dots");
+mentoringDotsContainer.innerHTML = Array.from({length: numMentoringSlides}, (_, i) =>
+  `<span class="mentoring-dot" onclick="currentMentoringSlide(${i+1})" style="cursor: pointer; height: 12px; width: 12px; margin: 0 2px; background-color: #bbb; border-radius: 50%; display: inline-block; transition: background-color 0.3s;"></span>`
+).join(' ');
+
+let mentoringSlideIndex = 1;
+showMentoringSlides(mentoringSlideIndex);
+
+function plusMentoringSlides(n) {showMentoringSlides(mentoringSlideIndex += n);}
+function currentMentoringSlide(n) {showMentoringSlides(mentoringSlideIndex = n);}
+function showMentoringSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mentoring-slide");
+  let dots = document.getElementsByClassName("mentoring-dot");
+  if (n > slides.length) {mentoringSlideIndex = 1}
+  if (n < 1) {mentoringSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].style.backgroundColor = "#bbb";
+  }
+  slides[mentoringSlideIndex-1].classList.add("active");
+  dots[mentoringSlideIndex-1].style.backgroundColor = "#553590";
+}
+
+// Auto-play for mentoring slideshow
+setInterval(() => {plusMentoringSlides(1);}, 8000);
+</script>
+
+<style>
+.mentoring-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mentoring-slide.fade {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.mentoring-slide.fade.active {
+  opacity: 1;
+}
+
+.mentoring-prev:hover, .mentoring-next:hover {
+  background-color: rgba(85, 53, 144, 0.1);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .slide-content {
+    flex-direction: column !important;
+    text-align: center;
+    align-items: center !important;
+    padding: 15px !important;
+  }
+  
+  .slide-image {
+    flex: none !important;
+    margin: 0 auto 15px auto !important;
+    max-width: 180px;
+    width: 180px !important;
+  }
+  
+  .slide-image img {
+    height: 180px !important;
+  }
+  
+  .slide-text {
+    padding: 0 !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  
+  .mentoring-slideshow-container {
+    height: auto !important;
+    min-height: 400px !important;
+    padding-bottom: 20px;
+  }
+  
+  .mentoring-prev, .mentoring-next {
+    top: 25% !important;
+  }
+}
+  }
+}
+</style>
+
+```
+:::
+
+---
 
 ## Defense Associated Graduate Student Innovators (DAGSI) Fellows
 
