@@ -2,6 +2,170 @@
 title: "Features"
 page-layout: full
 toc: false
+format: html
 ---
 
-Under construction!
+<style>
+.hover-card {
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hover-card .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hover-card .expandable-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover functionality for desktop */
+@media (hover: hover) {
+  .hover-card:hover .expandable-content {
+    max-height: 300px;
+    opacity: 1;
+  }
+
+  .hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+}
+
+/* Click functionality for mobile/touch devices */
+.hover-card.expanded .expandable-content {
+  max-height: 300px;
+  opacity: 1;
+}
+
+.hover-card.expanded {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.card-header {
+  padding: 0.5rem 0.5rem !important;
+  line-height: 1.3 !important;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add click handlers for mobile/touch devices
+  const cards = document.querySelectorAll('.hover-card');
+  
+  cards.forEach(card => {
+    card.addEventListener('click', function(e) {
+      // Only handle clicks on touch devices or when hover is not supported
+      if (window.matchMedia('(hover: none)').matches) {
+        e.preventDefault();
+        
+        // Toggle expanded state
+        if (this.classList.contains('expanded')) {
+          this.classList.remove('expanded');
+        } else {
+          // Close other expanded cards first
+          cards.forEach(otherCard => {
+            if (otherCard !== this) {
+              otherCard.classList.remove('expanded');
+            }
+          });
+          
+          // Expand this card
+          this.classList.add('expanded');
+        }
+      }
+    });
+  });
+});
+</script>
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**Dayton Daily News**  
+Jun. 2017
+:::
+
+::: {.card-body}
+##### 16 Dayton-area valedictorians you should know {.card-title}
+
+::: {.expandable-content}
+A sampling of valedictorians from around the Miami Valley region
+
+[Read the article](https://www.daytondailynews.com/news/grad-spotlight/irPPuU2zGbQpgQJEGly1RL/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU Newsroom**  
+Feb. 2021
+:::
+
+::: {.card-body}
+##### Wright State industrial and systems engineering students win first place in Great Lakes technical paper competition {.card-title}
+
+::: {.expandable-content}
+Three Wright State University students captured first place in a major technical paper competition at a virtual conference held by the Institute of Industrial and Systems Engineers (IISE)
+
+[Read the article](https://webapp2.wright.edu/web1/newsroom/2021/02/24/wright-state-industrial-and-systems-engineering-students-win-first-place-in-great-lakes-technical-paper-competition/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU Newsroom**  
+May 2021
+:::
+
+::: {.card-body}
+##### Nearly 70 students take part in engineering, computing induction ceremony {.card-title}
+
+::: {.expandable-content}
+Nearly 70 Wright State University engineering and computer science and engineering students took part in an induction ceremony for the Order of the Engineer and the Pledge of the Computing Professional
+
+[Read the article](https://webapp2.wright.edu/web1/newsroom/2021/05/06/nearly-70-students-take-part-in-engineering-computing-induction-ceremony/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**TBP's The Bulletin**  
+May 2021
+:::
+
+::: {.card-body}
+##### 2021-22 Student Advisory Board & TBP Fellows {.card-title}
+
+::: {.expandable-content}
+Introduction of the 2021-22 Tau Beta Pi Student Advisory Board and Fellows
+
+[Read the articles](https://lsc-pagepro.mydigitalpublication.com/publication/?i=708218&ver=html5){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+:::
