@@ -23,6 +23,8 @@ website:
         href: service.qmd
       - text: Mentees
         href: mentees.qmd
+      - text: Features
+        href: features.qmd
     right:
       - icon: github
         href: https://github.com/kcombs15

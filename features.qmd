@@ -2,6 +2,411 @@
 title: "Features"
 page-layout: full
 toc: false
+format: html
 ---
 
-Under construction!
+<style>
+.hover-card {
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+  min-height: 255px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hover-card .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hover-card .expandable-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover functionality for desktop */
+@media (hover: hover) {
+  .hover-card:hover .expandable-content {
+    max-height: 400px;
+    opacity: 1;
+  }
+
+  .hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+}
+
+/* Click functionality for mobile/touch devices */
+.hover-card.expanded .expandable-content {
+  max-height: 350px;
+  opacity: 1;
+}
+
+.hover-card.expanded {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.card-header {
+  padding: 0.5rem 0.5rem !important;
+  line-height: 1.3 !important;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add click handlers for mobile/touch devices
+  const cards = document.querySelectorAll('.hover-card');
+  
+  cards.forEach(card => {
+    card.addEventListener('click', function(e) {
+      // Only handle clicks on touch devices or when hover is not supported
+      if (window.matchMedia('(hover: none)').matches) {
+        e.preventDefault();
+        
+        // Toggle expanded state
+        if (this.classList.contains('expanded')) {
+          this.classList.remove('expanded');
+        } else {
+          // Close other expanded cards first
+          cards.forEach(otherCard => {
+            if (otherCard !== this) {
+              otherCard.classList.remove('expanded');
+            }
+          });
+          
+          // Expand this card
+          this.classList.add('expanded');
+        }
+      }
+    });
+  });
+});
+</script>
+
+::: {.grid}
+
+<!-- Row 4 (from the bottom) -->
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WDTN 2 News**  
+Feb. 2025
+:::
+
+::: {.card-body}
+**Dayton's TechFest gives kids a chance to explore STEM passions** 
+
+::: {.expandable-content}
+Local students had the chance to explore their STEM passions at Tech Fest this weekend. The annual event brought together dozens of kids of all ages and backgrounds from across the Miami Valley.
+
+[Watch the clip](https://www.wdtn.com/as-seen-on-2-news/daytons-techfest-gives-kids-a-chance-to-explore-stem-passions/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**AFIT ENgineer**  
+Dec. 2024
+:::
+
+::: {.card-body}
+**Tau Beta Pi AFIT Chapter Welcomes Newest Members** 
+
+::: {.expandable-content}
+Tau Beta PI AFIT Chapter welcomes 11 new members during the 2024 Fall Quarter
+
+[Read the newsletter](https://www.afit.edu/docs/AFIT%20Engineer_Dec2024_web.pdf){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**AFIT News**  
+Jan. 2024
+:::
+
+::: {.card-body}
+**Inspiring Tomorrow's Innovators Through STEM Outreach** 
+
+::: {.expandable-content}
+An AFIT professor and student share their insights on mentoring high school students
+
+[Read the AFIT News article](https://www.afit.edu/news.cfm?article=03604B01){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+
+[Read the AFIT ENgineer article](https://www.afit.edu/docs/AFIT%20Engineer_Mar2024_web.pdf){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**Dayton Business Journal**  
+Oct. 2023
+:::
+
+::: {.card-body}
+**Dayton Inno Under 25** 
+
+::: {.expandable-content}
+Young entrepreneurs being recognized for innovation in the Dayton region
+
+[Read the article](https://www.bizjournals.com/dayton/inno/stories/awards/2023/10/26/inno-under-25-award-winners.html?csrc=6398&utm_campaign=trueAnthemTrendingContent&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwAR3vmw5ygqcaKExqzmcBwyW2xwFUZRGauStbmQllndwPR0KbtzkSh53rj3k){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+
+<!-- Row 3 (from the bottom) -->
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**Dayton Daily News**  
+Feb. 2023
+:::
+
+::: {.card-body}
+**Kids get hands-on STEM education at Techfest 2023** 
+
+::: {.expandable-content}
+There was something for kids (and adults) of all ages to explore during TechFest 2023 at Sinclair Community College
+
+[Read the article](https://www.daytondailynews.com/local/kids-get-hands-on-stem-education-at-techfest-2023/IGROOK5LNVHXJMUYVMWKOT73TA/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU YouTube Channel**  
+Jul. 2022
+:::
+
+::: {.card-body}
+**Wright State University Experiential Learning Video Series, Kara Combs** 
+
+::: {.expandable-content}
+Internship was featured as a career services spotlight
+
+[Watch the video](https://youtu.be/aOPLdg6E5fY){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU Newsroom**  
+Dec. 2021
+:::
+
+::: {.card-body}
+**Nearly 1,200 students to graduate at Wright State's fall commencement** 
+
+::: {.expandable-content}
+Featured as one of three notable graduates participating during Wright State University’s 2021 fall commencement ceremonies
+
+[Read the article](https://webapp2.wright.edu/web1/newsroom/2021/12/06/nearly-1200-students-to-graduate-at-wright-states-fall-commencement/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU Newsroom**  
+Oct. 2021
+:::
+
+::: {.card-body}
+**Tau Beta Pi trifecta** 
+
+::: {.expandable-content}
+Tau Beta Pi Laureate award latest honor for Wright State graduate engineering student Kara Combs
+
+[Read the article](https://taubetapiathq.com/2021/10/19/kara-combs-wins-tau-beta-pi-collegiate-award-trifecta/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+<!-- Row 2 (Second from the bottom) -->
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**TBP's The Bent & The Bulletin**  
+Oct. 2021
+:::
+
+::: {.card-body}
+**2021 Tau Beta Pi Laureate Awards** 
+
+::: {.expandable-content}
+Four Laureates have been selected in the program's 39th year to recognize gifted engineering students who have excelled in areas beyond their technical majors
+
+[Read The Bent Article](https://www.tbp.org/memb/Laureates2021.pdf){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+
+[Read The Bulletin Article](https://lsc-pagepro.mydigitalpublication.com/publication/?i=721778&ver=html5&p=4){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px; margin-top: 8px; display: inline-block; white-space: normal; line-height: 1.3;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**Spaced Out Doc's Blog**  
+Aug. 2021
+:::
+
+::: {.card-body}
+**Industrial & systems engineering specialist | Meet Tau Bate, Kara** 
+
+::: {.expandable-content}
+Featured in Dr. Michaelyn Thomas's blog as she introduces the next generation of STEMinists
+
+[Read the post](https://spacedoutdoc.com/f/industrial-systems-engineering-specialist-%7C-meet-tau-bate-kara){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU Newsroom**  
+Jul. 2021
+:::
+
+::: {.card-body}
+**Wright State's graduate student Kara Combs receives top national award from IISE** 
+
+::: {.expandable-content}
+Combs was recognized with the IISE James W. Barany Student Award for Excellence, an honor for undergraduate students who have brought distinction to industrial engineering at their universities
+
+[Read the article](https://webapp2.wright.edu/web1/newsroom/2021/07/06/wright-state-graduate-student-kara-combs-receives-top-national-award-from-institute-of-industrial-and-systems-engineers/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU Newsroom**  
+Jun. 2021
+:::
+
+::: {.card-body}
+**Wright State business students capture top IT award using data analytics to predict pet adoption** 
+
+::: {.expandable-content}
+WSU business students win [Technology First’s 2021 Award of Excellence](https://technologyfirst.org/leadership-awards) for their project that aimed to predict pet adoption speeds
+
+[Read the article](https://webapp2.wright.edu/web1/newsroom/2021/06/24/wright-state-business-students-capture-it-award-using-data-analytics-to-predict-pet-adoption/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+
+<!-- Row 1 (bottom) -->
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**TBP's The Bulletin**  
+May 2021
+:::
+
+::: {.card-body}
+**2021-22 Student Advisory Board & TBP Fellows** 
+
+::: {.expandable-content}
+Introduction of the 2021-22 Tau Beta Pi Student Advisory Board and Fellows
+
+[Read the article](https://lsc-pagepro.mydigitalpublication.com/publication/?i=708218&ver=html5){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU Newsroom**  
+May 2021
+:::
+
+::: {.card-body}
+**Nearly 70 students take part in engineering, computing induction ceremony** 
+
+::: {.expandable-content}
+Nearly 70 Wright State University engineering and computer science and engineering students took part in an induction ceremony for the Order of the Engineer and the Pledge of the Computing Professional
+
+[Read the article](https://webapp2.wright.edu/web1/newsroom/2021/05/06/nearly-70-students-take-part-in-engineering-computing-induction-ceremony/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**WSU Newsroom**  
+Feb. 2021
+:::
+
+::: {.card-body}
+**Wright State industrial and systems engineering students win first place in Great Lakes technical paper competition** 
+
+::: {.expandable-content}
+Three Wright State University students captured first place in a major technical paper competition at a virtual conference held by the Institute of Industrial and Systems Engineers (IISE)
+
+[Read the article](https://webapp2.wright.edu/web1/newsroom/2021/02/24/wright-state-industrial-and-systems-engineering-students-win-first-place-in-great-lakes-technical-paper-competition/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-3}
+::: {.card .border-primary .mb-3 .rounded .text-center .hover-card}
+::: {.card-header .bg-primary .text-white .py-1}
+**Dayton Daily News**  
+Jun. 2017
+:::
+
+::: {.card-body}
+**16 Dayton-area valedictorians you should know** 
+
+::: {.expandable-content}
+A sampling of valedictorians from around the Miami Valley region
+
+[Read the article](https://www.daytondailynews.com/news/grad-spotlight/irPPuU2zGbQpgQJEGly1RL/){.btn .btn-primary target="_blank" style="border-radius: 24px; padding: 10px 24px;"}
+:::
+:::
+:::
+:::
+
+:::
