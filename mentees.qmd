@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-I enjoy working with students of all ages and make an effort to mentor the next generation each year. I have served as a mentor for 7 students across 8 projects across 4 programs ([DAGSI](https://www.soche.org/programs-and-services/employers/dagsi/), [LEGACY](https://wpafbstem.com/LEGACY/legacy_overview.html), [SMART](https://www.smartscholarship.org/smart/en), [Wright Scholar](https://wpafbstem.com/Wright_Scholar/Wright_scholar.html))
+I enjoy working with students of all ages and make an effort to mentor the next generation each year. I have served as a mentor for 7 students across 8 projects through 4 programs ([DAGSI](https://www.soche.org/programs-and-services/employers/dagsi/), [LEGACY](https://wpafbstem.com/LEGACY/legacy_overview.html), [SMART](https://www.smartscholarship.org/smart/en), [Wright Scholar](https://wpafbstem.com/Wright_Scholar/Wright_scholar.html)).
 
 ## Mentee Highlights
 
