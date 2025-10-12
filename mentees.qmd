@@ -80,17 +80,18 @@ I enjoy working with students of all ages and make an effort to mentor the next 
     </div>
   </div>
 
-  <!-- <div class="mentoring-slide fade">
+  <div class="mentoring-slide fade">
     <div class="slide-content" style="display: flex; align-items: center; justify-content: center; padding: 20px 50px; min-height: 300px;">
       <div class="slide-image" style="flex: 0 0 40%; margin-right: 30px;">
-        <img src="assets/Combs_Headshot_White.jpg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+        <img src="assets/mentees/AddamJensen.jpeg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
       </div>
       <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
-        <h4 style="color: #553590; margin-bottom: 15px;">Professional Development</h4>
-        <p>Supporting students in developing professional skills, research methodologies, and academic writing through hands-on project collaboration.</p>
+        <h4 style="color: #553590; margin-bottom: 15px;">Addam Jensen</h4>
+        <h6 margin-bottom: 15px;"><em>DAGSI Fellow 2025 - 2026</em></h6>
+        <p>Pursuing M.S. in Computer Science & Engineering from Ohio State University</p>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- Next/prev buttons -->
   <a class="mentoring-prev" onclick="plusMentoringSlides(-1)" style="cursor: pointer; position: absolute; top: 50%; left: 5px; padding: 8px 12px; margin-top: -22px; color: #553590; font-weight: bold; font-size: 20px; transition: 0.3s; border-radius: 3px; user-select: none; background: rgba(255,255,255,0.9); z-index: 10;">❮</a>
@@ -184,8 +185,8 @@ setInterval(() => {plusMentoringSlides(1);}, 8000);
   
   .mentoring-slideshow-container {
     height: auto !important;
-    min-height: 400px !important;
-    padding-bottom: 20px;
+    min-height: 450px !important;
+    padding-bottom: 30px;
   }
   
   .mentoring-prev, .mentoring-next {
