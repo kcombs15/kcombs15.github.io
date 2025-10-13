@@ -3,6 +3,7 @@ title: "Features"
 page-layout: full
 toc: false
 format: html
+format: html
 ---
 
 <style>
