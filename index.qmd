@@ -94,6 +94,16 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
     <div class="caption">Technology First Awards 2021</div>
   </div>
 
+  <div class="mySlides fade">
+    <img src="assets/slideshow/INFORMS ORMS Tomorrow 2022.jpg" style="width:100%; height:300px; object-fit:contain; background:#fff;">
+    <div class="caption">OR/MS Tomorrow at the 2022 INFORMS Annual Meeting</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="assets/slideshow/TechFest2025.jpg" style="width:100%; height:300px; object-fit:contain; background:#fff;">
+    <div class="caption">TechFest 2025 Steering Committee Members</div>
+  </div>
+
   <!-- Next/prev buttons -->
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>

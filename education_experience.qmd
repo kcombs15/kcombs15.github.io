@@ -3,10 +3,6 @@ title: "Education & Experience"
 page-layout: article
 ---
 
-<!-- You can either maintain a Markdown CV here **or** link a PDF. -->
-
-<!-- - **PDF version:** [Download CV](/files/cv.pdf) -->
-
 ## Education
 - Ph.D. Operations Research, *Air Force Institute of Technology*, Jan. 2023 – present
 - M.S. Industrial and Human Factors Engineering, *Wright State University*, Aug. 2019 - Dec. 2021
@@ -25,5 +21,29 @@ page-layout: article
 - [Ohio Engineering Intern License](https://elicense.ohio.gov/oh_verifylicensedetails?pid=a0Rt00000045Jb9EAE), *Ohio State Board of Registration for Professional Engineers and Surveyors*
 - [Business Analytics Certificate](https://www.credly.com/badges/966d80ed-90fc-476e-b5a2-40c0d6f82aac), *SAS & Wright State University*
 
-<!-- ## Awards
-- Example Award, 2024 -->
+## Professional Memberships
+- American Society for Engineering Education (ASEE)
+  - Student Member, 2025 - Present
+- Association for the Advancement of Artificial Intelligence (AAAI)
+  - Student Member, 2025 - Present
+- Assocation for Computing Machinery (ACM)
+  - Professional Member, 2024 - 2025
+- Institute for Operations Research and the Management Sciences (INFORMS)
+  - Profesional Member, 2022 - Present
+  - Student Member, 2021 - 2022
+<!-- - Institute for Electrical and Electronics Engineers (IEEE)
+  - Student Member, 2024 - 2025 -->
+<!-- - Institute of Industrial and Systems Engineers (IISE)
+  - Professional Member, 2021 - 2023
+  - Student Member, 2017 - 2021 -->
+- Military Operations Research (MORS)
+  - Student Member, 2024 - 2025
+- Order of the Engineer (ethics pledge)
+  - Inductee, 2021
+- Society of Women Engineers (SWE)
+  - Student Member, 2023 - Present
+  - Professional Member, 2022 - 2023
+- Tau Beta Pi (engineering honor society)
+  - Initiate, 2019
+- Women in Defense (WID)
+  - Member, 2025 - Present

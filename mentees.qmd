@@ -243,7 +243,7 @@ Mentees are assigned to a mentor throughout their degree while summer interns ar
 
 ## Wright Scholars Research Assistant Program
 <details>
-  <summary><strong>Isaiah Christopherson</strong>, <em>B.S. Electrical Engineering at Miami University (OH) (2028)</em></summary>
+  <summary><strong>Isaiah Christopherson</strong>, <em>B.S. electrical engineering at Miami University (OH) (2028)</em></summary>
   <ul>
     <li> 2024 Project: Optimizing algorithm pre-processing steps and analyzing convolutional neural network performance (incorporated into 2025 IEEE NAECON Paper, in press) </li>
     <li> 2023 Project: Leveraging generative AI and human factors techniques for building image datasets (shared project; incorporated into [2024 ACM SIGMIS CPR Conference Paper](https://doi.org/10.1145/3632634.3655849)) </li>
