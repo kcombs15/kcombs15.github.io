@@ -250,7 +250,7 @@ Mentees are assigned to a mentor throughout their degree while summer interns ar
   </ul>
 </details>
 <details>
-  <summary><strong>Arya Gadre</strong><em></em></summary>
+  <summary><strong>Arya Gadre</strong>, <em>B.S. economics at Ohio State University (2028)</em></summary>
   <ul>
     <li> 2023 Project: Leveraging generative AI and human factors techniques for building image datasets (shared project; incorporated into [2024 ACM SIGMIS CPR Conference Paper](https://doi.org/10.1145/3632634.3655849))</li>
   </ul>
