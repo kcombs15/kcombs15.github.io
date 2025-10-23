@@ -37,7 +37,7 @@ page-layout: article
   - Professional Member, 2021 - 2023
   - Student Member, 2017 - 2021 -->
 - Military Operations Research (MORS)
-  - Student Member, 2024 - 2025
+  - Student Member, 2024 - Present
 - Order of the Engineer (ethics pledge)
   - Inductee, 2021
 - Society of Women Engineers (SWE)
