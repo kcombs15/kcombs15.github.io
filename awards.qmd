@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
 </details>
 <details>
-  <summary><strong>Student Leadership (Graduate Level) Award</strong>, <em>Women of Color in STEM Conference</em></summary>
+  <summary><strong>Student Leadership (Graduate Level) Award</strong>, <em>Waves of Change STEM Conference</em></summary>
   <p>
   Award given to a graduate student with a creative verve, accomplished academic record, & proven desire to help others succeed
   </p>

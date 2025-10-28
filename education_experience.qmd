@@ -15,6 +15,20 @@ page-layout: article
 - Graduate Research Assistant, *Wright State University*, May 2021 - Dec. 2021
 - Research Engineer Intern, *Applied Research Solutions*, May 2020 - Mar. 2022
 
+## Grants & Funding
+- Dynamic Analogical Inference for Adaptive Data Representation and Fusion, *Air Force Research Laboratory Sensors Directorate*
+  - Period of Performance: Feb. 2025 - Jul. 2026
+  - Amount: $75,000
+  - Team: K. Combs (PI)
+- Analogical Learning for Aerial Sensing Autonomy, *Air Force Research Laboratory Sensors Directorate*
+  - Period of Performance: Feb. - Nov. 2024
+  - Amount: $75,000
+  - Team: K. Combs (PI)
+- TechFest Dayton: Large-scale K-12 STEM Outreach, *INFORMS 2024 Ambassadors Program*
+  - Period of Performance: Jan. - Dec. 2024
+  - Amount: $500
+  - Team: K. Combs (PI), N. Gaw (Co-PI), & T. Bihl (Co-PI)
+
 ## Certifications & Licenses
 - [AFRL Introduction to Intellectural Property Certification](https://badgr.com/public/assertions/JIRBkpQdSGGd578s8TKqeg?identity__email=kara.combs.1@us.af.mil&action=download), *AFRL & University of Dayton School of Law*
 - [Fundamentals of Systems Acquisition Management (ACQ 1010)](https://www.credly.com/badges/be101b3e-630a-4605-ad5e-036a90e1419a/public_url), *Defense Acquisition University*
@@ -37,7 +51,7 @@ page-layout: article
   - Professional Member, 2021 - 2023
   - Student Member, 2017 - 2021 -->
 - Military Operations Research (MORS)
-  - Student Member, 2024 - Present
+  - Student Member, 2025 - Present
 - Order of the Engineer (ethics pledge)
   - Inductee, 2021
 - Society of Women Engineers (SWE)
