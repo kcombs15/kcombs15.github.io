@@ -52,8 +52,12 @@ document.addEventListener('DOMContentLoaded', function() {
   Nominated for the HICSS Decision Analytics and Service Science Track's best paper for "Zero-shot comparison of large language models (LLMs) reasoning abilities on long-text analogies" (19 papers nominated out of 132 accepted papers across 34 mini-tracks)
   </p>
   
-  [HICSS58 Best Paper Nominations](https://docs.google.com/spreadsheets/d/1qSG3u03cW5Zv9st4hVcI5YvafGnbUr0r1i8HTLxtUGA/edit?gid=0#gid=0){.btn .btn-primary target="_blank"}
-  [Read the paper](https://hdl.handle.net/10125/109034){.btn .btn-secondary target="_blank"}
+  <a href="https://docs.google.com/spreadsheets/d/1qSG3u03cW5Zv9st4hVcI5YvafGnbUr0r1i8HTLxtUGA/edit?gid=0#gid=0" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    HICSS58 Best Paper Nominations
+  </a>
+  <a href="https://hdl.handle.net/10125/109034" class="btn btn-secondary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Read the paper
+  </a>
   
 </details>
 
@@ -70,7 +74,9 @@ document.addEventListener('DOMContentLoaded', function() {
   Award for student volunteers who have been "moving spirits" in their university, local chapter(s), and the Institute
   </p>
   
-  [About INFORMS Judith Liebman Award](https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Judith-Liebman-Award){.btn .btn-primary target="_blank"}
+  <a href="https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Judith-Liebman-Award" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    About INFORMS Judith Liebman Award
+  </a>
   
 </details>
 <details>
@@ -105,7 +111,9 @@ document.addEventListener('DOMContentLoaded', function() {
   Recognition of the top founders, entrepreneurs, innovators, and leaders under 25 in the Dayton ecosystem
   </p>
   
-  [Dayton Business Journal Article](https://www.bizjournals.com/dayton/inno/stories/awards/2023/10/26/inno-under-25-award-winners.html?csrc=6398&utm_campaign=trueAnthemTrendingContent&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwAR3vmw5ygqcaKExqzmcBwyW2xwFUZRGauStbmQllndwPR0KbtzkSh53rj3k){.btn .btn-primary target="_blank"}
+  <a href="https://www.bizjournals.com/dayton/inno/stories/awards/2023/10/26/inno-under-25-award-winners.html?csrc=6398&utm_campaign=trueAnthemTrendingContent&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwAR3vmw5ygqcaKExqzmcBwyW2xwFUZRGauStbmQllndwPR0KbtzkSh53rj3k" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Dayton Business Journal Article
+  </a>
   
 </details>
 
@@ -116,17 +124,23 @@ document.addEventListener('DOMContentLoaded', function() {
   Featured as one of three notable students participating in Wright State University's Fall 2021 commencement ceremony
   </p>
 
-  [Wright State University Newsroom Article](https://webapp2.wright.edu/web1/newsroom/2021/12/06/nearly-1200-students-to-graduate-at-wright-states-fall-commencement/){.btn .btn-primary target="_blank"}
+  <a href="https://webapp2.wright.edu/web1/newsroom/2021/12/06/nearly-1200-students-to-graduate-at-wright-states-fall-commencement/" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Wright State University Newsroom Article
+  </a>
 
 </details>
 <details>
   <summary><strong>Laureate Award (Distinction: Service)</strong>, <em>Tau Beta Pi</em></summary>
   <p>
-  Award given annually to up to five student members who outstandingly exemplify the “spirit of liberal culture in engineering colleges” 
+  Award given annually to up to five student members who outstandingly exemplify the "spirit of liberal culture in engineering colleges" 
   </p>
 
-  [About the Tau Beta Pi Laureate Award](https://www.tbp.org/awards.cfm?key=laureate){.btn .btn-primary target="_blank"}
-  [Wright State University Newsroom Article](https://webapp2.wright.edu/web1/newsroom/2021/10/05/tau-beta-pi-trifecta/){.btn .btn-primary target="_blank"}
+  <a href="https://www.tbp.org/awards.cfm?key=laureate" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    About the Tau Beta Pi Laureate Award
+  </a>
+  <a href="https://webapp2.wright.edu/web1/newsroom/2021/10/05/tau-beta-pi-trifecta/" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Wright State University Newsroom Article
+  </a>
 
 </details>
 <details>
@@ -135,7 +149,9 @@ document.addEventListener('DOMContentLoaded', function() {
   Award given to one Dayton-area undergraduate project in the field of information technology (IT) or analytics among the three finalists
   </p>
 
-  [Wright State University Newsroom Article](https://webapp2.wright.edu/web1/newsroom/2021/06/24/wright-state-business-students-capture-it-award-using-data-analytics-to-predict-pet-adoption/){.btn .btn-primary target="_blank"}
+  <a href="https://webapp2.wright.edu/web1/newsroom/2021/06/24/wright-state-business-students-capture-it-award-using-data-analytics-to-predict-pet-adoption/" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Wright State University Newsroom Article
+  </a>
 
 </details>
 <details>
@@ -150,26 +166,34 @@ document.addEventListener('DOMContentLoaded', function() {
   Award given to a graduating senior who has brought distinction to industrial engineering at their institution
   </p>
 
-  [Wright State University Newsroom Article](https://webapp2.wright.edu/web1/newsroom/2021/07/06/wright-state-graduate-student-kara-combs-receives-top-national-award-from-institute-of-industrial-and-systems-engineers/){.btn .btn-primary target="_blank"}
+  <a href="https://webapp2.wright.edu/web1/newsroom/2021/07/06/wright-state-graduate-student-kara-combs-receives-top-national-award-from-institute-of-industrial-and-systems-engineers/" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Wright State University Newsroom Article
+  </a>
 
 </details>
 <details>
   <summary><strong>Harold M. King Fellowship No. 60</strong>, <em>Tau Beta Pi</em></summary>
   <p>
-  Award based on merit to support Tau Beta Pi members pursuing graduate study (&lt;8.5% selection rate); Specific fellowship is given to a “recipient whose participation in his/her technical society is judged worthy of special mention” 
+  Award based on merit to support Tau Beta Pi members pursuing graduate study (&lt;8.5% selection rate); Specific fellowship is given to a "recipient whose participation in his/her technical society is judged worthy of special mention" 
   </p>
 
-  [List of 2021 -2022 Tau Beta Pi Fellows](https://tbp.org/memb/FellowsList/2021-22.cfm){.btn .btn-primary target="_blank"}
-  [Wright State University Newsroom Article](https://webapp2.wright.edu/web1/newsroom/2021/10/05/tau-beta-pi-trifecta/){.btn .btn-primary target="_blank"}
+  <a href="https://tbp.org/memb/FellowsList/2021-22.cfm" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    List of 2021 -2022 Tau Beta Pi Fellows
+  </a>
+  <a href="https://webapp2.wright.edu/web1/newsroom/2021/10/05/tau-beta-pi-trifecta/" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Wright State University Newsroom Article
+  </a>
 
 </details>
 <details>
   <summary><strong>1st Place Great Lakes Regional Undergraduate Technical Paper Competition</strong>, <em>Institute for Industrial and System Engineers (IISE)</em></summary>
   <p>
-  Selected by a panel of judges to represent the Great Lakes region in the Global Finals at the IISE Annual Meeting with the project, “Putting a smile on redesigning: A dental facility layout problem” 
+  Selected by a panel of judges to represent the Great Lakes region in the Global Finals at the IISE Annual Meeting with the project, "Putting a smile on redesigning: A dental facility layout problem" 
   </p>
 
-  [Wright State University Newsroom Article](https://webapp2.wright.edu/web1/newsroom/2021/02/24/wright-state-industrial-and-systems-engineering-students-win-first-place-in-great-lakes-technical-paper-competition/){.btn .btn-primary target="_blank"}
+  <a href="https://webapp2.wright.edu/web1/newsroom/2021/02/24/wright-state-industrial-and-systems-engineering-students-win-first-place-in-great-lakes-technical-paper-competition/" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Wright State University Newsroom Article
+  </a>
 
 </details>
 
@@ -180,7 +204,9 @@ document.addEventListener('DOMContentLoaded', function() {
   Selected by a panel of judges for the mini-poster on "Cramming questions: Quiz bowl set optimization"
   </p>
 
-  [Competition Winners Announcement](https://www.informs.org/Publications/OR-MS-Tomorrow/OR-MS-Tomorrow-Mini-Poster-Competition-Winners){.btn .btn-primary target="_blank"}
+  <a href="https://www.informs.org/Publications/OR-MS-Tomorrow/OR-MS-Tomorrow-Mini-Poster-Competition-Winners" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Competition Winners Announcement
+  </a>
 
 </details>
 <details>
@@ -195,7 +221,9 @@ document.addEventListener('DOMContentLoaded', function() {
   One of twelve scholarship receipents to attend the INFORMS Annual Meeting (at the time of the award the scholarship was exclusively for undergraduate students)
   </p>
 
-  [About the INFORMS Scholarship](https://www.informs.org/Recognizing-Excellence/Scholarships/INFORMS-Scholarship){.btn .btn-primary target="_blank"}
+  <a href="https://www.informs.org/Recognizing-Excellence/Scholarships/INFORMS-Scholarship" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    About the INFORMS Scholarship
+  </a>
 
 </details>
 <details>
@@ -218,6 +246,8 @@ document.addEventListener('DOMContentLoaded', function() {
   Receiptient of one of Tau Beta Pi's undergraduate scholarships (56% selection rate)
   </p>
 
-  [Scholar Biographies](https://tbp.org/memb/ScholarArchives/ScholarBios/ScholarBios19-20.pdf){.btn .btn-primary target="_blank"}
+  <a href="https://tbp.org/memb/ScholarArchives/ScholarBios/ScholarBios19-20.pdf" class="btn btn-primary" target="_blank" style="border-radius: 24px; padding: 10px 24px;">
+    Scholar Biographies
+  </a>
 
 </details>
