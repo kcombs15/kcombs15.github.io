@@ -1,8 +1,13 @@
 ---
 title: "Features"
-page-layout: full
-toc: false
-format: html
+page-layout: article
+format: 
+  html:
+    toc: true
+    toc-location: right
+    toc-depth: 2
+    toc-title: "Contents"
+    toc-expand: true
 ---
 
 ```{=html}
@@ -10,7 +15,7 @@ format: html
 /* Carousel Card Styles */
 .features-carousel {
   position: relative;
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   padding: 20px 60px; /* Add padding for buttons */
@@ -28,25 +33,34 @@ format: html
 }
 
 .feature-card {
-  min-width: 300px;
+  width: 300px;
   flex-shrink: 0;
+  flex-grow: 0;
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid #e0e0e0;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: inherit;
 }
 
 .card-image {
   width: 100%;
   height: 120px;
-  background: linear-gradient(135deg, var(--bs-primary), var(--bs-secondary));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +69,42 @@ format: html
   font-weight: bold;
   text-align: center;
   position: relative;
+}
+
+/* Image element styles for object-fit support */
+.card-image img {
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  object-fit: cover; /* Default object-fit */
+  object-position: center;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 0;
+  border-radius: 4px;
+}
+
+/* When an image is set via background-image, hide the text and reduce overlay */
+.card-image.has-image {
+  background-blend-mode: overlay;
+}
+
+.card-image.has-image span {
+  display: none;
+}
+
+.card-image.has-image::before {
+  background: rgba(0,0,0,0.1); /* Lighter overlay for images */
+}
+
+/* When using img element, hide the text and adjust overlay */
+.card-image.has-img span {
+  display: none;
+}
+
+.card-image.has-img::before {
+  background: rgba(0,0,0,0.1); /* Lighter overlay for img elements */
+  z-index: 1;
 }
 
 .card-image::before {
@@ -69,7 +119,7 @@ format: html
 
 .card-image span {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding: 20px;
 }
 
@@ -82,6 +132,13 @@ format: html
   font-size: 0.9rem;
   margin-bottom: 10px;
   font-weight: 500;
+}
+
+.feature-card .outlet {
+  color: var(--bs-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 /* Carousel Navigation */
@@ -121,20 +178,28 @@ format: html
   cursor: not-allowed;
 }
 
-/* Different card colors */
-.card-1 { background: linear-gradient(135deg, #007bff, #0056b3); }
-.card-2 { background: linear-gradient(135deg, #28a745, #1e7e34); }
-.card-3 { background: linear-gradient(135deg, #ffc107, #e0a800); }
-.card-4 { background: linear-gradient(135deg, #dc3545, #c82333); }
-.card-5 { background: linear-gradient(135deg, #6f42c1, #5a32a3); }
-.card-6 { background: linear-gradient(135deg, #fd7e14, #e55a00); }
-.card-7 { background: linear-gradient(135deg, #20c997, #17a2b8); }
-.card-8 { background: linear-gradient(135deg, #e83e8c, #d91a72); }
+/* Card Style Variants */
+.card-image.card-light {
+  background: #A593CF;
+}
+
+.card-image.card-dark {
+  background: var(--bs-primary);
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .features-carousel {
+    padding: 20px 50px; /* Reduce padding on smaller screens */
+  }
+  
+  .features-list {
+    padding: 0 50px; /* Match carousel padding */
+  }
+  
   .feature-card {
-    min-width: 280px;
+    width: 280px;
+    flex-grow: 0;
   }
   
   .carousel-nav {
@@ -152,9 +217,24 @@ format: html
   }
 }
 
+@media (max-width: 480px) {
+  .features-carousel {
+    padding: 20px 35px; /* Even less padding on very small screens */
+  }
+  
+  .features-list {
+    padding: 0 35px; /* Match carousel padding */
+  }
+  
+  .feature-card {
+    width: 260px; /* Slightly smaller cards on very small screens */
+  }
+}
+
 .features-list {
-  max-width: 800px;
+  width: 100%;
   margin: 0 auto 40px auto;
+  padding: 0 0px; /* Match carousel padding */
 }
 
 .features-list ul {
@@ -172,276 +252,444 @@ format: html
   color: var(--bs-primary);
 }
 </style>
+```
+See below for article features and new clips featuring my interns and organizations that I am part of.
 
-<div class="features-list">
-  <p>Below are some of the key media features and recognitions I've received over the years:</p>
+## 2025
 
-  <ul>
-    <li><strong>WDTN 2 News</strong> (Feb. 2025) - Featured for TechFest Dayton 2025, highlighting STEM outreach efforts</li>
-  </ul>
+### Department of the Air Force (DAF) LEGACY Good News Story
 
-  <div class="features-carousel">
-    <button class="carousel-nav prev" onclick="moveCarousel(-1)">‹</button>
-    <button class="carousel-nav next" onclick="moveCarousel(1)">›</button>
+```{=html}
+<p>2024 & 2025 LEGACY intern, Isaiah Goble, was featured in the Wright-Patterson Air Force Base Educational Outreach Office's (WPAFB E.O.) May 2025 newsletter for his successful presentation at the AIAA Dayton-Cincinnati Aerospce Sciences Symposium in March 2025</p>
+<div class="features-carousel" data-carousel="carousel1">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel1')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel1')">›</button>
 
-    <div class="carousel-wrapper" id="carousel">
-
-    <div class="feature-card">
-      <div class="card-image card-1">
-        <span>WDTN 2 News</span>
-      </div>
-      <div class="feature-card-content">
-        <div class="date">February 2025</div>
-      </div>
+    <div class="carousel-wrapper" id="carousel1">
+      <a href="https://wpafbstem.com/newsletters/2025/May_2025_EO_Newsletter.pdf#page=3.00" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="/assets/features/AIAA DCASS 2025.png" alt="WPAFB E.O. Newsletter" style="object-fit: cover; object-position: center 5%;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">May 2025</div>
+          <div class="outlet">WPAFB E.O. Newsletter</div>
+        </div>
+      </a>
     </div>
+  </div>
+```
 
-    <div class="feature-card">
-      <div class="card-image card-2">
-        <span>AFIT Engineer Newsletter</span>
-      </div>
-      <div class="feature-card-content">
-        <div class="date">December 2024</div>
-      </div>
-    </div>
+### TechFest Dayton 2025
 
-    <div class="feature-card">
-      <div class="card-image card-3">
-        <span>AFIT News</span>
-      </div>
-      <div class="feature-card-content">
-        <div class="date">January 2024</div>
-      </div>
-    </div>
+```{=html}
+<p>TechFest Dayton 2025 was a great success with over 2,200+ attendees across the two days. Below is news coverage of the event itself and advertisement beforehand</p>
+<div class="features-carousel" data-carousel="carousel2">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel2')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel2')">›</button>
 
-    <div class="feature-card">
-      <div class="card-image card-4">
-        <span>Dayton Business Journal</span>
-      </div>
-      <div class="feature-card-content">
-        <div class="date">October 2023</div>
-      </div>
-    </div>
+    <div class="carousel-wrapper" id="carousel2">
 
-    <div class="feature-card">
-      <div class="card-image card-5">
-        <span>Dayton Daily News</span>
-      </div>
-      <div class="feature-card-content">
-        <div class="date">February 2023</div>
-      </div>
-    </div>
+      <a href="https://www.wdtn.com/as-seen-on-2-news/daytons-techfest-gives-kids-a-chance-to-explore-stem-passions/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="http://www.techfestdayton.org/wp-content/uploads/2024/09/Techfest-photo-18.jpg" alt="WDTN 2 News" style="object-fit: cover;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">February 2025</div>
+          <div class="outlet">WDTN 2 News</div>
+        </div>
+      </a>
 
-    <div class="feature-card">
-      <div class="card-image card-6">
-        <span>Wright State University</span>
-      </div>
-      <div class="feature-card-content">
-        <div class="date">July 2022</div>
-      </div>
-    </div>
-
-    <div class="feature-card">
-      <div class="card-image card-7">
-        <span>Wright State Newsroom</span>
-      </div>
-      <div class="feature-card-content">
-        <div class="date">December 2021</div>
-      </div>
-    </div>
-
-    <div class="feature-card">
-      <div class="card-image card-8">
-        <span>Tau Beta Pi</span>
-      </div>
-      <div class="feature-card-content">
-        <div class="date">October 2021</div>
-      </div>
-    </div>
+      <a href="https://dayton247now.com/good-day-dayton/techfest-at-sinclair-college?fbclid=IwY2xjawIY7YlleHRuA2FlbQIxMQABHfSp9GyZMDFxRjZFMuYA0UjtVyIsFq2orvnbiZRD6THqsjlA4D27Qj71vg_aem_itrrmRaWEErzLcwknD6ypQ" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://media.licdn.com/dms/image/v2/D4E10AQGuVYadX8JB2Q/videocover-high/B4EZStp3TaHoBE-/0/1738080282015?e=2147483647&v=beta&t=QglPfbV2YFY4Ix12fU24jkGSk0hTDRsG0bvcx48ukf0" alt="Good Day Dayton" style="object-fit: cover;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">February 2025</div>
+          <div class="outlet">Good Day Dayton</div>
+        </div>
+      </a>
 
     </div>
   </div>
+```
 
-  <ul>
-    <li><strong>AFIT ENgineer Newsletter</strong> (Dec. 2024) - Recognition as new Tau Beta Pi member at AFIT</li>
-    <li><strong>AFIT News</strong> (Jan. 2024) - Featured for STEM outreach and mentoring high school students</li>
-    <li><strong>Dayton Business Journal</strong> (Oct. 2023) - Named one of five "Inno Under 25" young innovators</li>
-    <li><strong>Dayton Daily News</strong> (Feb. 2023) - Featured for TechFest 2023 STEM education event</li>
-    <li><strong>Wright State University YouTube</strong> (Jul. 2022) - Featured in Experiential Learning Video Series</li>
-    <li><strong>Wright State Newsroom</strong> (Multiple articles 2021) - Various achievements and awards</li>
-    <li><strong>Tau Beta Pi Publications</strong> (Oct. 2021) - Featured for Laureate Award recognition</li>
-    <li><strong>Spaced Out Doc's Blog</strong> (Aug. 2021) - Featured as next generation STEMinist</li>
-    <li><strong>Technology First</strong> (Jun. 2021) - Award recognition for data analytics project</li>
-  </ul>
-</div>
+## 2024
 
+### Tau Beta Pi AFIT Chapter Welcomes Newest Members
+
+```{=html}
+<p>The Ohio Eta chapter at the Air Force Institute of Technology (AFIT) added 11 new members during their 2024 Fall Initiation</p>
+<div class="features-carousel" data-carousel="carousel3">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel3')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel3')">›</button>
+
+    <div class="carousel-wrapper" id="carousel3">
+      <a href="https://www.afit.edu/docs/AFIT%20Engineer_Dec2024_web.pdf#page=5.11" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="/assets/features/TBP OHE 2024 Fall.jpeg" alt="AFIT ENgineer" style="object-fit: cover;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">December 2024</div>
+          <div class="outlet">AFIT ENgineer Newsletter</div>
+        </div>
+      </a>
+    </div>
+  </div>
+```
+
+### Inspiring Tomorrow's Innovators Through STEM Outreach
+
+```{=html}
+<p>An AFIT professor, Dr. Jose Camberos, and Ph.D. student, Ms. Kara Combs, team-up for multiple K-12 STEM outreach collaborations through the Wright Scholars Research Assistantship Program and WPAFB Job Shadow Day. The article was originally featured on the AFIT News page, which was later referenced and cross-posted to the AFIT ENgineer Newsletter and Wright-Patterson AFB News site, respectively.</p>
+<div class="features-carousel" data-carousel="carousel4">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel4')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel4')">›</button>
+
+    <div class="carousel-wrapper" id="carousel4">
+      <a href="https://www.afit.edu/news.cfm?article=03604B01" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://media.defense.gov/2024/Feb/07/2003390214/-1/-1/0/240207-F-F3456-1001.JPG" alt="AFIT News" style="object-fit: cover; object-position: center 20%;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">January 2024</div>
+          <div class="outlet">AFIT News</div>
+        </div>
+      </a>
+
+      <a href="https://www.wpafb.af.mil/News/Article-Display/Article/3669626/mentors-inspire-tomorrows-innovators-through-stem-outreach/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://media.defense.gov/2024/Feb/07/2003390216/-1/-1/0/240207-F-F3456-1001.JPG" alt="WPAFB News" style="object-fit: cover; object-position: center 15%;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">February 2024</div>
+          <div class="outlet">WPAFB News</div>
+        </div>
+      </a>
+
+      <a href="https://www.afit.edu/docs/AFIT%20Engineer_Mar2024_web.pdf#page=10.09" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://media.defense.gov/2024/Feb/07/2003390214/-1/-1/0/240207-F-F3456-1002.JPG" alt="AFIT ENgineer" style="object-fit: cover; object-position: center 20%;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">March 2024</div>
+          <div class="outlet">AFIT ENgineer Newsletter</div>
+        </div>
+      </a>
+    </div>
+  </div>
+```
+
+```{=html}
 <script>
-let currentIndex = 0;
-const carousel = document.getElementById('carousel');
-const carouselContainer = document.querySelector('.features-carousel');
-let items = [];
-let totalItems = 0;
-let isDragging = false;
-let startPos = 0;
-let currentTranslate = 0;
-let prevTranslate = 0;
-let animationId = 0;
+// Carousel state for each carousel
+const carousels = new Map();
 
-// Initialize carousel
-function initCarousel() {
-  items = document.querySelectorAll('.feature-card');
-  totalItems = items.length;
-  updateCarousel();
-  
-  // Add mouse events
-  carouselContainer.addEventListener('mousedown', dragStart);
-  carouselContainer.addEventListener('mousemove', dragMove);
-  carouselContainer.addEventListener('mouseup', dragEnd);
-  carouselContainer.addEventListener('mouseleave', dragEnd);
-  
-  // Add touch events
-  carouselContainer.addEventListener('touchstart', dragStart, { passive: false });
-  carouselContainer.addEventListener('touchmove', dragMove, { passive: false });
-  carouselContainer.addEventListener('touchend', dragEnd);
-  
-  // Add wheel/scroll events for trackpad
-  carouselContainer.addEventListener('wheel', handleWheel, { passive: false });
-  
-  // Prevent context menu
-  carouselContainer.addEventListener('contextmenu', e => e.preventDefault());
-}
-
-// Calculate how many items fit in view
-function getItemsInView() {
-  const containerWidth = carouselContainer.offsetWidth - 120; // Account for padding
-  const itemWidth = 320; // 300px + 20px gap
-  return Math.floor(containerWidth / itemWidth);
-}
-
-function updateCarousel() {
-  const itemsInView = getItemsInView();
-  const maxIndex = Math.max(0, totalItems - itemsInView);
-  
-  // Ensure currentIndex is within bounds
-  currentIndex = Math.max(0, Math.min(currentIndex, maxIndex));
-  
-  const translateX = currentIndex * -320; // 300px + 20px gap
-  currentTranslate = translateX;
-  prevTranslate = translateX;
-  carousel.style.transform = `translateX(${translateX}px)`;
-  
-  // Update button states
-  const prevBtn = document.querySelector('.carousel-nav.prev');
-  const nextBtn = document.querySelector('.carousel-nav.next');
-  
-  if (prevBtn && nextBtn) {
-    prevBtn.disabled = currentIndex === 0;
-    nextBtn.disabled = currentIndex >= maxIndex;
-  }
-}
-
-function moveCarousel(direction) {
-  const itemsInView = getItemsInView();
-  const maxIndex = Math.max(0, totalItems - itemsInView);
-  
-  currentIndex += direction;
-  currentIndex = Math.max(0, Math.min(currentIndex, maxIndex));
-  
-  updateCarousel();
-}
-
-// Drag functionality
-function dragStart(e) {
-  e.preventDefault(); // Prevent default behaviors
-  
-  if (e.type === 'touchstart') {
-    startPos = e.touches[0].clientX;
-  } else {
-    startPos = e.clientX;
+class Carousel {
+  constructor(carouselId) {
+    this.carouselId = carouselId;
+    this.currentIndex = 0;
+    this.carousel = document.getElementById(carouselId);
+    this.carouselContainer = document.querySelector(`[data-carousel="${carouselId}"]`);
+    this.items = [];
+    this.totalItems = 0;
+    this.isDragging = false;
+    this.startPos = 0;
+    this.currentTranslate = 0;
+    this.prevTranslate = 0;
+    this.animationId = 0;
+    this.scrollTimeout = null;
+    this.isScrolling = false;
+    this.hasMoved = false;
+    
+    this.init();
   }
   
-  isDragging = true;
-  animationId = requestAnimationFrame(animation);
-  carouselContainer.style.cursor = 'grabbing';
-}
-
-function dragMove(e) {
-  if (!isDragging) return;
-  
-  e.preventDefault(); // Prevent page scrolling
-  
-  let currentPosition;
-  if (e.type === 'touchmove') {
-    currentPosition = e.touches[0].clientX;
-  } else {
-    currentPosition = e.clientX;
+  init() {
+    if (!this.carousel || !this.carouselContainer) return;
+    
+    this.items = this.carousel.querySelectorAll('.feature-card');
+    this.totalItems = this.items.length;
+    this.updateCarousel();
+    
+    // Add click handlers to each card
+    this.items.forEach(card => {
+      card.addEventListener('click', (e) => this.handleCardClick(e));
+    });
+    
+    // Add mouse events
+    this.carouselContainer.addEventListener('mousedown', (e) => this.dragStart(e));
+    this.carouselContainer.addEventListener('mousemove', (e) => this.dragMove(e));
+    this.carouselContainer.addEventListener('mouseup', (e) => this.dragEnd(e));
+    this.carouselContainer.addEventListener('mouseleave', (e) => this.dragEnd(e));
+    
+    // Add touch events
+    this.carouselContainer.addEventListener('touchstart', (e) => this.dragStart(e), { passive: false });
+    this.carouselContainer.addEventListener('touchmove', (e) => this.dragMove(e), { passive: false });
+    this.carouselContainer.addEventListener('touchend', (e) => this.dragEnd(e));
+    
+    // Add wheel/scroll events for trackpad
+    this.carouselContainer.addEventListener('wheel', (e) => this.handleWheel(e), { passive: false });
+    
+    // Prevent context menu
+    this.carouselContainer.addEventListener('contextmenu', e => e.preventDefault());
   }
   
-  const diff = currentPosition - startPos;
-  currentTranslate = prevTranslate + diff;
-}
-
-function dragEnd() {
-  if (!isDragging) return;
-  
-  isDragging = false;
-  cancelAnimationFrame(animationId);
-  carouselContainer.style.cursor = 'grab';
-  
-  const movedBy = currentTranslate - prevTranslate;
-  
-  // If moved enough negative then snap to next slide
-  if (movedBy < -100 && currentIndex < totalItems - getItemsInView()) {
-    currentIndex += 1;
+  handleCardClick(e) {
+    if (this.hasMoved) {
+      e.preventDefault();
+      return false;
+    }
   }
   
-  // If moved enough positive then snap to previous slide
-  if (movedBy > 100 && currentIndex > 0) {
-    currentIndex -= 1;
-  }
-  
-  updateCarousel();
-}
-
-// Handle trackpad/wheel scrolling
-function handleWheel(e) {
-  e.preventDefault(); // Prevent page scroll
-  
-  const delta = e.deltaX || e.deltaY; // Use horizontal scroll if available, otherwise vertical
-  
-  if (Math.abs(delta) > 50) { // Increased threshold from 10 to 50 for less sensitivity
-    if (delta > 0) {
-      // Scroll right (next)
-      const itemsInView = getItemsInView();
-      const maxIndex = Math.max(0, totalItems - itemsInView);
-      if (currentIndex < maxIndex) {
-        currentIndex += 1;
-        updateCarousel();
-      }
+  getItemsInView() {
+    const containerWidth = this.carouselContainer.offsetWidth;
+    
+    // Calculate padding based on screen size
+    let padding;
+    if (window.innerWidth <= 480) {
+      padding = 70; // 35px * 2
+    } else if (window.innerWidth <= 768) {
+      padding = 100; // 50px * 2
     } else {
-      // Scroll left (previous)
-      if (currentIndex > 0) {
-        currentIndex -= 1;
-        updateCarousel();
+      padding = 120; // 60px * 2
+    }
+    
+    const availableWidth = containerWidth - padding;
+    
+    // Calculate actual card width + gap based on screen size
+    let cardWidth;
+    if (window.innerWidth <= 480) {
+      cardWidth = 260; // card width on very small screens
+    } else if (window.innerWidth <= 768) {
+      cardWidth = 280; // card width on tablets
+    } else {
+      cardWidth = 300; // card width on desktop
+    }
+    
+    // Calculate how many cards can fit - use a more generous calculation
+    // that accounts for the fact that the last card doesn't need a gap after it
+    const gap = 20;
+    
+    // Check if all items can fit (with a small tolerance for rounding/flexbox behavior)
+    if (this.totalItems > 0) {
+      const totalSpaceNeeded = (cardWidth * this.totalItems) + (gap * (this.totalItems - 1));
+      const tolerance = 50; // 50px tolerance for flexible layouts
+      if (availableWidth >= (totalSpaceNeeded - tolerance)) {
+        return this.totalItems; // All items fit
       }
+    }
+    
+    // Otherwise, calculate how many can fit
+    const maxItems = Math.floor((availableWidth + gap) / (cardWidth + gap));
+    
+    // Ensure we don't return more items than actually exist
+    return Math.min(maxItems, this.totalItems);
+  }
+  
+  updateCarousel() {
+    const itemsInView = this.getItemsInView();
+    const maxIndex = Math.max(0, this.totalItems - itemsInView);
+    
+    // Ensure currentIndex is within bounds
+    this.currentIndex = Math.max(0, Math.min(this.currentIndex, maxIndex));
+    
+    // Calculate actual card width + gap based on screen size
+    let cardWidth;
+    if (window.innerWidth <= 480) {
+      cardWidth = 260; // card width on very small screens
+    } else if (window.innerWidth <= 768) {
+      cardWidth = 280; // card width on tablets
+    } else {
+      cardWidth = 300; // card width on desktop
+    }
+    
+    const itemWidth = cardWidth + 20; // card width + gap
+    const translateX = this.currentIndex * -itemWidth;
+    this.currentTranslate = translateX;
+    this.prevTranslate = translateX;
+    this.carousel.style.transform = `translateX(${translateX}px)`;
+    
+    // Update button states
+    const prevBtn = this.carouselContainer.querySelector('.carousel-nav.prev');
+    const nextBtn = this.carouselContainer.querySelector('.carousel-nav.next');
+    
+    if (prevBtn && nextBtn) {
+      // Check if all items fit in the current view OR if scrolling doesn't reveal new cards
+      const allItemsFit = this.totalItems <= itemsInView;
+      
+      if (allItemsFit) {
+        // Hide buttons completely if all items fit
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+      } else {
+        // Show buttons and manage their states
+        prevBtn.style.display = 'block';
+        nextBtn.style.display = 'block';
+        
+        // Disable prev button if at the beginning
+        prevBtn.disabled = this.currentIndex === 0;
+        
+        // Disable next button if at the end
+        nextBtn.disabled = this.currentIndex >= maxIndex;
+      }
+    }
+  }
+  
+  moveCarousel(direction) {
+    const itemsInView = this.getItemsInView();
+    const maxIndex = Math.max(0, this.totalItems - itemsInView);
+    
+    // Don't move if all items fit in view
+    if (this.totalItems <= itemsInView) {
+      return;
+    }
+    
+    // Calculate new index
+    const newIndex = this.currentIndex + direction;
+    
+    // Only update if the new index is valid
+    if (newIndex >= 0 && newIndex <= maxIndex) {
+      this.currentIndex = newIndex;
+      this.updateCarousel();
+    }
+  }
+  
+  dragStart(e) {
+    e.preventDefault();
+    
+    if (e.type === 'touchstart') {
+      this.startPos = e.touches[0].clientX;
+    } else {
+      this.startPos = e.clientX;
+    }
+    
+    this.isDragging = true;
+    this.hasMoved = false;
+    this.animationId = requestAnimationFrame(() => this.animation());
+    this.carouselContainer.style.cursor = 'grabbing';
+  }
+  
+  dragMove(e) {
+    if (!this.isDragging) return;
+    
+    e.preventDefault();
+    
+    let currentPosition;
+    if (e.type === 'touchmove') {
+      currentPosition = e.touches[0].clientX;
+    } else {
+      currentPosition = e.clientX;
+    }
+    
+    const diff = currentPosition - this.startPos;
+    
+    if (Math.abs(diff) > 5) {
+      this.hasMoved = true;
+    }
+    
+    this.currentTranslate = this.prevTranslate + diff;
+  }
+  
+  dragEnd() {
+    if (!this.isDragging) return;
+    
+    this.isDragging = false;
+    cancelAnimationFrame(this.animationId);
+    this.carouselContainer.style.cursor = 'grab';
+    
+    const movedBy = this.currentTranslate - this.prevTranslate;
+    
+    if (movedBy < -100 && this.currentIndex < this.totalItems - this.getItemsInView()) {
+      this.currentIndex += 1;
+    }
+    
+    if (movedBy > 100 && this.currentIndex > 0) {
+      this.currentIndex -= 1;
+    }
+    
+    this.updateCarousel();
+    
+    setTimeout(() => {
+      this.hasMoved = false;
+    }, 10);
+  }
+  
+  handleWheel(e) {
+    if (this.isScrolling) {
+      // If we're already scrolling the carousel, prevent any scroll
+      if (Math.abs(e.deltaX) > 0) {
+        e.preventDefault();
+      }
+      return;
+    }
+    
+    // Detect if this is horizontal scrolling
+    // Check if deltaX exists and is significantly larger than deltaY
+    const isHorizontalScroll = (Math.abs(e.deltaX) > 0 && Math.abs(e.deltaX) >= Math.abs(e.deltaY)) || e.shiftKey;
+    
+    if (isHorizontalScroll) {
+      // Prevent the default horizontal page scroll
+      e.preventDefault();
+      
+      const delta = e.deltaX || (e.shiftKey ? e.deltaY : 0);
+      
+      if (Math.abs(delta) > 30) {
+        this.isScrolling = true;
+        
+        if (delta > 0) {
+          const itemsInView = this.getItemsInView();
+          const maxIndex = Math.max(0, this.totalItems - itemsInView);
+          if (this.currentIndex < maxIndex) {
+            this.currentIndex += 1;
+            this.updateCarousel();
+          }
+        } else {
+          if (this.currentIndex > 0) {
+            this.currentIndex -= 1;
+            this.updateCarousel();
+          }
+        }
+        
+        clearTimeout(this.scrollTimeout);
+        this.scrollTimeout = setTimeout(() => {
+          this.isScrolling = false;
+        }, 300);
+      }
+    }
+    // For vertical scrolling (deltaY > deltaX), don't preventDefault - allow normal page scroll
+  }
+  
+  animation() {
+    if (this.isDragging) {
+      this.carousel.style.transform = `translateX(${this.currentTranslate}px)`;
+      requestAnimationFrame(() => this.animation());
     }
   }
 }
 
-function animation() {
-  if (isDragging) {
-    carousel.style.transform = `translateX(${currentTranslate}px)`;
-    requestAnimationFrame(animation);
+// Global function for button clicks
+function moveCarousel(direction, carouselId) {
+  const carousel = carousels.get(carouselId);
+  if (carousel) {
+    carousel.moveCarousel(direction);
   }
 }
 
-// Initialize when DOM is loaded
+// Initialize all carousels when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
-  initCarousel();
+  const carouselElements = document.querySelectorAll('[data-carousel]');
+  carouselElements.forEach(element => {
+    const carouselId = element.dataset.carousel;
+    const carousel = new Carousel(carouselId);
+    carousels.set(carouselId, carousel);
+  });
 });
 
-// Update on window resize
+// Update all carousels on window resize
 window.addEventListener('resize', function() {
-  updateCarousel();
+  carousels.forEach(carousel => {
+    carousel.updateCarousel();
+  });
 });
 </script>
 ```
