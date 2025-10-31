@@ -27,3 +27,6 @@ This is a minimal, professional starter for an academic website powered by **Qua
 
 ## Venv
 - env\Scripts\Activate.ps1
+
+## Updates
+- Publications: Add the citation on publications.qmd and row to /assets/publications.csv for inclusion in the figure

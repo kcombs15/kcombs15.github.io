@@ -30,7 +30,7 @@ page-layout: article
   - Team: K. Combs (PI), N. Gaw (Co-PI), & T. Bihl (Co-PI)
 
 ## Certifications & Licenses
-- [AFRL Introduction to Intellectural Property Certification](https://badgr.com/public/assertions/JIRBkpQdSGGd578s8TKqeg?identity__email=kara.combs.1@us.af.mil&action=download), *AFRL & University of Dayton School of Law*
+- [AFRL Introduction to Intellectural Property Certification](https://badgr.com/public/assertions/JIRBkpQdSGGd578s8TKqeg?identity__email=kara.combs.1@us.af.mil), *AFRL & University of Dayton School of Law*
 - [Fundamentals of Systems Acquisition Management (ACQ 1010)](https://www.credly.com/badges/be101b3e-630a-4605-ad5e-036a90e1419a/public_url), *Defense Acquisition University*
 - [Ohio Engineering Intern License](https://elicense.ohio.gov/oh_verifylicensedetails?pid=a0Rt00000045Jb9EAE), *Ohio State Board of Registration for Professional Engineers and Surveyors*
 - [Business Analytics Certificate](https://www.credly.com/badges/966d80ed-90fc-476e-b5a2-40c0d6f82aac), *SAS & Wright State University*
@@ -40,8 +40,8 @@ page-layout: article
   - Student Member, 2025 - Present
 - Association for the Advancement of Artificial Intelligence (AAAI)
   - Student Member, 2025 - Present
-- Assocation for Computing Machinery (ACM)
-  - Professional Member, 2024 - 2025
+<!-- - Assocation for Computing Machinery (ACM)
+  - Professional Member, 2024 - 2025 -->
 - Institute for Operations Research and the Management Sciences (INFORMS)
   - Profesional Member, 2022 - Present
   - Student Member, 2021 - 2022
