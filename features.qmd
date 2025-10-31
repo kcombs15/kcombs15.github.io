@@ -259,8 +259,9 @@ See below for article features and new clips featuring my interns and organizati
 
 ### Department of the Air Force (DAF) LEGACY Good News Story
 
+2024 & 2025 LEGACY intern, Isaiah Goble, was featured in the Wright-Patterson Air Force Base Educational Outreach Office's (WPAFB E.O.) May 2025 newsletter for his successful presentation at the AIAA Dayton-Cincinnati Aerospce Sciences Symposium in March 2025
+
 ```{=html}
-<p>2024 & 2025 LEGACY intern, Isaiah Goble, was featured in the Wright-Patterson Air Force Base Educational Outreach Office's (WPAFB E.O.) May 2025 newsletter for his successful presentation at the AIAA Dayton-Cincinnati Aerospce Sciences Symposium in March 2025</p>
 <div class="features-carousel" data-carousel="carousel1">
     <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel1')">‹</button>
     <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel1')">›</button>
@@ -281,8 +282,9 @@ See below for article features and new clips featuring my interns and organizati
 
 ### TechFest Dayton 2025
 
+TechFest Dayton 2025 was a great success with over 2,200+ attendees across the two days. Below is news coverage of the event itself and advertisement beforehand
+
 ```{=html}
-<p>TechFest Dayton 2025 was a great success with over 2,200+ attendees across the two days. Below is news coverage of the event itself and advertisement beforehand</p>
 <div class="features-carousel" data-carousel="carousel2">
     <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel2')">‹</button>
     <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel2')">›</button>
@@ -317,8 +319,9 @@ See below for article features and new clips featuring my interns and organizati
 
 ### Tau Beta Pi AFIT Chapter Welcomes Newest Members
 
+The Ohio Eta chapter at the Air Force Institute of Technology (AFIT) added 11 new members during their 2024 Fall Initiation
+
 ```{=html}
-<p>The Ohio Eta chapter at the Air Force Institute of Technology (AFIT) added 11 new members during their 2024 Fall Initiation</p>
 <div class="features-carousel" data-carousel="carousel3">
     <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel3')">‹</button>
     <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel3')">›</button>
@@ -339,8 +342,9 @@ See below for article features and new clips featuring my interns and organizati
 
 ### Inspiring Tomorrow's Innovators Through STEM Outreach
 
+An AFIT professor, Dr. Jose Camberos, and Ph.D. student, Ms. Kara Combs, team-up for multiple K-12 STEM outreach collaborations through the Wright Scholars Research Assistantship Program and WPAFB Job Shadow Day. The article was originally featured on the AFIT News page, which was later referenced and cross-posted to the AFIT ENgineer Newsletter and Wright-Patterson AFB News site, respectively.
+
 ```{=html}
-<p>An AFIT professor, Dr. Jose Camberos, and Ph.D. student, Ms. Kara Combs, team-up for multiple K-12 STEM outreach collaborations through the Wright Scholars Research Assistantship Program and WPAFB Job Shadow Day. The article was originally featured on the AFIT News page, which was later referenced and cross-posted to the AFIT ENgineer Newsletter and Wright-Patterson AFB News site, respectively.</p>
 <div class="features-carousel" data-carousel="carousel4">
     <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel4')">‹</button>
     <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel4')">›</button>
@@ -378,6 +382,384 @@ See below for article features and new clips featuring my interns and organizati
     </div>
   </div>
 ```
+
+## 2023
+
+### Dayton Inno Under 25
+Name one of five Inno(vators) under 25 in the Dayton region in 2023
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel5">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel5')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel5')">›</button>
+
+    <div class="carousel-wrapper" id="carousel5">
+      <a href="https://www.bizjournals.com/dayton/inno/stories/awards/2023/10/26/inno-under-25-award-winners.html?csrc=6398&utm_campaign=trueAnthemTrendingContent&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwAR3vmw5ygqcaKExqzmcBwyW2xwFUZRGauStbmQllndwPR0KbtzkSh53rj3k" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://media.bizj.us/view/img/12627930/day-inno-image.jpg" alt="Dayton Business Journal" style="object-fit: cover; object-position: center 5%;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">October 2023</div>
+          <div class="outlet">Dayton Business Journal</div>
+        </div>
+      </a>
+    </div>
+  </div>
+```
+
+### TechFest Dayton 2023
+TechFest Dayton 2023 is back in-person for the first time since the onset of the COVID-19 pandemic
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel6">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel6')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel6')">›</button>
+
+    <div class="carousel-wrapper" id="carousel6">
+      <a href="https://www.daytondailynews.com/local/kids-get-hands-on-stem-education-at-techfest-2023/IGROOK5LNVHXJMUYVMWKOT73TA/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://www.daytondailynews.com/resizer/v2/656WVM2CWBBGLIKFNBA2SNY6HE.jpg?auth=07a1b30d4100edd297c22f9593ae6d202f070c1edb10021bee50c1bbf6d344fe&width=790&height=440&smart=true" alt="Dayton Daily News" style="object-fit: cover; object-position: center top;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">February 2023</div>
+          <div class="outlet">Dayton Daily News</div>
+        </div>
+      </a>
+    </div>
+  </div>
+```
+
+## 2022
+
+### Wright State University Spotlight & Recruitment Videos
+Featured in a Wright State University (WSU) Career Services Spotlight and recruitment videos for the College of Engineering & Computer Science (CECS) and the Department of Biomedical, Industrial and Human Factors Engineering (BIE)
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel7">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel7')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel7')">›</button>
+
+    <div class="carousel-wrapper" id="carousel7">
+      <a href="https://youtu.be/aOPLdg6E5fY" class="feature-card" target="_blank">
+        <div class="card-image has-img" style="background-color: white;">
+          <img src="https://www.wright.edu/sites/www.wright.edu/files/page/attachments/03_WRIGHTSTATE_BIPLANE_N_FULL.png" alt="Wright State University YouTube Channel" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">July 2022</div>
+          <div class="outlet">WSU Career Services Spotlight</div>
+        </div>
+      </a>
+
+      <a href="https://youtu.be/5-uUsEmnKdw" class="feature-card" target="_blank">
+        <div class="card-image has-img" style="background-color: white;">
+          <img src="https://www.wright.edu/sites/www.wright.edu/files/page/attachments/03_WRIGHTSTATE_BIPLANE_N_FULL.png" alt="Wright State University YouTube Channel" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">July 2022</div>
+          <div class="outlet">WSU BIE Department Recruitment Video</div>
+        </div>
+      </a>
+
+      <a href="https://youtu.be/j8MxAP6r0ZU" class="feature-card" target="_blank">
+        <div class="card-image has-img" style="background-color: white;">
+          <img src="https://www.wright.edu/sites/www.wright.edu/files/page/attachments/03_WRIGHTSTATE_BIPLANE_N_FULL.png" alt="Wright State University YouTube Channel" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">July 2022</div>
+          <div class="outlet">WSU CECS Recruitment Video</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+```
+
+## 2021
+
+### Notable Fall 2021 Wright State University Graduates
+
+Featured as one of three "notable" students graduating in Wright State University's (WSU) Fall 2021 commencement ceremony
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel8">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel8')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel8')">›</button>
+
+    <div class="carousel-wrapper" id="carousel8">
+      <a href="https://webapp2.wright.edu/web1/newsroom/2021/12/06/nearly-1200-students-to-graduate-at-wright-states-fall-commencement/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://webapp2.wright.edu/web1/newsroom/files/2021/12/56940_0291.jpeg" alt="WSU Newsroom" style="object-fit: cover; object-position: center top;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">December 2021</div>
+          <div class="outlet">WSU Newsroom</div>
+        </div>
+      </a>
+    </div>
+  </div>
+```
+
+### Tau Beta Pi Trifecta
+
+Awarded the "trifecta" of Tau Beta Pi student awards and honors: an undergraduate scholarship (2019), a graduate fellowship (2021), and a Laureate (2021)
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel9">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel9')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel9')">›</button>
+
+    <div class="carousel-wrapper" id="carousel9">
+
+      <a href="https://webapp2.wright.edu/web1/newsroom/2021/10/05/tau-beta-pi-trifecta/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://taubetapiathq.com/wp-content/uploads/2021/10/photo_2021-10-18_10-06-54.jpg" alt="WSU Newsroom" style="object-fit: cover;object-position: center 24%;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">October 2021</div>
+          <div class="outlet">WSU Newsroom</div>
+        </div>
+      </a>
+
+      <a href="https://taubetapiathq.com/2021/10/19/kara-combs-wins-tau-beta-pi-collegiate-award-trifecta/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://webapp2.wright.edu/web1/newsroom/files/2021/10/Kara-Combs-2-191x300.jpg" alt="Tau Beta Pi Blog" style="object-fit: cover;object-position: center top;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">October 2021</div>
+          <div class="outlet">Tau Beta Pi Blog</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  ```
+
+### Tau Beta Pi Laureate Award
+Named one of four Laureates, which is given annually up to five Tau Bates who have excelled in areas beyond their technical majors (specifically for service)
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel10">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel10')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel10')">›</button>
+
+    <div class="carousel-wrapper" id="carousel10">
+
+      <a href="https://www.tbp.org/memb/Laureates2021.pdf" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://www.tbp.org/Images/Logos/2019/Horizontal_BLUE2.png" alt="TBP The Bent" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">October 2021</div>
+          <div class="outlet">The Bent</div>
+        </div>
+      </a>
+
+      <a href="https://lsc-pagepro.mydigitalpublication.com/publication/?i=721778&ver=html5&p=4" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://www.tbp.org/Images/Logos/2019/Horizontal_BLUE2.png" alt="TBP The Bulletin" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">September 2021</div>
+          <div class="outlet">The Bulletin</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  ```
+
+### Institute of Industrial and Systems Engineers James W. Barany Student Award for Excellence
+
+The Institute of Industrial and Systens Engineers (IISE) Barany Award recognizes undergraduate students who have brought distinction to industrial engineering at their universities
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel11">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel11')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel11')">›</button>
+
+    <div class="carousel-wrapper" id="carousel11">
+      <a href="https://webapp2.wright.edu/web1/newsroom/2021/07/06/wright-state-graduate-student-kara-combs-receives-top-national-award-from-institute-of-industrial-and-systems-engineers/" class="feature-card" target="_blank">
+        <div class="card-image has-img" style="background-color: white;">
+          <img src="https://www.wright.edu/sites/www.wright.edu/files/page/attachments/03_WRIGHTSTATE_BIPLANE_N_FULL.png" alt="WSU Newsroom" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">July 2021</div>
+          <div class="outlet">WSU Newsroom</div>
+        </div>
+      </a>
+    </div>
+  </div>
+```
+
+### Technology First Award of Excellence
+
+Member of business students team awarded Technology First's 2021 Award of Exellence for a group project that predicted pet adoption speeds
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel12">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel12')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel12')">›</button>
+
+    <div class="carousel-wrapper" id="carousel12">
+      <a href="https://webapp2.wright.edu/web1/newsroom/2021/06/24/wright-state-business-students-capture-it-award-using-data-analytics-to-predict-pet-adoption/" class="feature-card" target="_blank">
+        <div class="card-image has-img" style="background-color: white;">
+          <img src="https://www.wright.edu/sites/www.wright.edu/files/page/attachments/03_WRIGHTSTATE_BIPLANE_N_FULL.png" alt="WSU Newsroom" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">June 2021</div>
+          <div class="outlet">WSU Newsroom</div>
+        </div>
+      </a>
+    </div>
+  </div>
+```
+
+### Tau Beta Pi Harold M. King Fellowship
+
+Selected for the Tau Beta Pi Harold M. King Fellowship (2021 - 2022) which is given to a "recipient whose participation in his/her technical society is judged worthy of special mention" (<8.5% selection rate among applicants)
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel13">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel13')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel13')">›</button>
+
+    <div class="carousel-wrapper" id="carousel13">
+
+      <a href="https://www.tbp.org/memb/FellowReports/2021-22.pdf" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://www.tbp.org/Images/Logos/2019/Horizontal_BLUE2.png" alt="TBP Fellow Reports" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">June 2022</div>
+          <div class="outlet">2022 Fellow Reports</div>
+        </div>
+      </a>
+
+      <a href="https://lsc-pagepro.mydigitalpublication.com/publication/?i=708218&ver=html5&p=9" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://www.tbp.org/Images/Logos/2019/Horizontal_BLUE2.png" alt="TBP The Bulletin" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">May 2021</div>
+          <div class="outlet">The Bulletin</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  ```
+
+### Order of the Engineer
+
+Nearly 70 engineering and computer science students took part in an induction ceremony for the Order of the Engineer and the Pledge of the Computing Professional
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel14">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel14')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel14')">›</button>
+
+    <div class="carousel-wrapper" id="carousel14">
+
+      <a href="https://webapp2.wright.edu/web1/newsroom/2021/05/06/nearly-70-students-take-part-in-engineering-computing-induction-ceremony/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://webapp2.wright.edu/web1/newsroom/files/2021/05/Kara-Combs-215x300.jpg" alt="Spaced Out Doc's Blog" style="object-fit: cover; object-position: center 65%;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">May 2021</div>
+          <div class="outlet">WSU Newsroom</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  ```
+
+### Institute of Industrial and Systems Engineers Undergraduate Technical Paper Competition
+
+Member of engineering team who won the Institute of Industrial and Systems Engineers (IISE) Undergraduate Technical Paper Competion at the Great Lakes Regional Conference for our paper on redesigning a dental facility layout. The paper later won 2nd Place in the Global Finals at the 2021 IISE Annual Meeting.
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel15">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel15')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel15')">›</button>
+
+    <div class="carousel-wrapper" id="carousel15">
+
+      <a href="https://webapp2.wright.edu/web1/newsroom/2021/02/24/wright-state-industrial-and-systems-engineering-students-win-first-place-in-great-lakes-technical-paper-competition/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://webapp2.wright.edu/web1/newsroom/files/2021/02/dental-engineering-paper-508x266.jpg" alt="WSU Newsroom" style="object-fit: cover; object-position: center 20%">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">February 2021</div>
+          <div class="outlet">WSU Newsroom</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  ```
+
+### Spaced Out Doc's Blog: Meet Tau Bate, Kara
+
+Featured in one of Dr. Michaelyn Thomas's posts in her *Spaced Out Doc* blog
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel16">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel16')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel16')">›</button>
+
+    <div class="carousel-wrapper" id="carousel16">
+
+      <a href="https://spacedoutdoc.com/f/industrial-systems-engineering-specialist-%7C-meet-tau-bate-kara" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="https://img1.wsimg.com/isteam/ip/279bb061-bb53-4fc4-8c5b-892e0cb0cca3/photo-1589918394305-9c9fc761dfbf.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280" alt="Spaced Out Doc's Blog" style="object-fit: cover;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">August 2021</div>
+          <div class="outlet">Spaced Out Doc's Blog</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  ```
+
+## 2017
+
+### 16 Dayton-area valedictorians you should know
+
+Named one of 16 Dayton-area valeditorians you should know in 2017; later featured in separate Wright State University Newsroom article
+
+```{=html}
+<div class="features-carousel" data-carousel="carousel17">
+    <button class="carousel-nav prev" onclick="moveCarousel(-1, 'carousel17')">‹</button>
+    <button class="carousel-nav next" onclick="moveCarousel(1, 'carousel17')">›</button>
+
+    <div class="carousel-wrapper" id="carousel17">
+
+      <a href="https://www.daytondailynews.com/news/grad-spotlight/irPPuU2zGbQpgQJEGly1RL/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="http://webapp2.wright.edu/web1/newsroom/files/2017/06/northmont_kara_combs_val-240x300.jpg" alt="Dayton Daily News" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">June 2017</div>
+          <div class="outlet">Dayton Daily News</div>
+        </div>
+      </a>
+
+      <a href="https://webapp2.wright.edu/web1/newsroom/2017/06/02/dayton-daily-news-says-three-local-valedictorians-headed-to-wright-state-are-students-you-should-know/" class="feature-card" target="_blank">
+        <div class="card-image card-light has-img">
+          <img src="http://webapp2.wright.edu/web1/newsroom/files/2017/06/northmont_kara_combs_val-240x300.jpg" alt="WSU Newsroom" style="object-fit: contain;">
+        </div>
+        <div class="feature-card-content">
+          <div class="date">June 2017</div>
+          <div class="outlet">WSU Newsroom</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  ```
 
 ```{=html}
 <script>
