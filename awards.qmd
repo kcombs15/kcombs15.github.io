@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+Below is a collection of awards and honors recieved in recognition of contributions to research professional service, and community engagement
+
 ## 2025
 <details>
   <summary><strong>Best Track Paper Nomination</strong>, <em>58th Hawaii International Conference on System Sciences (HICSS)</em></summary>

@@ -105,8 +105,8 @@ I am a computer engineer at the Air Force Research Laboratory and a operations r
   </div>
 
   <!-- Next/prev buttons -->
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
+  <a class="prev" onclick="plusSlides(-1)">‹</a>
+  <a class="next" onclick="plusSlides(1)">›</a>
 
 </div>
 
@@ -144,17 +144,30 @@ img {vertical-align: middle;}
   cursor: pointer;
   position: absolute;
   top: 50%;
-  padding: 16px;
-  margin-top: -22px;
+  transform: translateY(-50%);
+  background: var(--bs-primary);
   color: white;
-  font-weight: bold;
-  font-size: 24px;
-  transition: 0.3s;
-  border-radius: 0 3px 3px 0;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   user-select: none;
+  text-decoration: none;
 }
-.next {right: 0;border-radius: 3px 0 0 3px;}
-.prev:hover, .next:hover {background-color: rgba(0,0,0,0.6);}
+.prev {left: 10px;}
+.next {right: 10px;}
+.prev:hover, .next:hover {
+  opacity: 0.8;
+  transform: translateY(-50%) scale(1.1);
+  text-decoration: none;
+}
 .dot {
   cursor: pointer;
   height: 12px;

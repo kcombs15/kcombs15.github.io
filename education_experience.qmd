@@ -30,34 +30,987 @@ page-layout: article
   - Team: K. Combs (PI), N. Gaw (Co-PI), & T. Bihl (Co-PI)
 
 ## Certifications & Licenses
-- [AFRL Introduction to Intellectural Property Certification](https://badgr.com/public/assertions/JIRBkpQdSGGd578s8TKqeg?identity__email=kara.combs.1@us.af.mil), *AFRL & University of Dayton School of Law*
-- [Fundamentals of Systems Acquisition Management (ACQ 1010)](https://www.credly.com/badges/be101b3e-630a-4605-ad5e-036a90e1419a/public_url), *Defense Acquisition University*
-- [Ohio Engineering Intern License](https://elicense.ohio.gov/oh_verifylicensedetails?pid=a0Rt00000045Jb9EAE), *Ohio State Board of Registration for Professional Engineers and Surveyors*
-- [Business Analytics Certificate](https://www.credly.com/badges/966d80ed-90fc-476e-b5a2-40c0d6f82aac), *SAS & Wright State University*
+
+```{=html}
+<style>
+/* Carousel Card Styles */
+.cert-carousel {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 60px;
+  cursor: grab;
+}
+
+.cert-carousel:active {
+  cursor: grabbing;
+}
+
+.cert-carousel-wrapper {
+  display: flex;
+  transition: transform 0.3s ease;
+  gap: 20px;
+}
+
+.cert-card {
+  width: 200px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: inherit;
+}
+
+.cert-card-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.cert-card-image img {
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 0;
+  border-radius: 4px;
+}
+
+.cert-card-image.has-img span {
+  display: none;
+}
+
+.cert-card-image.has-img::before {
+  background: rgba(0,0,0,0.05);
+  z-index: 1;
+}
+
+.cert-card-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.1);
+}
+
+.cert-card-image span {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+.cert-card-content {
+  padding: 15px;
+}
+
+.cert-card .org {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.cert-card .title {
+  color: var(--bs-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* Carousel Navigation */
+.cert-carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bs-primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.cert-carousel-nav:hover {
+  background: var(--bs-primary);
+  opacity: 0.8;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.cert-carousel-nav.prev {
+  left: 10px;
+}
+
+.cert-carousel-nav.next {
+  right: 10px;
+}
+
+.cert-carousel-nav:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cert-carousel {
+    padding: 20px 50px;
+  }
+  
+  .cert-card {
+    width: 230px;
+  }
+  
+  .cert-card-image {
+    height: 230px;
+  }
+  
+  .cert-carousel-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .cert-carousel-nav.prev {
+    left: 5px;
+  }
+  
+  .cert-carousel-nav.next {
+    right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cert-carousel {
+    padding: 20px 35px;
+  }
+  
+  .cert-card {
+    width: 210px;
+  }
+  
+  .cert-card-image {
+    height: 210px;
+  }
+}
+</style>
+
+<div class="cert-carousel" data-carousel="certCarousel">
+  <button class="cert-carousel-nav prev" onclick="moveCertCarousel(-1)">‹</button>
+  <button class="cert-carousel-nav next" onclick="moveCertCarousel(1)">›</button>
+
+  <div class="cert-carousel-wrapper" id="certCarousel">
+    <a href="https://badgr.com/public/assertions/JIRBkpQdSGGd578s8TKqeg?identity__email=kara.combs.1@us.af.mil" class="cert-card" target="_blank">
+      <div class="cert-card-image has-img" style="background-color: white;">
+        <img src="https://api.badgr.io/public/assertions/JIRBkpQdSGGd578s8TKqeg/image" alt="AFRL IP Certification" style="object-fit: contain;">
+      </div>
+      <div class="cert-card-content">
+        <div class="org">AFRL & UD School of Law</div>
+        <div class="title">Introduction to Intellectual Property</div>
+      </div>
+    </a>
+
+    <a href="https://www.credly.com/badges/be101b3e-630a-4605-ad5e-036a90e1419a/public_url" class="cert-card" target="_blank">
+      <div class="cert-card-image has-img" style="background-color: white;">
+        <img src="https://images.credly.com/size/680x680/images/82007e02-875d-4c7d-a4f3-35671353c136/ACE-DAU10.png" alt="DAU ACQ 1010" style="object-fit: contain;">
+      </div>
+      <div class="cert-card-content">
+        <div class="org">Defense Acquisition University</div>
+        <div class="title">Fundamentals of Systems Acquisition Management</div>
+      </div>
+    </a>
+
+    <a href="https://www.credly.com/badges/19925fe5-d619-4c98-8a8b-8dacf5e603cd" class="cert-card" target="_blank">
+      <div class="cert-card-image has-img" style="background-color: white;">
+        <img src="https://images.credly.com/size/680x680/images/88aef29e-f999-46e1-9103-8c6f41b046fe/image.png" alt="FE Pass" style="object-fit: contain;">
+      </div>
+      <div class="cert-card-content">
+        <div class="org">NCEES</div>
+        <div class="title">Fundamentals of Engineering (FE) Exam</div>
+      </div>
+    </a>
+
+    <a href="https://www.credly.com/badges/966d80ed-90fc-476e-b5a2-40c0d6f82aac" class="cert-card" target="_blank">
+      <div class="cert-card-image has-img" style="background-color: white;">
+        <img src="https://images.credly.com/size/680x680/images/d59daba2-316a-460d-8f55-3ce48df10ca9/126943-badge-WrightStateU.png" alt="SAS Business Analytics" style="object-fit: contain;">
+      </div>
+      <div class="cert-card-content">
+        <div class="org">SAS & Wright State University</div>
+        <div class="title">Business Analytics Certificate</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<script>
+// Certification Carousel
+let certCarousel = {
+  currentIndex: 0,
+  carousel: null,
+  carouselContainer: null,
+  items: [],
+  totalItems: 0,
+  isDragging: false,
+  startPos: 0,
+  currentTranslate: 0,
+  prevTranslate: 0,
+  animationId: 0,
+  scrollTimeout: null,
+  isScrolling: false,
+  hasMoved: false
+};
+
+function initCertCarousel() {
+  certCarousel.carousel = document.getElementById('certCarousel');
+  certCarousel.carouselContainer = document.querySelector('[data-carousel="certCarousel"]');
+  
+  if (!certCarousel.carousel || !certCarousel.carouselContainer) return;
+  
+  certCarousel.items = certCarousel.carousel.querySelectorAll('.cert-card');
+  certCarousel.totalItems = certCarousel.items.length;
+  updateCertCarousel();
+  
+  // Add click handlers
+  certCarousel.items.forEach(card => {
+    card.addEventListener('click', (e) => {
+      if (certCarousel.hasMoved) {
+        e.preventDefault();
+        return false;
+      }
+    });
+  });
+  
+  // Add mouse events
+  certCarousel.carouselContainer.addEventListener('mousedown', certDragStart);
+  certCarousel.carouselContainer.addEventListener('mousemove', certDragMove);
+  certCarousel.carouselContainer.addEventListener('mouseup', certDragEnd);
+  certCarousel.carouselContainer.addEventListener('mouseleave', certDragEnd);
+  
+  // Add touch events
+  certCarousel.carouselContainer.addEventListener('touchstart', certDragStart, { passive: false });
+  certCarousel.carouselContainer.addEventListener('touchmove', certDragMove, { passive: false });
+  certCarousel.carouselContainer.addEventListener('touchend', certDragEnd);
+  
+  // Add wheel events
+  certCarousel.carouselContainer.addEventListener('wheel', handleCertWheel, { passive: false });
+  
+  // Prevent context menu
+  certCarousel.carouselContainer.addEventListener('contextmenu', e => e.preventDefault());
+}
+
+function getCertItemsInView() {
+  const containerWidth = certCarousel.carouselContainer.offsetWidth;
+  let padding = window.innerWidth <= 480 ? 70 : (window.innerWidth <= 768 ? 100 : 120);
+  const availableWidth = containerWidth - padding;
+  let cardWidth = window.innerWidth <= 480 ? 210 : 200; // Match CSS responsive widths
+  const gap = 20;
+  
+  if (certCarousel.totalItems > 0) {
+    const totalSpaceNeeded = (cardWidth * certCarousel.totalItems) + (gap * (certCarousel.totalItems - 1));
+    const tolerance = 5; // Minimal tolerance for tighter fit
+    if (availableWidth >= (totalSpaceNeeded - tolerance)) {
+      return certCarousel.totalItems;
+    }
+  }
+  
+  const maxItems = Math.floor((availableWidth + gap) / (cardWidth + gap));
+  return Math.min(maxItems, certCarousel.totalItems);
+}
+
+function updateCertCarousel() {
+  const itemsInView = getCertItemsInView();
+  const maxIndex = Math.max(0, certCarousel.totalItems - itemsInView);
+  
+  certCarousel.currentIndex = Math.max(0, Math.min(certCarousel.currentIndex, maxIndex));
+  
+  let cardWidth = window.innerWidth <= 480 ? 210 : 200; // Match CSS responsive widths
+  const itemWidth = cardWidth + 20;
+  const translateX = certCarousel.currentIndex * -itemWidth;
+  certCarousel.currentTranslate = translateX;
+  certCarousel.prevTranslate = translateX;
+  certCarousel.carousel.style.transform = `translateX(${translateX}px)`;
+  
+  const prevBtn = certCarousel.carouselContainer.querySelector('.cert-carousel-nav.prev');
+  const nextBtn = certCarousel.carouselContainer.querySelector('.cert-carousel-nav.next');
+  
+  if (prevBtn && nextBtn) {
+    const allItemsFit = certCarousel.totalItems <= itemsInView;
+    
+    if (allItemsFit) {
+      prevBtn.style.display = 'none';
+      nextBtn.style.display = 'none';
+    } else {
+      prevBtn.style.display = 'block';
+      nextBtn.style.display = 'block';
+      prevBtn.disabled = certCarousel.currentIndex === 0;
+      nextBtn.disabled = certCarousel.currentIndex >= maxIndex;
+    }
+  }
+}
+
+function moveCertCarousel(direction) {
+  const itemsInView = getCertItemsInView();
+  const maxIndex = Math.max(0, certCarousel.totalItems - itemsInView);
+  
+  if (certCarousel.totalItems <= itemsInView) return;
+  
+  const newIndex = certCarousel.currentIndex + direction;
+  if (newIndex >= 0 && newIndex <= maxIndex) {
+    certCarousel.currentIndex = newIndex;
+    updateCertCarousel();
+  }
+}
+
+function certDragStart(e) {
+  e.preventDefault();
+  certCarousel.startPos = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+  certCarousel.isDragging = true;
+  certCarousel.hasMoved = false;
+  certCarousel.animationId = requestAnimationFrame(certAnimation);
+  certCarousel.carouselContainer.style.cursor = 'grabbing';
+}
+
+function certDragMove(e) {
+  if (!certCarousel.isDragging) return;
+  e.preventDefault();
+  
+  const currentPosition = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+  const diff = currentPosition - certCarousel.startPos;
+  
+  if (Math.abs(diff) > 5) {
+    certCarousel.hasMoved = true;
+  }
+  
+  certCarousel.currentTranslate = certCarousel.prevTranslate + diff;
+}
+
+function certDragEnd() {
+  if (!certCarousel.isDragging) return;
+  
+  certCarousel.isDragging = false;
+  cancelAnimationFrame(certCarousel.animationId);
+  certCarousel.carouselContainer.style.cursor = 'grab';
+  
+  const movedBy = certCarousel.currentTranslate - certCarousel.prevTranslate;
+  
+  if (movedBy < -100 && certCarousel.currentIndex < certCarousel.totalItems - getCertItemsInView()) {
+    certCarousel.currentIndex += 1;
+  }
+  
+  if (movedBy > 100 && certCarousel.currentIndex > 0) {
+    certCarousel.currentIndex -= 1;
+  }
+  
+  updateCertCarousel();
+  
+  setTimeout(() => {
+    certCarousel.hasMoved = false;
+  }, 10);
+}
+
+function handleCertWheel(e) {
+  if (certCarousel.isScrolling) {
+    if (Math.abs(e.deltaX) > 0) {
+      e.preventDefault();
+    }
+    return;
+  }
+  
+  const isHorizontalScroll = (Math.abs(e.deltaX) > 0 && Math.abs(e.deltaX) >= Math.abs(e.deltaY)) || e.shiftKey;
+  
+  if (isHorizontalScroll) {
+    e.preventDefault();
+    
+    const delta = e.deltaX || (e.shiftKey ? e.deltaY : 0);
+    
+    if (Math.abs(delta) > 30) {
+      certCarousel.isScrolling = true;
+      
+      if (delta > 0) {
+        const itemsInView = getCertItemsInView();
+        const maxIndex = Math.max(0, certCarousel.totalItems - itemsInView);
+        if (certCarousel.currentIndex < maxIndex) {
+          certCarousel.currentIndex += 1;
+          updateCertCarousel();
+        }
+      } else {
+        if (certCarousel.currentIndex > 0) {
+          certCarousel.currentIndex -= 1;
+          updateCertCarousel();
+        }
+      }
+      
+      clearTimeout(certCarousel.scrollTimeout);
+      certCarousel.scrollTimeout = setTimeout(() => {
+        certCarousel.isScrolling = false;
+      }, 300);
+    }
+  }
+}
+
+function certAnimation() {
+  if (certCarousel.isDragging) {
+    certCarousel.carousel.style.transform = `translateX(${certCarousel.currentTranslate}px)`;
+    requestAnimationFrame(certAnimation);
+  }
+}
+
+// Initialize on DOM load
+document.addEventListener('DOMContentLoaded', initCertCarousel);
+
+// Update on window resize
+window.addEventListener('resize', updateCertCarousel);
+</script>
+```
 
 ## Professional Memberships
-- American Society for Engineering Education (ASEE)
-  - Student Member, 2025 - Present
-- Association for the Advancement of Artificial Intelligence (AAAI)
-  - Student Member, 2025 - Present
-<!-- - Assocation for Computing Machinery (ACM)
-  - Professional Member, 2024 - 2025 -->
-- Institute for Operations Research and the Management Sciences (INFORMS)
-  - Profesional Member, 2022 - Present
-  - Student Member, 2021 - 2022
-<!-- - Institute for Electrical and Electronics Engineers (IEEE)
-  - Student Member, 2024 - 2025 -->
-<!-- - Institute of Industrial and Systems Engineers (IISE)
-  - Professional Member, 2021 - 2023
-  - Student Member, 2017 - 2021 -->
-- Military Operations Research (MORS)
-  - Student Member, 2025 - Present
-- Order of the Engineer (ethics pledge)
-  - Inductee, 2021
-- Society of Women Engineers (SWE)
-  - Student Member, 2023 - Present
-  - Professional Member, 2022 - 2023
-- Tau Beta Pi (engineering honor society)
-  - Initiate, 2019
-- Women in Defense (WID)
-  - Member, 2025 - Present
+
+```{=html}
+<style>
+/* Membership Carousel Card Styles */
+.member-carousel {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 60px;
+  cursor: grab;
+}
+
+.member-carousel:active {
+  cursor: grabbing;
+}
+
+.member-carousel-wrapper {
+  display: flex;
+  transition: transform 0.3s ease;
+  gap: 20px;
+}
+
+.member-card {
+  width: 300px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: inherit;
+}
+
+.member-card-image {
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.member-card-image img {
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 0;
+  border-radius: 4px;
+}
+
+.member-card-image.has-img span {
+  display: none;
+}
+
+.member-card-image.has-img::before {
+  background: rgba(0,0,0,0.05);
+  z-index: 1;
+}
+
+.member-card-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.1);
+}
+
+.member-card-image span {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+.member-card-content {
+  padding: 15px;
+}
+
+.member-card .status {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.member-card .org-name {
+  color: var(--bs-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* Carousel Navigation */
+.member-carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bs-primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.member-carousel-nav:hover {
+  background: var(--bs-primary);
+  opacity: 0.8;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.member-carousel-nav.prev {
+  left: 10px;
+}
+
+.member-carousel-nav.next {
+  right: 10px;
+}
+
+.member-carousel-nav:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .member-carousel {
+    padding: 20px 50px;
+  }
+  
+  .member-card {
+    width: 280px;
+  }
+  
+  .member-carousel-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .member-carousel-nav.prev {
+    left: 5px;
+  }
+  
+  .member-carousel-nav.next {
+    right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .member-carousel {
+    padding: 20px 35px;
+  }
+  
+  .member-card {
+    width: 260px;
+  }
+}
+</style>
+
+<div class="member-carousel" data-carousel="memberCarousel">
+  <button class="member-carousel-nav prev" onclick="moveMemberCarousel(-1)">‹</button>
+  <button class="member-carousel-nav next" onclick="moveMemberCarousel(1)">›</button>
+
+  <div class="member-carousel-wrapper" id="memberCarousel">
+    <a href="https://www.asee.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="https://aseecmsprod.azureedge.net/aseecmsprod/asee/media/content/asee%20logos%20for%20download/logo-full-color-rgb.png" alt="ASEE" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Student Member</div>
+        <div class="org-name">American Society for Engineering Education</div>
+      </div>
+    </a>
+
+    <a href="https://www.aaai.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-FullColor.png" alt="AAAI" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Student Member</div>
+        <div class="org-name">Association for the Advancement of Artificial Intelligence</div>
+      </div>
+    </a>
+
+    <a href="https://www.informs.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="https://meetings.informs.org/wordpress/analytics2024/files/2024/02/Vertical_Print_Full_Color_INFORMS_Tagline_Logo.jpg" alt="INFORMS" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Professional Member</div>
+        <div class="org-name">Institute For Operations Research and the Management Sciences</div>
+      </div>
+    </a>
+
+    <!-- <a href="https://www.ieee.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="/assets/logos/ieee mb blue.png" alt="IEEE" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Student Member</div>
+        <div class="org-name">Institute For Electrical and Electronics Engineers</div>
+      </div>
+    </a> -->
+
+    <!-- <a href="https://www.iise.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="/assets/logos/IISELogo_Horiz_IISEwithName_RGB.jpg" alt="IISE" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Professional Member</div>
+        <div class="org-name">Institute of Industrial and Systems Engineers</div>
+      </div>
+    </a> -->
+
+    <a href="https://www.mors.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="https://www.mors.org/Portals/87/Images/logo-2x.png" alt="MORS" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Student Member</div>
+        <div class="org-name">Military Operations Research Society</div>
+      </div>
+    </a>
+
+    <a href="https://www.order-of-the-engineer.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="https://www.tntech.edu/engineering/images/coe/logos/oe_logo.png" alt="Order of the Engineer" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Inductee</div>
+        <div class="org-name">Order of the Engineer</div>
+      </div>
+    </a>
+
+    <a href="https://swe.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="/assets/logos/SWE_Full_Master_Brand_RGB 23.jpg" alt="SWE" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Student Member</div>
+        <div class="org-name">Society of Women Engineers</div>
+      </div>
+    </a>
+
+    <a href="https://www.tbp.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="https://www.tbp.org/Images/Logos/2019/Horizontal_BLUE2.png" alt="Tau Beta Pi" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Initiate</div>
+        <div class="org-name">Tau Beta Pi</div>
+      </div>
+    </a>
+
+    <a href="https://wid.org/" class="member-card" target="_blank">
+      <div class="member-card-image has-img" style="background-color: white;">
+        <img src="/assets/logos/WID Logo.jpg" alt="Women in Defense" style="object-fit: contain;">
+      </div>
+      <div class="member-card-content">
+        <div class="status">Member</div>
+        <div class="org-name">Women in Defense</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<script>
+// Membership Carousel
+let memberCarousel = {
+  currentIndex: 0,
+  carousel: null,
+  carouselContainer: null,
+  items: [],
+  totalItems: 0,
+  isDragging: false,
+  startPos: 0,
+  currentTranslate: 0,
+  prevTranslate: 0,
+  animationId: 0,
+  scrollTimeout: null,
+  isScrolling: false,
+  hasMoved: false
+};
+
+function initMemberCarousel() {
+  memberCarousel.carousel = document.getElementById('memberCarousel');
+  memberCarousel.carouselContainer = document.querySelector('[data-carousel="memberCarousel"]');
+  
+  if (!memberCarousel.carousel || !memberCarousel.carouselContainer) return;
+  
+  memberCarousel.items = memberCarousel.carousel.querySelectorAll('.member-card');
+  memberCarousel.totalItems = memberCarousel.items.length;
+  updateMemberCarousel();
+  
+  // Add click handlers
+  memberCarousel.items.forEach(card => {
+    card.addEventListener('click', (e) => {
+      if (memberCarousel.hasMoved) {
+        e.preventDefault();
+        return false;
+      }
+    });
+  });
+  
+  // Add mouse events
+  memberCarousel.carouselContainer.addEventListener('mousedown', memberDragStart);
+  memberCarousel.carouselContainer.addEventListener('mousemove', memberDragMove);
+  memberCarousel.carouselContainer.addEventListener('mouseup', memberDragEnd);
+  memberCarousel.carouselContainer.addEventListener('mouseleave', memberDragEnd);
+  
+  // Add touch events
+  memberCarousel.carouselContainer.addEventListener('touchstart', memberDragStart, { passive: false });
+  memberCarousel.carouselContainer.addEventListener('touchmove', memberDragMove, { passive: false });
+  memberCarousel.carouselContainer.addEventListener('touchend', memberDragEnd);
+  
+  // Add wheel events
+  memberCarousel.carouselContainer.addEventListener('wheel', handleMemberWheel, { passive: false });
+  
+  // Prevent context menu
+  memberCarousel.carouselContainer.addEventListener('contextmenu', e => e.preventDefault());
+}
+
+function getMemberItemsInView() {
+  const containerWidth = memberCarousel.carouselContainer.offsetWidth;
+  let padding = window.innerWidth <= 480 ? 70 : (window.innerWidth <= 768 ? 100 : 120);
+  const availableWidth = containerWidth - padding;
+  let cardWidth = window.innerWidth <= 480 ? 260 : (window.innerWidth <= 768 ? 280 : 300);
+  const gap = 20;
+  
+  if (memberCarousel.totalItems > 0) {
+    const totalSpaceNeeded = (cardWidth * memberCarousel.totalItems) + (gap * (memberCarousel.totalItems - 1));
+    const tolerance = 50;
+    if (availableWidth >= (totalSpaceNeeded - tolerance)) {
+      return memberCarousel.totalItems;
+    }
+  }
+  
+  const maxItems = Math.floor((availableWidth + gap) / (cardWidth + gap));
+  return Math.min(maxItems, memberCarousel.totalItems);
+}
+
+function updateMemberCarousel() {
+  const itemsInView = getMemberItemsInView();
+  const maxIndex = Math.max(0, memberCarousel.totalItems - itemsInView);
+  
+  memberCarousel.currentIndex = Math.max(0, Math.min(memberCarousel.currentIndex, maxIndex));
+  
+  let cardWidth = window.innerWidth <= 480 ? 260 : (window.innerWidth <= 768 ? 280 : 300);
+  const itemWidth = cardWidth + 20;
+  const translateX = memberCarousel.currentIndex * -itemWidth;
+  memberCarousel.currentTranslate = translateX;
+  memberCarousel.prevTranslate = translateX;
+  memberCarousel.carousel.style.transform = `translateX(${translateX}px)`;
+  
+  const prevBtn = memberCarousel.carouselContainer.querySelector('.member-carousel-nav.prev');
+  const nextBtn = memberCarousel.carouselContainer.querySelector('.member-carousel-nav.next');
+  
+  if (prevBtn && nextBtn) {
+    const allItemsFit = memberCarousel.totalItems <= itemsInView;
+    
+    if (allItemsFit) {
+      prevBtn.style.display = 'none';
+      nextBtn.style.display = 'none';
+    } else {
+      prevBtn.style.display = 'block';
+      nextBtn.style.display = 'block';
+      prevBtn.disabled = memberCarousel.currentIndex === 0;
+      nextBtn.disabled = memberCarousel.currentIndex >= maxIndex;
+    }
+  }
+}
+
+function moveMemberCarousel(direction) {
+  const itemsInView = getMemberItemsInView();
+  const maxIndex = Math.max(0, memberCarousel.totalItems - itemsInView);
+  
+  if (memberCarousel.totalItems <= itemsInView) return;
+  
+  const newIndex = memberCarousel.currentIndex + direction;
+  if (newIndex >= 0 && newIndex <= maxIndex) {
+    memberCarousel.currentIndex = newIndex;
+    updateMemberCarousel();
+  }
+}
+
+function memberDragStart(e) {
+  e.preventDefault();
+  memberCarousel.startPos = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+  memberCarousel.isDragging = true;
+  memberCarousel.hasMoved = false;
+  memberCarousel.animationId = requestAnimationFrame(memberAnimation);
+  memberCarousel.carouselContainer.style.cursor = 'grabbing';
+}
+
+function memberDragMove(e) {
+  if (!memberCarousel.isDragging) return;
+  e.preventDefault();
+  
+  const currentPosition = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+  const diff = currentPosition - memberCarousel.startPos;
+  
+  if (Math.abs(diff) > 5) {
+    memberCarousel.hasMoved = true;
+  }
+  
+  memberCarousel.currentTranslate = memberCarousel.prevTranslate + diff;
+}
+
+function memberDragEnd() {
+  if (!memberCarousel.isDragging) return;
+  
+  memberCarousel.isDragging = false;
+  cancelAnimationFrame(memberCarousel.animationId);
+  memberCarousel.carouselContainer.style.cursor = 'grab';
+  
+  const movedBy = memberCarousel.currentTranslate - memberCarousel.prevTranslate;
+  
+  if (movedBy < -100 && memberCarousel.currentIndex < memberCarousel.totalItems - getMemberItemsInView()) {
+    memberCarousel.currentIndex += 1;
+  }
+  
+  if (movedBy > 100 && memberCarousel.currentIndex > 0) {
+    memberCarousel.currentIndex -= 1;
+  }
+  
+  updateMemberCarousel();
+  
+  setTimeout(() => {
+    memberCarousel.hasMoved = false;
+  }, 10);
+}
+
+function handleMemberWheel(e) {
+  if (memberCarousel.isScrolling) {
+    if (Math.abs(e.deltaX) > 0) {
+      e.preventDefault();
+    }
+    return;
+  }
+  
+  const isHorizontalScroll = (Math.abs(e.deltaX) > 0 && Math.abs(e.deltaX) >= Math.abs(e.deltaY)) || e.shiftKey;
+  
+  if (isHorizontalScroll) {
+    e.preventDefault();
+    
+    const delta = e.deltaX || (e.shiftKey ? e.deltaY : 0);
+    
+    if (Math.abs(delta) > 30) {
+      memberCarousel.isScrolling = true;
+      
+      if (delta > 0) {
+        const itemsInView = getMemberItemsInView();
+        const maxIndex = Math.max(0, memberCarousel.totalItems - itemsInView);
+        if (memberCarousel.currentIndex < maxIndex) {
+          memberCarousel.currentIndex += 1;
+          updateMemberCarousel();
+        }
+      } else {
+        if (memberCarousel.currentIndex > 0) {
+          memberCarousel.currentIndex -= 1;
+          updateMemberCarousel();
+        }
+      }
+      
+      clearTimeout(memberCarousel.scrollTimeout);
+      memberCarousel.scrollTimeout = setTimeout(() => {
+        memberCarousel.isScrolling = false;
+      }, 300);
+    }
+  }
+}
+
+function memberAnimation() {
+  if (memberCarousel.isDragging) {
+    memberCarousel.carousel.style.transform = `translateX(${memberCarousel.currentTranslate}px)`;
+    requestAnimationFrame(memberAnimation);
+  }
+}
+
+// Initialize on DOM load
+document.addEventListener('DOMContentLoaded', initMemberCarousel);
+
+// Update on window resize
+window.addEventListener('resize', updateMemberCarousel);
+</script>
+```
