@@ -19,7 +19,7 @@ This is a minimal, professional starter for an academic website powered by **Qua
    `git commit -m "Your message"`
    `git push`
 4. GitHub Actions will build and deploy to `gh-pages` branch automatically
-5. Your website will be live at `https://kcombs15.github.io/`
+5. Your website will be live at `https://karacombs.github.io/`
 
 ## Theme
 - Theme: Pulse
