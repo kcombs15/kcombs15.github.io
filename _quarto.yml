@@ -27,9 +27,11 @@ website:
         href: features.qmd
     right:
       - icon: github
-        href: https://github.com/kcombs15
+        href: https://github.com/karacombs
       - icon: linkedin
         href: https://www.linkedin.com/in/karacombs33
+      - icon: envelope
+        href: mailto:kara.combs.1@us.af.mil
   page-footer:
     left: "© 2025 Kara Combs"
     right: |

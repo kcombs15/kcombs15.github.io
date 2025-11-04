@@ -82,6 +82,30 @@ body.page-index .grid {
   }
 }
 
+/* Publications counts grid: keep 4 columns on desktop, switch to 2x2 on narrow screens */
+.pub-counts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* desktop: 4 columns */
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Ensure the Quarto .g-col-3 span rule doesn't force wide spans inside this custom grid */
+.pub-counts-grid > .g-col-3 {
+  grid-column: auto / span 1;
+}
+@media (max-width: 768px) {
+  .pub-counts-grid {
+    grid-template-columns: repeat(2, 1fr); /* mobile: 2 columns x 2 rows */
+  }
+  .pub-counts-grid .g-col-3 {
+    text-align: center;
+  }
+  .pub-counts-grid h1 {
+    font-size: 2.25rem; /* slightly smaller headings to avoid crowding */
+  }
+}
+
 /* Awards page summary styling */
 details summary {
   color: var(--bs-primary);
