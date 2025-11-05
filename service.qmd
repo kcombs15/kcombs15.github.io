@@ -3,166 +3,29 @@ title: "Service"
 format: html
 ---
 
-I am committed to advancing my profession and community through active service and leadership. My involvement spans professional societies, outreach initiatives, and advisory roles to advance the growth of science, technology, engineering, and mathematics (STEM) discplines.
+I am committed to advancing my profession and community through active service and leadership. My involvement spans professional societies, outreach initiatives, and advisory roles to advance the growth of science, technology, engineering, and mathematics (STEM) discplines. Below are my active roles as of November 2025.
 
-## Institute for Operations Research and the Management Sciences (INFORMS)
+## Professional Service
 
-::: {.panel-tabset}
-## Cincinnati-Dayton Chapter
+|Position                  |Organization|
+|--------------------------|------------|
+|President                 |Cincinnati-Dayton INFORMS Chapter|
+|Editorial Board Member    |*OR/MS Tomorrow* (student-led magazine of INFORMS)|
+|President                 | Tau Beta Pi Dayton Alumni Chapter|
+|Treasurer                 |Tau Beta Pi Ohio Eta Chapter (at AFIT)|
+|Advisor                   |Tau Beta Pi Ohio Mu Chapter (at WSU)|
+|Director of Communications| TechFest Dayton Foundation|
+|Exhibitors Coordinator    | TechFest Dayton Steering Committee|
+|Member                    | WSU Biomedical, Industrial and Human Factors Engineering Department's External Advisory Board|
+|Member                    | Milton-Union Miami Valley Career Technical Center STEM Advisory Board|
 
-<div class="text-center">
-  <p>
-    The Cincinnati-Dayton chapter serves operations research and management sciences
-    professionals in the Cincinnati, Dayton, and Northern Kentucky regions.
-  </p>
-  <a href="https://connect.informs.org/cincinnatidaytonchapter/home" 
-     class="btn btn-secondary">
-    Website
-  </a>
-</div>
+## Journal/Conference Service
 
-| Term           | Position  |
-|:--------------:|:---------:|
-| 2025 - Present | President |
-| 2024 - 2025    | Treasurer |
+Chair:
 
-## *OR/MS Tomorrow* Magazine
+- INFORMS Cincinnati-Dayton Symposium 2024
 
-<div class="text-center">
-  <p>
-    *OR/MS Tomorrow* is the online student membership magazine by students for students publishing bi-anually.
-  </p>
-  <a href="https://www.informs.org/Publications/OR-MS-Tomorrow" 
-     class="btn btn-secondary">
-    Website
-  </a>
-</div>
+Reviewer:
 
-| Term           | Position                 |
-|:--------------:|:------------------------:|
-| 2025 - Present | Editorial Board Member   |
-| 2023 - 2025    | Lead/Co-Lead Editor      |
-| 2021 - 2023    | Social Media Coordinator |
-
-## Miscellaneous
-| Term           | Position                         | Description                                                                   |
-|:--------------:|:--------------------------------:|:-----------------------------------------------------------------------------:|
-| 2023 - 2024    | INFORMS Annual Meeting NavigatOR | Volunteer ambassadors ready to assist attendees at the INFORMS Annual Meeting |
-| Ad hoc         | *OR/MS Today* Column Contributor | Quarterly member magazine for INFORMS                                         |
-:::
-
-## Tau Beta Pi (engineering honor society)
-
-::: {.panel-tabset}
-
-## Dayton Alumni Chapter
-
-<div class="text-center">
-  <p>
-    Tau Beta Pi alumni chapter for members who live in the Dayton (OH) metropolitan area.
-  </p>
-  <a href="https://sites.google.com/view/tbpdayac" 
-     class="btn btn-secondary">
-    Website
-  </a>
-</div>
-
-| Term           | Position   |
-|:--------------:|:----------:|
-| 2024 - Present | President  |
-
-## Ohio Eta Chapter (AFIT)
-
-<div class="text-center">
-  <p>
-    Tau Beta Pi collegiate chapter at the Air Force Institute of Technology (AFIT).
-  </p>
-  <a href="https://www.afit.edu/STUDENTOPERATIONS/page.cfm?page=654" 
-     class="btn btn-secondary">
-    Website
-  </a>
-</div>
-
-| Term           | Position                     |
-|:--------------:|:----------------------------:|
-| 2025 - Present | Treasurer                    |
-| 2025           | Best Thesis Committee Chair  |
-| 2024 - 2025    | Secretary-Treasurer          |
-| 2024           | Best Thesis Committee Member |
-| 2023 - 2024    | Secretary                    |
-
-## Ohio Mu Chapter (WSU)
-
-<div class="text-center">
-  <p>
-    Tau Beta Pi collegiate chapter at Wright State University (WSU).
-  </p>
-  <a href="https://wright.campuslabs.com/engage/organization/tau-beta-pi" 
-     class="btn btn-secondary">
-    Website
-  </a>
-</div>
-
-| Term           | Position                |
-|:--------------:|:-----------------------:|
-| 2021 - Present | Advisor                 |
-| 2020 - 2021    | Vice President          |
-| 2019 - 2020    | Corresponding Secretary |
-
-## Student Advisory Board
-
-<div class="text-center">
-  <p>
-    Tau Beta Pi's Student Advisory Board (SAB) serves as a liasion between students and Tau Beta Pi HQ.
-  </p>
-  <a href="https://www.tbp.org/student-advisory-board.cfm" 
-     class="btn btn-secondary">
-    Website
-  </a>
-</div>
-
-| Term        | Position                 |
-|:-----------:|:------------------------:|
-| 2024 - 2025 | Advisor                  |
-| 2023 - 2024 | Member                   |
-| 2022 - 2023 | Vice Chair               |
-| 2021 - 2022 | Outreach Committee Chair |
-:::
-
-## TechFest Dayton & TechFest Dayton Foundation
-
-<div class="text-center">
-  <p>
-    TechFest Dayton is a free K-12 science, technology, engineering, and mathematics (STEM) outreach expo held annually in February by the TechFest Dayton Foundation, a component fund of the 501(c)(3) nonprofit, Greene Giving.
-  </p>
-  <a href="https://www.techfestdayton.org/" class="btn btn-secondary">
-    Website
-  </a>
-</div>
-
-| Term           | Position                   | Organization                       | 
-|:--------------:|:--------------------------:|:----------------------------------:|
-| 2025 - Present | Director of Communications | TechFest Dayton Foundation         |
-| 2023 - Present | Exhibitors Coordinator     | TechFest Dayton Steering Committee |
-
-## Society of Women Engineers (SWE)
-
-| Term        | Position              | Organization       |
-|:-----------:|:---------------------:|:------------------:|
-| 2024 - 2025 | Secretary             | South Ohio Section | 
-| 2022 - 2023 | Nomination Committee  | South Ohio Section |
-
-## Institute of Industrial and Systems Engineers (IISE)
-
-| Term        | Position                        | Organization                           |
-|:-----------:|:-------------------------------:|:--------------------------------------:|
-| 2023 - 2024 | Board Member                    | Dayton-Cincinnati Professional Chapter | 
-| 2022        | All-Ohio Activities Coordinator | Dayton-Cincinnati Professional Chapter | 
-| 2021 - 2022 | Member                          | Student Leadership Board               |
-
-## Miscellaneous
-
-| Term           | Position                   | Organization                       | 
-|:--------------:|:--------------------------:|:----------------------------------:|
-| 2023 - Present | Member                     | Wright State University’s Biomedical, Industrial and Human Factors Engineering Department External Advisory Board |
-| 2023 - Present | Member                     | Milton-Union MVCTC STEM Advisory Committee |
+- IEEE National Aerospace and Electronics Conference (NAECON)
+- Hawaii International Conference on System Sciences (HICSS)
