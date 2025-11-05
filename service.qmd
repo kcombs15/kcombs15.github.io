@@ -7,8 +7,8 @@ I am committed to advancing my profession and community through active service a
 
 ## Professional Service
 
-|Position                  |Organization|
-|--------------------------|------------|
+|Position|Organization|
+|--------|------------|
 |President                 |Cincinnati-Dayton INFORMS Chapter|
 |Editorial Board Member    |*OR/MS Tomorrow* (student-led magazine of INFORMS)|
 |President                 | Tau Beta Pi Dayton Alumni Chapter|

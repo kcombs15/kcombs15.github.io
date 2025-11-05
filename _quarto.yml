@@ -36,6 +36,7 @@ website:
     left: "© 2025 Kara Combs"
     right: |
       Built with [Quarto](https://quarto.org).
+  google-analytics: "G-C74GEBGNSR"
 
 format:
   html:
