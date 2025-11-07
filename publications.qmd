@@ -129,6 +129,7 @@ Non-Link: <span class="badge bg-primary">TEXT</span>
 ## In review
 ::: {.in-review}
 1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #220025ff; color:#220025ff;"> Journal </span> **Combs, K.,** Champagne, L., Cox, B., Schubert Kabban, C., Bihl, T., & Lemming, G. Analogy2KG: An automatic pipeline for deriving knowledge graphs from long-text analogies. *Knowledge-based Systems, in review.*
+1. <span class="badge rounded-pill" style="background-color:transparent; border:1px solid #a900b9ff; color:#a900b9ff;"> Presentation </span> **Combs, K.**, Champagne, L., Cox, B., Schubert Kabban, C., Lemming, G., & Bihl, T. Analogy2KG: An automatic pipeline for transformation long-text analogies into knowledge graphs. *IISE Annual Conference & Expo 2026, in review*.
 
 ^\*^Student Author; ^†^Presenting Author(s); ^‡^Invited Talk
 :::

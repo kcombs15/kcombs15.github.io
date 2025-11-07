@@ -57,7 +57,7 @@ I enjoy working with students of all ages and make an effort to mentor the next 
   <div class="mentoring-slide fade active">
     <div class="slide-content" style="display: flex; align-items: center; justify-content: center; padding: 20px 70px; min-height: 300px;">
       <div class="slide-image" style="flex: 0 0 40%; margin-right: 30px;">
-        <img src="assets/mentees/IsaiahChristopherson.jpeg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+        <img src="assets/mentees/IsaiahChristopherson.jpeg" style="width: 100%; height: 250px; object-fit: cover; object-position: center 30%; border-radius: 8px;">
       </div>
       <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
         <h4 style="color: #553590; margin-bottom: 15px;">Isaiah Christopherson</h4>
@@ -70,7 +70,7 @@ I enjoy working with students of all ages and make an effort to mentor the next 
   <div class="mentoring-slide fade">
     <div class="slide-content" style="display: flex; align-items: center; justify-content: center; padding: 20px 70px; min-height: 300px;">
       <div class="slide-image" style="flex: 0 0 40%; margin-right: 30px;">
-        <img src="assets/mentees/JacquelineLiu.jpg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+        <img src="assets/mentees/JacquelineLiu.jpg" style="width: 100%; height: 250px; object-fit: cover; object-position: center 30%; border-radius: 8px;">
       </div>
       <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
         <h4 style="color: #553590; margin-bottom: 15px;">Jacqueline Liu</h4>
@@ -83,12 +83,25 @@ I enjoy working with students of all ages and make an effort to mentor the next 
   <div class="mentoring-slide fade">
     <div class="slide-content" style="display: flex; align-items: center; justify-content: center; padding: 20px 70px; min-height: 300px;">
       <div class="slide-image" style="flex: 0 0 40%; margin-right: 30px;">
-        <img src="assets/mentees/AddamJensen.jpeg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+        <img src="assets/mentees/AddamJensen.jpeg" style="width: 100%; height: 250px; object-fit: cover; object-position: center 30%; border-radius: 8px;">
       </div>
       <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
         <h4 style="color: #553590; margin-bottom: 15px;">Addam Jensen</h4>
         <h6 margin-bottom: 15px;"><em>DAGSI Fellow 2025 - 2026</em></h6>
         <p>Pursuing M.S. in Computer Science & Engineering from Ohio State University</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mentoring-slide fade">
+    <div class="slide-content" style="display: flex; align-items: center; justify-content: center; padding: 20px 70px; min-height: 300px;">
+      <div class="slide-image" style="flex: 0 0 40%; margin-right: 30px;">
+        <img src="assets/mentees/IsaiahGoble.jpeg" style="width: 100%; height: 250px; object-fit: cover; object-position: center 15%; border-radius: 8px;">
+      </div>
+      <div class="slide-text" style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center;">
+        <h4 style="color: #553590; margin-bottom: 15px;">Isaiah Goble</h4>
+        <h6 margin-bottom: 15px;"><em>LEGACY Jr. Apprentice 2024 & 2025</em></h6>
+        <p>Projects incorporated into an AIAA DCASS presentation and IEEE TCDS paper</p>
       </div>
     </div>
   </div>
@@ -202,6 +215,7 @@ setInterval(() => {plusMentoringSlides(1);}, 8000);
   
   .slide-image img {
     height: 180px !important;
+    object-position: center 30%;
   }
   
   .slide-text {
